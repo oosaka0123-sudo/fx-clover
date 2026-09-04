@@ -1,4 +1,5 @@
 import unittest
+from urllib.error import HTTPError
 
 from sync_fxclover_catalog import category_url, extract_posts, sync_category
 
@@ -86,6 +87,41 @@ class CatalogParserTests(unittest.TestCase):
         self.assertEqual(len(requested), 3)
         self.assertEqual(catalog["storage_policy"], "metadata_only_no_article_body")
         self.assertFalse(catalog["orders_enabled"])
+
+    def test_sync_treats_out_of_range_404_as_normal_completion(self):
+        requested = []
+
+        def fake_fetcher(url, *, timeout):
+            requested.append(url)
+            if "paged=3" in url:
+                raise HTTPError(url, 404, "Not Found", hdrs=None, fp=None)
+            if "paged=2" in url:
+                return PAGE2
+            return PAGE1
+
+        catalog = sync_category(
+            category_id=526,
+            max_pages=20,
+            timeout=1.0,
+            sleep_seconds=0,
+            fetcher=fake_fetcher,
+        )
+        self.assertEqual(catalog["pages_scanned"], 2)
+        self.assertEqual(catalog["post_count"], 3)
+        self.assertEqual(len(requested), 3)
+
+    def test_page_one_404_remains_hard_error(self):
+        def fake_fetcher(url, *, timeout):
+            raise HTTPError(url, 404, "Not Found", hdrs=None, fp=None)
+
+        with self.assertRaises(HTTPError):
+            sync_category(
+                category_id=526,
+                max_pages=20,
+                timeout=1.0,
+                sleep_seconds=0,
+                fetcher=fake_fetcher,
+            )
 
 
 if __name__ == "__main__":
