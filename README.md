@@ -24,13 +24,15 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 3. `docs/FX_Clover_正式引き継ぎ圧縮完全版_v1_23.md`
 4. `docs/FX_Clover_公式一次資料台帳.md`
 5. `docs/FX_Clover_AI学習カリキュラム.md`
-6. `knowledge/official_sources.json`
-7. `knowledge/poconical_curriculum.json`
-8. `knowledge/dma25x5_official_sources.json`
-9. `knowledge/right_shoulder_official_sources.json`
-10. `FX_Clover_v1_23_README.md`
-11. `release_manifest_v1_23.json`
-12. current code / Open Issues / Open PRs / Actions
+6. `docs/FX_Clover_全記事カタログ同期.md`
+7. `knowledge/official_sources.json`
+8. `knowledge/poconical_curriculum.json`
+9. `knowledge/dma25x5_official_sources.json`
+10. `knowledge/right_shoulder_official_sources.json`
+11. `sync_fxclover_catalog.py`
+12. `FX_Clover_v1_23_README.md`
+13. `release_manifest_v1_23.json`
+14. current code / Open Issues / Open PRs / Actions
 
 ## Official Source Knowledge Base
 
@@ -38,10 +40,14 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 
 - 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
 - AI学習順・公式カリキュラム: `docs/FX_Clover_AI学習カリキュラム.md`
+- 全記事メタデータ同期手順: `docs/FX_Clover_全記事カタログ同期.md`
 - AI / プログラム向け公式資料台帳: `knowledge/official_sources.json`
 - マスター講座・問題集の機械可読索引: `knowledge/poconical_curriculum.json`
 - DMA25×5公式根拠: `knowledge/dma25x5_official_sources.json`
 - 右肩・入れ子フォーメーション公式根拠: `knowledge/right_shoulder_official_sources.json`
+- 公式ポコニカルカテゴリのメタデータ同期ツール: `sync_fxclover_catalog.py`
+
+`sync_fxclover_catalog.py` は公式カテゴリの記事本文をGitHubへ複製せず、記事ID・公式URL・タイトル・日付・取得元ページだけを `knowledge/poconical_post_catalog.json` へ生成します。このJSONは同期実行後に生成される取得キューであり、生成された記事を自動的に【公式ルール】へ昇格させません。
 
 公式で確認できた内容と、システム都合の設計仕様を分離します。たとえばM5は公式教材で実際に使用されていますが、公式教材にはM1を使う例もあるため、現行システムの「M5必須」は引き続き設計仕様として扱います。
 
