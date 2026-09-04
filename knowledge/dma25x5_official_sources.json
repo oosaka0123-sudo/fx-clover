@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_COMPONENT_EVIDENCE",
+  "component": "DMA25x5 / MA25-5",
+  "production_rule_change": false,
+  "orders_enabled": false,
+  "sources": [
+    {
+      "source_id": "fxclover-6913",
+      "url": "https://fx-clover.com/?p=6913",
+      "authority": "official_blog",
+      "role": "foundational_poconical",
+      "claims": [
+        {
+          "claim": "The foundational Poconical material includes shifted MA 25-5 among the moving averages used together with 3-3 and other MAs.",
+          "status": "official_supported"
+        }
+      ]
+    },
+    {
+      "source_id": "fxclover-9611",
+      "url": "https://fx-clover.com/?p=9611",
+      "authority": "official_blog",
+      "role": "later_clarification",
+      "claims": [
+        {
+          "claim": "Later official material explicitly says that, strictly speaking, Poconical uses MA25-5; using 20MA in the shown intervention example is described as an application/adaptation.",
+          "status": "official_core_component"
+        },
+        {
+          "claim": "The same example still combines MA reaction, formation right shoulder and Fibonacci right-shoulder context rather than treating MA25-5 as a stand-alone trigger.",
+          "status": "official_supported_context"
+        }
+      ]
+    }
+  ],
+  "conclusion": {
+    "dma25x5_is_official_poconical_component": true,
+    "safe_to_label_as": "OFFICIAL_CORE_COMPONENT",
+    "safe_to_make_mandatory_numeric_trigger": false
+  },
+  "still_unresolved": [
+    "Exact primary-source definition of what 'inside DMA25x5' means for READY/entry review",
+    "Exact candle/body/wick relationship required relative to DMA25x5",
+    "Any universal distance tolerance around DMA25x5",
+    "Whether one applied-price convention is explicitly mandated in the primary Poconical material",
+    "Exact AND/OR relationship between DMA25x5 and formation/Fibonacci/other MA context"
+  ],
+  "automation_policy": "The system may recognize DMA25x5 as an official Poconical component. It must not invent or promote an 'inside' threshold or proximity tolerance until a primary official definition is found and tested."
+}
