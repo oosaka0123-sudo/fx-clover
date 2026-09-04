@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.1",
+  "project": "FX-Clover / Poconical monitoring",
+  "classification": "OFFICIAL_SOURCE_LEDGER",
+  "policy": {
+    "authoritative_source": "Poko's official FX-Clover blog / official video content",
+    "third_party_rule_promotion": false,
+    "unverified_numeric_thresholds_allowed_in_production": false,
+    "orders_enabled": false,
+    "evolution_rule": "When official material changes or broadens over time, preserve the chronology instead of silently treating the oldest statement as timeless doctrine."
+  },
+  "sources": [
+    {
+      "source_id": "fxclover-6913",
+      "url": "https://fx-clover.com/?p=6913",
+      "title": "エントリーポイントは基礎の集合体【ポコニカル】",
+      "published": "2020",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "instrument-gbpjpy-foundational", "claim": "The foundational article presents Poconical for GBPJPY.", "status": "official_supported_historical_foundational"},
+        {"id": "direction-short-foundational", "claim": "The foundational setup is presented as short-only.", "status": "official_supported_historical_foundational"},
+        {"id": "execution-m5", "claim": "An M5 W-top right-shoulder entry is explicitly presented.", "status": "official_supported"},
+        {"id": "context-resistance", "claim": "Pulling price into resistance, preferably from H1 or higher, is part of the entry context.", "status": "official_supported"},
+        {"id": "mapo-granville", "claim": "MA perfect order and Granville context are used as supporting conditions.", "status": "official_supported"},
+        {"id": "right-shoulder", "claim": "Wait for a W-top or head-and-shoulders right-shoulder formation area.", "status": "official_supported"},
+        {"id": "fr-38-2", "claim": "Reverse FR 38.2 is used to estimate a right-shoulder area and bearish-candle confirmation is described.", "status": "official_supported_as_reference_not_absolute_threshold"},
+        {"id": "stop-left-shoulder", "claim": "For a W-top example, stop placement is anchored to the left shoulder.", "status": "official_supported"},
+        {"id": "fe-split-exit", "claim": "FE targets are used for staged / split exits.", "status": "official_supported"}
+      ],
+      "notes": "The article stresses environment recognition and says Fibonacci values are guides, not stand-alone entry rules. Later official material shows Poconical examples on other pairs, so GBPJPY-only must be treated as foundational/historical rather than a timeless universal restriction.",
+      "automation_impact": "M5 can be tagged as officially used, but M5-only remains a design requirement. FR 38.2 must not be a universal hard trigger. Current production monitoring may remain GBPJPY by design."
+    },
+    {
+      "source_id": "fxclover-6940",
+      "url": "https://fx-clover.com/?p=6940",
+      "title": "ポコニカル分析１分と５分",
+      "published": "2020-06-13",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "execution-m1-m5-examples", "claim": "Official examples cover both M1 and M5 execution structures.", "status": "official_supported"},
+        {"id": "environment-first", "claim": "Higher-timeframe environment recognition precedes lower-timeframe execution.", "status": "official_supported"},
+        {"id": "m1-right-shoulder", "claim": "An M1 head-and-shoulders right-shoulder short example is shown.", "status": "official_supported"},
+        {"id": "m1-stop-left-shoulder", "claim": "The M1 example uses the left shoulder as the stop anchor.", "status": "official_supported"},
+        {"id": "fe-1618-2618", "claim": "FE 161.8 and FE 261.8 are shown as split take-profit references in the M1 example.", "status": "official_supported_as_examples"}
+      ],
+      "automation_impact": "Do not describe M5 as the only official execution timeframe. The current system may still mandate M5 as a design choice."
+    },
+    {
+      "source_id": "fxclover-7043",
+      "url": "https://fx-clover.com/?p=7043",
+      "title": "Wフィボナッチで反発をみる",
+      "published": "2020",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "execution-m5-example-2", "claim": "An M5 execution example is explicitly presented.", "status": "official_supported"},
+        {"id": "multi-fr-overlap", "claim": "Multiple FR levels and higher/lower timeframe overlap are used as confluence.", "status": "official_supported_as_example"},
+        {"id": "bearish-confirmation", "claim": "A bearish candle confirmation at an FR reaction is used in the example.", "status": "official_supported_as_example"},
+        {"id": "stop-mini-w-left-shoulder", "claim": "A mini W-top example places the stop at the left shoulder.", "status": "official_supported"},
+        {"id": "fe-exits", "claim": "FE 161.8 and 261.8 are used as take-profit references in examples.", "status": "official_supported_as_examples"}
+      ],
+      "automation_impact": "Supports confluence and left-shoulder stop logic, but does not establish a universal machine threshold for FR overlap."
+    },
+    {
+      "source_id": "fxclover-7389",
+      "url": "https://fx-clover.com/?p=7389",
+      "title": "FX学習の成果は【ジワジワ】現れて自信を育てる",
+      "published": "2021",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "nested-formation", "claim": "Higher-timeframe right-shoulder context can be refined with a lower-timeframe right-shoulder formation.", "status": "official_supported_as_example"},
+        {"id": "m5-fr-38-2", "claim": "An M5 right-shoulder example uses reverse FR 38.2 confluence.", "status": "official_supported_as_example"},
+        {"id": "dma33-bearish-close", "claim": "A short entry example uses a bearish confirmed break of DiNapoli 3-3.", "status": "official_supported_as_example"}
+      ],
+      "automation_impact": "Supports nested formation + DMA3-3 confirmation concepts, but exact AND/OR logic remains unresolved."
+    },
+    {
+      "source_id": "fxclover-7907",
+      "url": "https://fx-clover.com/?p=7907",
+      "title": "FX 決済ポイントも他人に合わせているうちは「しっくりこない」",
+      "published": "2021",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "not-reversal-formation", "claim": "Poconical is explicitly described as not targeting the reversal formation itself.", "status": "official_supported"},
+        {"id": "middle-range-core", "claim": "The main workplace is the initial move of a middle-range formation after the corrective phase, not the initial reversal move.", "status": "official_supported_semantic_definition"},
+        {"id": "thrust-purpose", "claim": "Waiting for the thrust signal is described as a way to avoid entering the reversal's initial move.", "status": "official_supported_semantic_definition"},
+        {"id": "exit-style", "claim": "The article describes taking the main middle-range move and leaving rather than trying to capture the whole trend; DMA3-3 exit may also be used depending on candle momentum.", "status": "official_supported_style_not_fixed_numeric_rule"}
+      ],
+      "automation_impact": "Middle-range semantics are no longer wholly unknown. What remains unresolved is a machine-detectable start/end boundary and numeric threshold."
+    },
+    {
+      "source_id": "fxclover-7924",
+      "url": "https://fx-clover.com/?p=7924",
+      "title": "FX 勝ちやすくストレスの少ないトレード場面【初動について】",
+      "published": "2021-10-09",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "middle-range-formation-types", "claim": "Official material explicitly teaches where the middle-range formation sits and that there are multiple initial-move types.", "status": "official_supported_semantic_definition"},
+        {"id": "thrust-middle-range-link", "claim": "Thrust and the middle-range formation are taught together as part of identifying the preferred initial move.", "status": "official_supported_semantic_definition"}
+      ],
+      "automation_impact": "Use this source to refine state-machine terminology, but do not invent numeric boundaries from diagrams without explicit textual evidence."
+    },
+    {
+      "source_id": "fxclover-8126",
+      "url": "https://fx-clover.com/?p=8126",
+      "title": "FX 波が見せる変化のサイン【ポコニカル勉強会60】",
+      "published": "2021",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "execution-m1-or-m5", "claim": "Execution may be evaluated on M5 or M1 in the described material.", "status": "official_supported"},
+        {"id": "right-shoulder-dma33", "claim": "Right-shoulder formations are repeatedly combined with DMA3-3 and other context.", "status": "official_supported_as_pattern"},
+        {"id": "exit-dma33", "claim": "DMA3-3 body-break exit is presented as an exit option alongside FE targets.", "status": "official_supported_as_option"}
+      ],
+      "automation_impact": "Confirms that M5-only is not an official universal restriction. System M5-only remains DESIGN_TIMEFRAME_CONFIGURATION_USER_CONFIRMED."
+    },
+    {
+      "source_id": "fxclover-8283",
+      "url": "https://fx-clover.com/?p=8283",
+      "title": "FX フォーメーションと移動平均線どちらが重要？",
+      "published": "2022",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "ma-background", "claim": "MA context is emphasized as background to formation entries.", "status": "official_supported"},
+        {"id": "ma-sand-avoidance", "claim": "MA-sand / poor-room contexts are highlighted as situations where entries may be unattractive.", "status": "official_supported_concept_without_numeric_threshold"}
+      ],
+      "automation_impact": "Supports obstacle-MA / room-to-target as real concepts, but numeric thresholds remain manual/research-only."
+    },
+    {
+      "source_id": "fxclover-9217",
+      "url": "https://fx-clover.com/?p=9217",
+      "title": "FX MAサンド入るべきか見送るべきかその違いは？",
+      "published": "2023",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "later-poconical-other-pairs", "claim": "Later official material labels EURUSD and USDCAD examples as Poconical.", "status": "official_supported_evolution"},
+        {"id": "room-below", "claim": "A USDCAD example explicitly notes sufficient room below as part of the decision context.", "status": "official_supported_concept_without_numeric_threshold"},
+        {"id": "right-shoulder-later", "claim": "A broken head-and-shoulders right-shoulder entry is used in a later official example.", "status": "official_supported_as_example"}
+      ],
+      "automation_impact": "Do not treat the foundational GBPJPY-only statement as universally current. Keep GBPJPY as the current production monitor by project design; any multi-pair expansion requires separate validation."
+    },
+    {
+      "source_id": "fxclover-9551",
+      "url": "https://fx-clover.com/?p=9551",
+      "title": "チャート設定【ＤＭＡ３の３】について",
+      "published": "2023",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "dma33-role", "claim": "DMA3-3 is used to read transitions between impulsive and corrective phases in trend-following setups.", "status": "official_supported"},
+        {"id": "thrust-diagonal-thrust", "claim": "The recurring structure is described as thrust, correction into a sloping MA, then renewed thrust.", "status": "official_supported_concept"}
+      ],
+      "automation_impact": "Useful for state-machine semantics, but does not by itself define a numeric DMA distance threshold."
+    },
+    {
+      "source_id": "fxclover-9597",
+      "url": "https://fx-clover.com/?p=9597",
+      "title": "トレード前の準備について",
+      "published": "2024",
+      "authority": "official_blog",
+      "claims": [
+        {"id": "poconical-f-confluence", "claim": "Later material distinguishes Poconical from another method and describes Poconical as using Fibonacci context.", "status": "official_supported"}
+      ],
+      "automation_impact": "Supports retaining Fibonacci as a Poconical component while avoiding hard-coding a single FR value as a universal trigger."
+    },
+    {
+      "source_id": "fxclover-9734",
+      "url": "https://fx-clover.com/?p=9734",
+      "title": "FXトレードは「角度と伸びしろ」が大事",
+      "published": "2024-11-01",
+      "authority": "official_blog_general_trading_guidance",
+      "claims": [
+        {"id": "ma-angle-and-room", "claim": "Later official guidance emphasizes that MA angle alone is insufficient and that room in the trade direction also matters.", "status": "official_supported_general_concept_without_numeric_threshold"}
+      ],
+      "automation_impact": "Confirms that angle/room are genuine author concepts, but this source does not justify a Poconical-specific numeric threshold."
+    }
+  ],
+  "resolved_or_strengthened": {
+    "foundational_instrument": {"value": "GBPJPY", "classification": "OFFICIAL_HISTORICAL_FOUNDATIONAL"},
+    "later_official_poconical_examples_other_pairs": ["EURUSD", "USDCAD"],
+    "current_system_monitor": {"value": "GBPJPY", "classification": "PROJECT_DESIGN_PRODUCTION_SCOPE"},
+    "directional_character": "downtrend / short-oriented in foundational and later described usage",
+    "officially_used_execution_timeframes": ["M5", "M1"],
+    "system_execution_timeframe": {"value": "M5", "classification": "DESIGN_TIMEFRAME_CONFIGURATION_USER_CONFIRMED"},
+    "right_shoulder_entry_concept": "official_supported",
+    "higher_timeframe_environment_first": "official_supported",
+    "middle_range_semantics": "official_supported; post-correction middle-range formation initial move, not reversal initial move",
+    "dma33_confirmation_context": "official_supported",
+    "left_shoulder_stop_anchor_for_w_top_examples": "official_supported",
+    "fe_split_exit_concept": "official_supported",
+    "obstacle_ma_and_room_concept": "official_supported concept; numeric threshold unresolved"
+  },
+  "still_unresolved": [
+    "middle-range machine-detectable start/end boundaries and numeric definition",
+    "right-shoulder high/low exact comparison rule and numeric threshold",
+    "DMA25x5 'inside' exact definition",
+    "obstacle-MA exact distance threshold",
+    "room-to-target exact numeric threshold",
+    "universal AND/OR logic for all confluences",
+    "FE anchor selection rule in every setup",
+    "universal split-exit allocation ratios",
+    "whether 261 or 261.8 is canonical in every context",
+    "DMA applied price if not explicit in primary setup documentation",
+    "XM server-time conversion"
+  ]
+}
