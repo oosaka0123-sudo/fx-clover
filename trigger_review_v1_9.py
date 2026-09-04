@@ -38,6 +38,7 @@ def evaluate_triggers(bars: pd.DataFrame, queue: pd.DataFrame) -> pd.DataFrame:
     events = []
     for item in ready.itertuples(index=False):
         future = bars[bars["timestamp"] > item.ready_confirmed_at]
+        # First eligible closed bar only. Later bars require a new READY review.
         if future.empty:
             continue
         row = future.iloc[0]
@@ -80,6 +81,7 @@ def save_sent(path: Path, sent: set[str]) -> None:
 
 
 def acknowledge_events(path: Path, events: pd.DataFrame) -> set[str]:
+    """Persist only events that were actually delivered or locally accepted."""
     sent = load_sent(path)
     if not events.empty:
         if "event_key" in events:
