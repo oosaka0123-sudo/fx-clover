@@ -16,6 +16,7 @@ from pathlib import Path
 import re
 import time
 from typing import Callable
+from urllib.error import HTTPError
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
@@ -125,8 +126,8 @@ def sync_category(
 ) -> dict:
     """Crawl category archive pages and return a deduplicated metadata catalog.
 
-    Crawling stops when a page yields no new post IDs.  This also protects
-    against WordPress redirecting an out-of-range page back to page 1.
+    Crawling stops when a page yields no new post IDs, or when WordPress returns
+    404 for an out-of-range archive page.  A page-1 404 is still a hard error.
     """
     if max_pages < 1:
         raise ValueError("max_pages must be >= 1")
@@ -137,7 +138,12 @@ def sync_category(
 
     for page in range(1, max_pages + 1):
         url = category_url(category_id, page)
-        html = fetcher(url, timeout=timeout)
+        try:
+            html = fetcher(url, timeout=timeout)
+        except HTTPError as exc:
+            if exc.code == 404 and page > 1:
+                break
+            raise
         page_posts = extract_posts(html, category_id=category_id, source_page=page)
         new_posts = [post for post in page_posts if post["post_id"] not in seen]
         if not new_posts:
