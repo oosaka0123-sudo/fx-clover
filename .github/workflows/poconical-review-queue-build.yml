@@ -1,0 +1,68 @@
+name: Poconical review queue build
+
+on:
+  push:
+    branches:
+      - research/issue-16-prioritized-review-queue
+    paths:
+      - .github/workflows/poconical-review-queue-build.yml
+      - build_poconical_review_queue.py
+      - test_build_poconical_review_queue.py
+      - validate_poconical_review_queue.py
+      - knowledge/official_sources.json
+      - knowledge/dma25x5_official_sources.json
+      - knowledge/right_shoulder_official_sources.json
+      - knowledge/poconical_curriculum.json
+      - knowledge/poconical_post_catalog.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poconical-review-queue-bootstrap
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test review queue heuristics
+        run: python -m unittest -v test_build_poconical_review_queue.py
+
+      - name: Build prioritized review queue
+        run: python build_poconical_review_queue.py
+
+      - name: Validate queue coverage and safety
+        run: python validate_poconical_review_queue.py
+
+      - name: Show queue summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          q = json.loads(Path('knowledge/poconical_review_queue.json').read_text(encoding='utf-8'))
+          print('catalog_post_count=', q['catalog_post_count'])
+          print('queue_post_count=', q['queue_post_count'])
+          print('status_counts=', q['status_counts'])
+          print('priority_counts=', q['priority_counts'])
+          print('top10=')
+          for item in q['items'][:10]:
+              print(item['review_order'], item['priority'], item['post_id'], item['title'], item['priority_reasons'])
+          print('orders_enabled=', q['orders_enabled'])
+          PY
+
+      - name: Commit generated queue when changed
+        run: |
+          if git diff --quiet -- knowledge/poconical_review_queue.json && git ls-files --error-unmatch knowledge/poconical_review_queue.json >/dev/null 2>&1; then
+            echo "No queue change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/poconical_review_queue.json
+          git commit -m "Generate prioritized official Poconical review queue"
+          git push origin HEAD:${GITHUB_REF_NAME}
