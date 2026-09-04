@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+*state*.json
+FX_Clover_distribution_check_*.json
+FX_Clover_environment_diagnostic_*.json
+FX_Clover_health_*.json
+tmp/
+.env
+.env.*
+*.key
+*.pem
