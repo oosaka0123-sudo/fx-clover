@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_LEARNING_CURRICULUM_INDEX",
+  "purpose": "Retrieval index for AI ingestion of the official FX-Clover Poconical learning path.",
+  "course_policy": {
+    "official_index": "https://fx-clover.com/?page_id=7575",
+    "quiz_index": "https://fx-clover.com/?page_id=7731",
+    "principle": "Poconical is taught as a collection of fundamentals; preserve the official learning order and homework relationships rather than extracting isolated entry tricks.",
+    "production_rule_promotion_requires_rule_evidence": true
+  },
+  "learning_order": [
+    {
+      "order": 0,
+      "stage": "master_0",
+      "blog_url": "https://fx-clover.com/?p=7513",
+      "title": "GWで要点を覚える FXポコニカルマスター講座スタート",
+      "role": "foundation / prerequisites",
+      "status": "official_indexed"
+    },
+    {
+      "order": 1,
+      "stage": "master_1",
+      "blog_url": "https://fx-clover.com/?p=7525",
+      "video_url": "https://youtu.be/EYt3rThjjEA",
+      "title": "FXポコニカルマスター講座①",
+      "topics": [
+        "always target formation right-shoulder area",
+        "chart-pattern vocabulary",
+        "parameter setup",
+        "moving averages",
+        "Granville's law",
+        "homework / prerequisite reinforcement"
+      ],
+      "status": "official_indexed"
+    },
+    {
+      "order": 2,
+      "stage": "master_2",
+      "blog_url": "https://fx-clover.com/?p=7529",
+      "video_url": "https://youtu.be/hbcYrSKrnyc",
+      "title": "FXポコニカルマスター講座② 環境認識はゾーンにお任せ",
+      "topics": [
+        "environment recognition with zones plus Fibonacci retracement",
+        "zone drawing",
+        "timeframe color coding",
+        "zone usage",
+        "supporting MA homework"
+      ],
+      "status": "official_indexed"
+    },
+    {
+      "order": 3,
+      "stage": "master_3",
+      "blog_url": "https://fx-clover.com/?p=7535",
+      "video_url": "https://youtu.be/jXwYa9jJ_pg",
+      "title": "FXポコニカルマスター講座③ エントリーはお告げから",
+      "topics": [
+        "detailed entry conditions",
+        "entry cue / trigger vocabulary",
+        "which part of which wave is being targeted"
+      ],
+      "topic_evidence": "official quiz index reinforces these course-3 comprehension topics",
+      "status": "official_indexed"
+    },
+    {
+      "order": 4,
+      "stage": "master_4",
+      "blog_url": "https://fx-clover.com/?p=7540",
+      "video_url": "https://youtu.be/-uxkvMrHS90",
+      "title": "FXポコニカルマスター講座④ Wフォーメーションの重要性①+④ゾーン",
+      "topics": [
+        "importance of W formations",
+        "1+4 Poko-style Elliott framing",
+        "why Poconical tends to drop from the selected area",
+        "right-shoulder interpretation",
+        "rising/diagonal line interpretation"
+      ],
+      "topic_evidence": "official quiz index reinforces these course-4 comprehension topics",
+      "status": "official_indexed"
+    },
+    {
+      "order": 5,
+      "stage": "master_5",
+      "blog_url": "https://fx-clover.com/?p=7545",
+      "video_url": "https://youtu.be/AmLwtgTynX8",
+      "title": "FXポコニカルマスター講座⑤ 手法の使い分けと相場で生きるという事",
+      "topics": [
+        "method / setup selection",
+        "target-zone selection",
+        "Granville usage",
+        "200/600 patterns",
+        "trader balance and discipline",
+        "detailed entry and exit review"
+      ],
+      "topic_evidence": "official quiz index reinforces these course-5 comprehension topics",
+      "status": "official_indexed"
+    },
+    {
+      "order": 6,
+      "stage": "supplement",
+      "blog_url": "https://fx-clover.com/?p=7616",
+      "video_url": "https://youtu.be/mpOlVVHB2h0",
+      "title": "ポコニカルマスター講座 補足 ちょっと細かい話",
+      "role": "fine-grained entry/exit and DMA3-3 supporting material",
+      "status": "official_indexed"
+    },
+    {
+      "order": 7,
+      "stage": "safe_initial_move",
+      "blog_url": "https://fx-clover.com/?p=7924",
+      "title": "勝ちやすくストレスの少ないトレード場面 初動について",
+      "role": "connect thrust and middle-range formation semantics to the preferred initial move",
+      "status": "official_indexed"
+    },
+    {
+      "order": 8,
+      "stage": "quizzes",
+      "blog_url": "https://fx-clover.com/?page_id=7731",
+      "title": "マスター講座 問題集 / 理解度チェック",
+      "topics": [
+        "zones and environment recognition",
+        "detailed entry conditions",
+        "wave-location identification",
+        "W-formation and right-shoulder understanding",
+        "1+4 Poko-style Elliott framing",
+        "method selection",
+        "target zones",
+        "Granville",
+        "200/600 patterns",
+        "entry and exit details"
+      ],
+      "status": "official_indexed"
+    },
+    {
+      "order": 9,
+      "stage": "ongoing_study",
+      "blog_url": "https://fx-clover.com/?page_id=7575",
+      "role": "Saturday Poconical study sessions and later examples are used to reinforce what the master course cannot fully cover.",
+      "status": "official_learning_policy"
+    }
+  ],
+  "explicit_official_video_map_source": "https://fx-clover.com/?p=7664",
+  "ai_ingestion_policy": [
+    "Store source URL, date, topic, claim, classification and later-evolution notes for every extracted rule.",
+    "Do not reduce the curriculum to a single candle/indicator trigger.",
+    "Course material may establish concepts; production automation still requires a machine-testable definition and project review.",
+    "Quizzes are valuable for identifying intended concepts but should not override clearer primary explanatory material.",
+    "Later official examples may broaden earlier rules; preserve chronology."
+  ]
+}
