@@ -1,0 +1,3376 @@
+{
+  "schema_version": "1.0",
+  "classification": "POCONICAL_METADATA_RESEARCH_REVIEW_QUEUE",
+  "priority_policy": "metadata_only_research_triage_not_rule_promotion",
+  "catalog_post_count": 171,
+  "queue_post_count": 171,
+  "status_counts": {
+    "CURRICULUM_INDEXED_NOT_RULE_REVIEWED": 7,
+    "EVIDENCE_REVIEWED": 14,
+    "UNREVIEWED": 150
+  },
+  "priority_counts": {
+    "P0": 21,
+    "P1": 39,
+    "P2": 21,
+    "P3": 76,
+    "DONE": 14
+  },
+  "evidence_files": [
+    "official_sources.json",
+    "dma25x5_official_sources.json",
+    "right_shoulder_official_sources.json"
+  ],
+  "curriculum_file": "poconical_curriculum.json",
+  "orders_enabled": false,
+  "items": [
+    {
+      "post_id": 7540,
+      "url": "https://fx-clover.com/?p=7540",
+      "title": "FXポコニカルマスター講座④【Wフォーメーションの重要性①+④ゾーン】",
+      "published_or_archive_date": "2021-05-06",
+      "source_archive_page": 14,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 23,
+      "matched_topics": [
+        "right_shoulder_formation",
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:right_shoulder_formation (フォーメーション)",
+        "title:environment_timeframe (ゾーン)",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 1
+    },
+    {
+      "post_id": 7529,
+      "url": "https://fx-clover.com/?p=7529",
+      "title": "FXポコニカルマスター講座②【環境認識はゾーンにお任せ♥】",
+      "published_or_archive_date": "2021-05-02",
+      "source_archive_page": 14,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 19,
+      "matched_topics": [
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:environment_timeframe (環境, ゾーン)",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 2
+    },
+    {
+      "post_id": 7535,
+      "url": "https://fx-clover.com/?p=7535",
+      "title": "FXポコニカルマスター講座③【エントリーはお告げから♥】",
+      "published_or_archive_date": "2021-05-03",
+      "source_archive_page": 14,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 18,
+      "matched_topics": [
+        "entry_initial_move",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:entry_initial_move (エントリー, お告げ)",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 3
+    },
+    {
+      "post_id": 7513,
+      "url": "https://fx-clover.com/?p=7513",
+      "title": "GWで要点を覚える 【FXポコニカルマスター講座スタート】するよ！",
+      "published_or_archive_date": "2021-04-30",
+      "source_archive_page": 15,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 15,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 4
+    },
+    {
+      "post_id": 7525,
+      "url": "https://fx-clover.com/?p=7525",
+      "title": "FXポコニカルマスター講座① 苦行ウィークの始まりです（笑）",
+      "published_or_archive_date": "2021-05-01",
+      "source_archive_page": 14,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 15,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 5
+    },
+    {
+      "post_id": 7545,
+      "url": "https://fx-clover.com/?p=7545",
+      "title": "FXポコニカルマスター講座⑤【手法の使い分けと相場で生きるという事】",
+      "published_or_archive_date": "2021-05-06",
+      "source_archive_page": 14,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 15,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 6
+    },
+    {
+      "post_id": 7616,
+      "url": "https://fx-clover.com/?p=7616",
+      "title": "FXポコニカルマスター講座【補足】ちょっと細かい話",
+      "published_or_archive_date": "2021-05-22",
+      "source_archive_page": 13,
+      "review_status": "CURRICULUM_INDEXED_NOT_RULE_REVIEWED",
+      "priority": "P0",
+      "priority_score": 15,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "official curriculum source; detailed rule extraction still pending",
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 7
+    },
+    {
+      "post_id": 8268,
+      "url": "https://fx-clover.com/?p=8268",
+      "title": "FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】",
+      "published_or_archive_date": "2022-02-15",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 15,
+      "matched_topics": [
+        "dma_ma",
+        "entry_initial_move",
+        "stop_exit",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma, 移動平均)",
+        "title:entry_initial_move (エントリー)",
+        "title:stop_exit (決済)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 8
+    },
+    {
+      "post_id": 7691,
+      "url": "https://fx-clover.com/?p=7691",
+      "title": "FX MAは偉大上位が下位を支配する【ポコニカル勉強会㉜】",
+      "published_or_archive_date": "2021-06-12",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 13,
+      "matched_topics": [
+        "dma_ma",
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma)",
+        "title:environment_timeframe (上位)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 9
+    },
+    {
+      "post_id": 6979,
+      "url": "https://fx-clover.com/?p=6979",
+      "title": "ライン抜けても時間足を変えれば効いてるよ【ポコニカル】",
+      "published_or_archive_date": "2020-06-18",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 9,
+      "matched_topics": [
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (時間足)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 10
+    },
+    {
+      "post_id": 7022,
+      "url": "https://fx-clover.com/?p=7022",
+      "title": "トレンドライン3-3クロスでポコニカル",
+      "published_or_archive_date": "2020-07-07",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 9,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (3-3)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 11
+    },
+    {
+      "post_id": 7891,
+      "url": "https://fx-clover.com/?p=7891",
+      "title": "FX高勝率な200600MAパターン！チェックポイント追加【ポコニカル勉強会㊼】",
+      "published_or_archive_date": "2021-09-26",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 9,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 12
+    },
+    {
+      "post_id": 8090,
+      "url": "https://fx-clover.com/?p=8090",
+      "title": "FX 1時間のMAとレートの位置関係でロジックを選ぶ【ポコニカル勉強会58】",
+      "published_or_archive_date": "2021-12-13",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 9,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 13
+    },
+    {
+      "post_id": 8343,
+      "url": "https://fx-clover.com/?p=8343",
+      "title": "FX ディナポリDMAずらした移動平均線を「ポコニカル手法」にどう活用しているか",
+      "published_or_archive_date": "2022-03-07",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 9,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma, 移動平均)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 14
+    },
+    {
+      "post_id": 7913,
+      "url": "https://fx-clover.com/?p=7913",
+      "title": "FXトレードチャンスのタイミングは見抜ける【ポコニカル勉強会㊽】",
+      "published_or_archive_date": "2021-10-02",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "entry_initial_move",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (タイミング)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 15
+    },
+    {
+      "post_id": 7936,
+      "url": "https://fx-clover.com/?p=7936",
+      "title": "FX小さな波から大きな波へ 波及とその初動【ポコニカル勉強会㊾】",
+      "published_or_archive_date": "2021-10-11",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "entry_initial_move",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (初動)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 16
+    },
+    {
+      "post_id": 8108,
+      "url": "https://fx-clover.com/?p=8108",
+      "title": "FX 節目とお告げといつものパターンが狙い所【ポコニカル勉強会59】",
+      "published_or_archive_date": "2021-12-19",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "entry_initial_move",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (お告げ)",
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 17
+    },
+    {
+      "post_id": 8520,
+      "url": "https://fx-clover.com/?p=8520",
+      "title": "FX時間足違いのMAに挟まれるとほぼ負ける",
+      "published_or_archive_date": "2022-05-22",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "dma_ma",
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma)",
+        "title:environment_timeframe (時間足)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 18
+    },
+    {
+      "post_id": 8984,
+      "url": "https://fx-clover.com/?p=8984",
+      "title": "FX MAサンドの注意点・・・覚えてるかな？",
+      "published_or_archive_date": "2022-12-25",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "dma_ma",
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma, サンド)",
+        "title:room_obstacle (サンド)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 19
+    },
+    {
+      "post_id": 9033,
+      "url": "https://fx-clover.com/?p=9033",
+      "title": "FX 上位DMA3‐3反発は下位MA反発",
+      "published_or_archive_date": "2023-01-21",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "dma_ma",
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma)",
+        "title:environment_timeframe (上位)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 20
+    },
+    {
+      "post_id": 9131,
+      "url": "https://fx-clover.com/?p=9131",
+      "title": "そのフォーメーションの先に「伸びしろ」あるかな？",
+      "published_or_archive_date": "2023-03-18",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P0",
+      "priority_score": 8,
+      "matched_topics": [
+        "right_shoulder_formation",
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "title:right_shoulder_formation (フォーメーション)",
+        "title:room_obstacle (伸びしろ)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 21
+    },
+    {
+      "post_id": 8832,
+      "url": "https://fx-clover.com/?p=8832",
+      "title": "FX上昇の伸びしろは先はショーターのエントリーポイント♥",
+      "published_or_archive_date": "2022-09-10",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 7,
+      "matched_topics": [
+        "entry_initial_move",
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (エントリー)",
+        "title:room_obstacle (伸びしろ)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 22
+    },
+    {
+      "post_id": 6953,
+      "url": "https://fx-clover.com/?p=6953",
+      "title": "ポコニカルトレード【動画解説】",
+      "published_or_archive_date": "2020-06-14",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 23
+    },
+    {
+      "post_id": 6959,
+      "url": "https://fx-clover.com/?p=6959",
+      "title": "ポコニカルの魅力とは",
+      "published_or_archive_date": "2020-06-16",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 24
+    },
+    {
+      "post_id": 6967,
+      "url": "https://fx-clover.com/?p=6967",
+      "title": "ポコニカルトレード学習に絶対に必要なもの",
+      "published_or_archive_date": "2020-06-17",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 25
+    },
+    {
+      "post_id": 7070,
+      "url": "https://fx-clover.com/?p=7070",
+      "title": "ポコニカル振り返り学習動画",
+      "published_or_archive_date": "2020-07-25",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 26
+    },
+    {
+      "post_id": 7263,
+      "url": "https://fx-clover.com/?p=7263",
+      "title": "ポコニカルFXをじっくり学ぶシリーズ",
+      "published_or_archive_date": "2020-12-17",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 27
+    },
+    {
+      "post_id": 7305,
+      "url": "https://fx-clover.com/?p=7305",
+      "title": "FXは下地と基礎があって稼ぎが決まる【ポコブログ永久保存版】",
+      "published_or_archive_date": "2021-01-10",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (基礎)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 28
+    },
+    {
+      "post_id": 7352,
+      "url": "https://fx-clover.com/?p=7352",
+      "title": "FXポコニカル勉強会で力がついてきた実感",
+      "published_or_archive_date": "2021-01-24",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 29
+    },
+    {
+      "post_id": 7463,
+      "url": "https://fx-clover.com/?p=7463",
+      "title": "ポコニカルドーン！ドンドン祭りに浮かれる時こそ！コレ見てね（笑）",
+      "published_or_archive_date": "2021-04-10",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 30
+    },
+    {
+      "post_id": 7548,
+      "url": "https://fx-clover.com/?p=7548",
+      "title": "FXポコニカル勉強会㉗休む相場はこんな顔してるよ",
+      "published_or_archive_date": "2021-05-08",
+      "source_archive_page": 14,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 31
+    },
+    {
+      "post_id": 7565,
+      "url": "https://fx-clover.com/?p=7565",
+      "title": "FX ポコニカル200/600パターンとワントップ手法は似ているよ！でも別物です！",
+      "published_or_archive_date": "2021-05-12",
+      "source_archive_page": 14,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 32
+    },
+    {
+      "post_id": 7590,
+      "url": "https://fx-clover.com/?p=7590",
+      "title": "FXポコニカルマスター講座まとめ！⓪①②③④⑤",
+      "published_or_archive_date": "2021-05-14",
+      "source_archive_page": 14,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 33
+    },
+    {
+      "post_id": 7607,
+      "url": "https://fx-clover.com/?p=7607",
+      "title": "FXポコニカル手法【基本の型】をまずは覚えよう！",
+      "published_or_archive_date": "2021-05-19",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 34
+    },
+    {
+      "post_id": 7624,
+      "url": "https://fx-clover.com/?p=7624",
+      "title": "FX利益を得る呪文を覚えてね【ポコニカル勉強会㉙】",
+      "published_or_archive_date": "2021-05-22",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 35
+    },
+    {
+      "post_id": 7642,
+      "url": "https://fx-clover.com/?p=7642",
+      "title": "FXこれさえわかれば無駄打ち撲滅・負けにくい【ポコニカル勉強会㉚】",
+      "published_or_archive_date": "2021-05-29",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 36
+    },
+    {
+      "post_id": 7657,
+      "url": "https://fx-clover.com/?p=7657",
+      "title": "FXポコニカルマスター講座問題集はココにあるよ【理解度チェック】",
+      "published_or_archive_date": "2021-05-31",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座, 問題集, 理解度, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 37
+    },
+    {
+      "post_id": 7668,
+      "url": "https://fx-clover.com/?p=7668",
+      "title": "FXポコニカルマスター講座②【問題集・理解度チェック】",
+      "published_or_archive_date": "2021-06-05",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座, 問題集, 理解度, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 38
+    },
+    {
+      "post_id": 7671,
+      "url": "https://fx-clover.com/?p=7671",
+      "title": "FXあなたは相場に試されている【ポコニカル土曜勉強会㉛】",
+      "published_or_archive_date": "2021-06-06",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 39
+    },
+    {
+      "post_id": 7694,
+      "url": "https://fx-clover.com/?p=7694",
+      "title": "FX問題集完成「わかっている」の気持ちは樹海を招く",
+      "published_or_archive_date": "2021-07-11",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (問題集)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 40
+    },
+    {
+      "post_id": 7709,
+      "url": "https://fx-clover.com/?p=7709",
+      "title": "FX下落パターンを整理して覚えていますか？【ポコニカル勉強会㊳】",
+      "published_or_archive_date": "2021-07-24",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 41
+    },
+    {
+      "post_id": 7720,
+      "url": "https://fx-clover.com/?p=7720",
+      "title": "FXポコニカル勉強会㊴とnori様との時間♪",
+      "published_or_archive_date": "2021-08-01",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 42
+    },
+    {
+      "post_id": 7741,
+      "url": "https://fx-clover.com/?p=7741",
+      "title": "FXポコニカル問題集を一纏めに♥",
+      "published_or_archive_date": "2021-08-02",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (問題集, ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 43
+    },
+    {
+      "post_id": 7762,
+      "url": "https://fx-clover.com/?p=7762",
+      "title": "FXは暗記！同じ事の繰り返しなら覚えたもん勝ち【ポコニカル勉強会㊶】",
+      "published_or_archive_date": "2021-08-15",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 44
+    },
+    {
+      "post_id": 7798,
+      "url": "https://fx-clover.com/?p=7798",
+      "title": "FX 基礎の反復で この先の稼ぎは変わる",
+      "published_or_archive_date": "2021-08-29",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (基礎)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 45
+    },
+    {
+      "post_id": 7945,
+      "url": "https://fx-clover.com/?p=7945",
+      "title": "FXトレードチャンスは平等な様で平等ではない【ポコニカル勉強会㊿】",
+      "published_or_archive_date": "2021-10-16",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 46
+    },
+    {
+      "post_id": 7958,
+      "url": "https://fx-clover.com/?p=7958",
+      "title": "FXダウの波形を意識！買い手の小さな砦、大きな砦【ポコニカル勉強会51】",
+      "published_or_archive_date": "2021-10-23",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 47
+    },
+    {
+      "post_id": 7974,
+      "url": "https://fx-clover.com/?p=7974",
+      "title": "FXポコニカル勉強会スタートから1年になりました❤",
+      "published_or_archive_date": "2021-11-02",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 48
+    },
+    {
+      "post_id": 8019,
+      "url": "https://fx-clover.com/?p=8019",
+      "title": "FX 見なくていい相場形状【ポコニカル勉強会54】",
+      "published_or_archive_date": "2021-11-13",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 49
+    },
+    {
+      "post_id": 8032,
+      "url": "https://fx-clover.com/?p=8032",
+      "title": "FX 利益になるサイン！呪文ですり込もう！【ポコニカル勉強会55】",
+      "published_or_archive_date": "2021-11-21",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 50
+    },
+    {
+      "post_id": 8147,
+      "url": "https://fx-clover.com/?p=8147",
+      "title": "FX 上昇相場でのポコニカルパターンを整理しておこう",
+      "published_or_archive_date": "2022-01-05",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 51
+    },
+    {
+      "post_id": 8487,
+      "url": "https://fx-clover.com/?p=8487",
+      "title": "FX整備された道の上を歩けばマニーは貰える（ポコニカル＆ココトレ解説）",
+      "published_or_archive_date": "2022-05-07",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 52
+    },
+    {
+      "post_id": 8767,
+      "url": "https://fx-clover.com/?p=8767",
+      "title": "FX勝ちパターンマスター講座①",
+      "published_or_archive_date": "2022-08-15",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 53
+    },
+    {
+      "post_id": 8772,
+      "url": "https://fx-clover.com/?p=8772",
+      "title": "FX勝ちパターンマスター講座②",
+      "published_or_archive_date": "2022-08-15",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 54
+    },
+    {
+      "post_id": 8780,
+      "url": "https://fx-clover.com/?p=8780",
+      "title": "FX勝ちパターンマスター講座③",
+      "published_or_archive_date": "2022-08-15",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (マスター講座)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 55
+    },
+    {
+      "post_id": 8855,
+      "url": "https://fx-clover.com/?p=8855",
+      "title": "FX 日銀の介入チャートでもポコニカル♪",
+      "published_or_archive_date": "2022-09-25",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 56
+    },
+    {
+      "post_id": 8990,
+      "url": "https://fx-clover.com/?p=8990",
+      "title": "FXドカ下げ相場こそポコニカル",
+      "published_or_archive_date": "2022-12-25",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 57
+    },
+    {
+      "post_id": 9079,
+      "url": "https://fx-clover.com/?p=9079",
+      "title": "FX ポコニカルはチャートのココ見て仕事する",
+      "published_or_archive_date": "2023-02-05",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 58
+    },
+    {
+      "post_id": 9189,
+      "url": "https://fx-clover.com/?p=9189",
+      "title": "FX 最新のポコニカルトレード①2023年にはこうなりました♪",
+      "published_or_archive_date": "2023-05-02",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 59
+    },
+    {
+      "post_id": 9194,
+      "url": "https://fx-clover.com/?p=9194",
+      "title": "FX最新ポコニカルトレード②",
+      "published_or_archive_date": "2023-05-04",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P1",
+      "priority_score": 5,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "title:master_course (ポコニカル)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 60
+    },
+    {
+      "post_id": 6993,
+      "url": "https://fx-clover.com/?p=6993",
+      "title": "トレードを見送る環境とは",
+      "published_or_archive_date": "2020-06-27",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (環境)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 61
+    },
+    {
+      "post_id": 7287,
+      "url": "https://fx-clover.com/?p=7287",
+      "title": "2021年も伸びしろしかない！FXでボロボロの人も返り咲くぞ！",
+      "published_or_archive_date": "2021-01-06",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "title:room_obstacle (伸びしろ)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 62
+    },
+    {
+      "post_id": 7496,
+      "url": "https://fx-clover.com/?p=7496",
+      "title": "FX移動平均線 200MA 600MA取引きパターン解説【補足】",
+      "published_or_archive_date": "2021-04-29",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma, 移動平均)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 63
+    },
+    {
+      "post_id": 8181,
+      "url": "https://fx-clover.com/?p=8181",
+      "title": "FX 上位ワクワクさんは2度目を待て♥",
+      "published_or_archive_date": "2022-01-16",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (上位)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 64
+    },
+    {
+      "post_id": 8240,
+      "url": "https://fx-clover.com/?p=8240",
+      "title": "FX フォーメーションは「ヒゲぞ」と覚えておこう♪",
+      "published_or_archive_date": "2022-02-05",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "right_shoulder_formation"
+      ],
+      "priority_reasons": [
+        "title:right_shoulder_formation (フォーメーション)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 65
+    },
+    {
+      "post_id": 8252,
+      "url": "https://fx-clover.com/?p=8252",
+      "title": "FX たった1枚の図で環境認識能力UP！(勝てる環境把握)",
+      "published_or_archive_date": "2022-02-06",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (環境)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 66
+    },
+    {
+      "post_id": 8257,
+      "url": "https://fx-clover.com/?p=8257",
+      "title": "FX 上位ワクワクさんも根拠の1つに過ぎない",
+      "published_or_archive_date": "2022-02-12",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (上位)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 67
+    },
+    {
+      "post_id": 8352,
+      "url": "https://fx-clover.com/?p=8352",
+      "title": "FX ずらした移動平均線DMA3×3でチャンスを見極める",
+      "published_or_archive_date": "2022-03-12",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma, 移動平均)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 68
+    },
+    {
+      "post_id": 8366,
+      "url": "https://fx-clover.com/?p=8366",
+      "title": "FX 簡単な相場判断は上位足で決まる",
+      "published_or_archive_date": "2022-03-21",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (上位)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 69
+    },
+    {
+      "post_id": 8591,
+      "url": "https://fx-clover.com/?p=8591",
+      "title": "FX トレードチャンスは時間足のバトンリレー",
+      "published_or_archive_date": "2022-06-06",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "environment_timeframe"
+      ],
+      "priority_reasons": [
+        "title:environment_timeframe (時間足)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 70
+    },
+    {
+      "post_id": 8594,
+      "url": "https://fx-clover.com/?p=8594",
+      "title": "FXディナポリDMA3-3はトレンドを包む（支える）",
+      "published_or_archive_date": "2022-06-12",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma, 3-3)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 71
+    },
+    {
+      "post_id": 8616,
+      "url": "https://fx-clover.com/?p=8616",
+      "title": "FX ずらした移動平均線DMA3×3活用術【まとめ】",
+      "published_or_archive_date": "2022-06-20",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma, 移動平均)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 72
+    },
+    {
+      "post_id": 8714,
+      "url": "https://fx-clover.com/?p=8714",
+      "title": "FX 3点クロスフォーメーション【値幅の狙える取引きパターン】",
+      "published_or_archive_date": "2022-07-23",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "right_shoulder_formation"
+      ],
+      "priority_reasons": [
+        "title:right_shoulder_formation (フォーメーション)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 73
+    },
+    {
+      "post_id": 8739,
+      "url": "https://fx-clover.com/?p=8739",
+      "title": "FX移動平均線の並び・方向性の意味をレートの位置関係でどう立ち回るのがベストか整理しよう",
+      "published_or_archive_date": "2022-07-31",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (移動平均)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 74
+    },
+    {
+      "post_id": 8752,
+      "url": "https://fx-clover.com/?p=8752",
+      "title": "FX伸びしろと抵抗帯を把握して貰える内に貰い逃げしよう",
+      "published_or_archive_date": "2022-08-15",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "title:room_obstacle (伸びしろ)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 75
+    },
+    {
+      "post_id": 9163,
+      "url": "https://fx-clover.com/?p=9163",
+      "title": "MA乖離トレード「陰線ドカンはチャンスドキパターン」",
+      "published_or_archive_date": "2023-04-08",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (ma)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 76
+    },
+    {
+      "post_id": 9325,
+      "url": "https://fx-clover.com/?p=9325",
+      "title": "今週もDMA3 3上でアゲアゲ相場",
+      "published_or_archive_date": "2023-06-24",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 4,
+      "matched_topics": [
+        "dma_ma"
+      ],
+      "priority_reasons": [
+        "title:dma_ma (dma, ma)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 77
+    },
+    {
+      "post_id": 8898,
+      "url": "https://fx-clover.com/?p=8898",
+      "title": "FX レンジを回避するための「お告げ」",
+      "published_or_archive_date": "2022-10-25",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 3,
+      "matched_topics": [
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (お告げ)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 78
+    },
+    {
+      "post_id": 8920,
+      "url": "https://fx-clover.com/?p=8920",
+      "title": "FXエントリーの予兆を捉える「スラピヨドン」の呪文を覚えよう",
+      "published_or_archive_date": "2022-11-06",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 3,
+      "matched_topics": [
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (エントリー)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 79
+    },
+    {
+      "post_id": 9151,
+      "url": "https://fx-clover.com/?p=9151",
+      "title": "エントリーはバトンリレーのお話",
+      "published_or_archive_date": "2023-04-02",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 3,
+      "matched_topics": [
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (エントリー)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 80
+    },
+    {
+      "post_id": 9286,
+      "url": "https://fx-clover.com/?p=9286",
+      "title": "ひと昔前の私ならエントリーしてたなポイント【FX苦行勉強会131】",
+      "published_or_archive_date": "2023-06-03",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P2",
+      "priority_score": 3,
+      "matched_topics": [
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "title:entry_initial_move (エントリー)"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 81
+    },
+    {
+      "post_id": 7005,
+      "url": "https://fx-clover.com/?p=7005",
+      "title": "相場の法則性の１つを落とし込もう",
+      "published_or_archive_date": "2020-06-29",
+      "source_archive_page": 17,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 82
+    },
+    {
+      "post_id": 7122,
+      "url": "https://fx-clover.com/?p=7122",
+      "title": "FX 大きな時間にも目を向けよう",
+      "published_or_archive_date": "2020-08-25",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 83
+    },
+    {
+      "post_id": 7231,
+      "url": "https://fx-clover.com/?p=7231",
+      "title": "決まった場所で、決まった動きを繰り返すのがチャートだよ",
+      "published_or_archive_date": "2020-11-22",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 84
+    },
+    {
+      "post_id": 7255,
+      "url": "https://fx-clover.com/?p=7255",
+      "title": "FX チャートはサインをくれてるよ!",
+      "published_or_archive_date": "2020-12-10",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 85
+    },
+    {
+      "post_id": 7322,
+      "url": "https://fx-clover.com/?p=7322",
+      "title": "FX 勝率UPの秘訣は【値固めサイン】を確認する事にあり",
+      "published_or_archive_date": "2021-01-15",
+      "source_archive_page": 16,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 86
+    },
+    {
+      "post_id": 7329,
+      "url": "https://fx-clover.com/?p=7329",
+      "title": "FX繰り返すパターンは覚えていこう！",
+      "published_or_archive_date": "2021-01-18",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 87
+    },
+    {
+      "post_id": 7410,
+      "url": "https://fx-clover.com/?p=7410",
+      "title": "FXパターン認識を持つことは有利",
+      "published_or_archive_date": "2021-02-21",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 88
+    },
+    {
+      "post_id": 7420,
+      "url": "https://fx-clover.com/?p=7420",
+      "title": "FX価値ある検証（苦行）とは？",
+      "published_or_archive_date": "2021-02-25",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 89
+    },
+    {
+      "post_id": 7438,
+      "url": "https://fx-clover.com/?p=7438",
+      "title": "MT4ヒストリカルデータを読み込んで検証期間を増やそう",
+      "published_or_archive_date": "2021-03-21",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 90
+    },
+    {
+      "post_id": 7446,
+      "url": "https://fx-clover.com/?p=7446",
+      "title": "FXで勝ちたいなら捨てよう【脱！初心者脳！】",
+      "published_or_archive_date": "2021-04-04",
+      "source_archive_page": 15,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 91
+    },
+    {
+      "post_id": 7592,
+      "url": "https://fx-clover.com/?p=7592",
+      "title": "FX みんなの検証苦行の様子を覗いてみよう♪",
+      "published_or_archive_date": "2021-05-15",
+      "source_archive_page": 14,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 92
+    },
+    {
+      "post_id": 7596,
+      "url": "https://fx-clover.com/?p=7596",
+      "title": "FX 値動きを見とどけ あと乗りで勝つ！",
+      "published_or_archive_date": "2021-05-16",
+      "source_archive_page": 14,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 93
+    },
+    {
+      "post_id": 7601,
+      "url": "https://fx-clover.com/?p=7601",
+      "title": "マエストロFXに再びポコ現る？4回目？（笑）",
+      "published_or_archive_date": "2021-05-17",
+      "source_archive_page": 13,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 94
+    },
+    {
+      "post_id": 7700,
+      "url": "https://fx-clover.com/?p=7700",
+      "title": "FXポコ夏休みに入ります【FX勉強会㊲】",
+      "published_or_archive_date": "2021-07-18",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 95
+    },
+    {
+      "post_id": 7748,
+      "url": "https://fx-clover.com/?p=7748",
+      "title": "FX 裁量（自分軸）はコピーできない！だから苦行の習慣化を♥",
+      "published_or_archive_date": "2021-08-08",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 96
+    },
+    {
+      "post_id": 7785,
+      "url": "https://fx-clover.com/?p=7785",
+      "title": "FXこれさえあれば♥は無い！テクニカル分析は複合的に！",
+      "published_or_archive_date": "2021-08-22",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 97
+    },
+    {
+      "post_id": 7825,
+      "url": "https://fx-clover.com/?p=7825",
+      "title": "FXワントップ手法知らない方は覗いてみて♥",
+      "published_or_archive_date": "2021-09-05",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 98
+    },
+    {
+      "post_id": 7835,
+      "url": "https://fx-clover.com/?p=7835",
+      "title": "FX トレードする価値があるか無いか",
+      "published_or_archive_date": "2021-09-12",
+      "source_archive_page": 12,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 99
+    },
+    {
+      "post_id": 7874,
+      "url": "https://fx-clover.com/?p=7874",
+      "title": "FX 自分で生きる力をつける覚悟",
+      "published_or_archive_date": "2021-09-19",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 100
+    },
+    {
+      "post_id": 7990,
+      "url": "https://fx-clover.com/?p=7990",
+      "title": "FX 「今から落としに行くからね！」のチャートサイン",
+      "published_or_archive_date": "2021-11-06",
+      "source_archive_page": 11,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 101
+    },
+    {
+      "post_id": 8045,
+      "url": "https://fx-clover.com/?p=8045",
+      "title": "FX3点目クロスポイントと陰線ドカンはチャンスドキMIXトレード",
+      "published_or_archive_date": "2021-11-27",
+      "source_archive_page": 10,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 102
+    },
+    {
+      "post_id": 8199,
+      "url": "https://fx-clover.com/?p=8199",
+      "title": "FX 騙し回避したいならスラストの中でトレードせよ♥",
+      "published_or_archive_date": "2022-01-23",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 103
+    },
+    {
+      "post_id": 8226,
+      "url": "https://fx-clover.com/?p=8226",
+      "title": "FX 決めつけない見たままの情報でトレードプランを立てよう",
+      "published_or_archive_date": "2022-01-29",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 104
+    },
+    {
+      "post_id": 8297,
+      "url": "https://fx-clover.com/?p=8297",
+      "title": "FX 稼げるパターン【トレンドの継続を見極める】",
+      "published_or_archive_date": "2022-02-26",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 105
+    },
+    {
+      "post_id": 8316,
+      "url": "https://fx-clover.com/?p=8316",
+      "title": "FX ボリンジャーバンドで感知！勢いのある相場でトレードしよう！",
+      "published_or_archive_date": "2022-03-06",
+      "source_archive_page": 9,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 106
+    },
+    {
+      "post_id": 8371,
+      "url": "https://fx-clover.com/?p=8371",
+      "title": "FX 目指す節目が見当たらない時の対処法",
+      "published_or_archive_date": "2022-03-28",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 107
+    },
+    {
+      "post_id": 8391,
+      "url": "https://fx-clover.com/?p=8391",
+      "title": "FX ラインは大昔のものでもちゃんと効く",
+      "published_or_archive_date": "2022-04-03",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 108
+    },
+    {
+      "post_id": 8406,
+      "url": "https://fx-clover.com/?p=8406",
+      "title": "FX 200/600パターンの理想図",
+      "published_or_archive_date": "2022-04-09",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 109
+    },
+    {
+      "post_id": 8424,
+      "url": "https://fx-clover.com/?p=8424",
+      "title": "FX 1回目の割れ！２回目の割れ！３回目の割れ！それって何よ！",
+      "published_or_archive_date": "2022-04-16",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 110
+    },
+    {
+      "post_id": 8440,
+      "url": "https://fx-clover.com/?p=8440",
+      "title": "FX ワクワクさんは続くよどこまでも（笑）",
+      "published_or_archive_date": "2022-04-24",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 111
+    },
+    {
+      "post_id": 8457,
+      "url": "https://fx-clover.com/?p=8457",
+      "title": "ポコさん何喋ってるか分からないFX勉強会（笑）",
+      "published_or_archive_date": "2022-05-01",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 112
+    },
+    {
+      "post_id": 8501,
+      "url": "https://fx-clover.com/?p=8501",
+      "title": "FX 積極的に仕事するシーンとは",
+      "published_or_archive_date": "2022-05-15",
+      "source_archive_page": 8,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 113
+    },
+    {
+      "post_id": 8536,
+      "url": "https://fx-clover.com/?p=8536",
+      "title": "FX図で覚える勝ちやすいエリア【ボリンジャーバンド・波形】",
+      "published_or_archive_date": "2022-05-27",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 114
+    },
+    {
+      "post_id": 8543,
+      "url": "https://fx-clover.com/?p=8543",
+      "title": "FXパターンの特徴を１つプレゼント",
+      "published_or_archive_date": "2022-05-29",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 115
+    },
+    {
+      "post_id": 8569,
+      "url": "https://fx-clover.com/?p=8569",
+      "title": "FX 便利なコマ足の使い方の1つを紹介♥",
+      "published_or_archive_date": "2022-06-05",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 116
+    },
+    {
+      "post_id": 8621,
+      "url": "https://fx-clover.com/?p=8621",
+      "title": "FX 執行足を見比べよう！美しいのはどれ？",
+      "published_or_archive_date": "2022-06-20",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 117
+    },
+    {
+      "post_id": 8640,
+      "url": "https://fx-clover.com/?p=8640",
+      "title": "FX わからない＝正しい判断",
+      "published_or_archive_date": "2022-06-25",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 118
+    },
+    {
+      "post_id": 8661,
+      "url": "https://fx-clover.com/?p=8661",
+      "title": "FXトレードはこの形が全て【超重要】",
+      "published_or_archive_date": "2022-07-03",
+      "source_archive_page": 7,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 119
+    },
+    {
+      "post_id": 8665,
+      "url": "https://fx-clover.com/?p=8665",
+      "title": "FX【И】祭りをお楽しみください♥",
+      "published_or_archive_date": "2022-07-03",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 120
+    },
+    {
+      "post_id": 8688,
+      "url": "https://fx-clover.com/?p=8688",
+      "title": "FX 多通貨監視でボーナス相場を取り逃がす",
+      "published_or_archive_date": "2022-07-11",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 121
+    },
+    {
+      "post_id": 8701,
+      "url": "https://fx-clover.com/?p=8701",
+      "title": "FXはトレンドが明確になってからが楽＝簡単",
+      "published_or_archive_date": "2022-07-16",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 122
+    },
+    {
+      "post_id": 8722,
+      "url": "https://fx-clover.com/?p=8722",
+      "title": "FXドカ落ちした先に・・・いつもの形ありますか？",
+      "published_or_archive_date": "2022-07-23",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 123
+    },
+    {
+      "post_id": 8746,
+      "url": "https://fx-clover.com/?p=8746",
+      "title": "FX 7月のFX見逃し動画はないですか？",
+      "published_or_archive_date": "2022-08-06",
+      "source_archive_page": 6,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 124
+    },
+    {
+      "post_id": 8791,
+      "url": "https://fx-clover.com/?p=8791",
+      "title": "FX ずっとチャート見てると負けるよ",
+      "published_or_archive_date": "2022-08-21",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 125
+    },
+    {
+      "post_id": 8805,
+      "url": "https://fx-clover.com/?p=8805",
+      "title": "FX価値ある相場状況かをひとめで見分けられますか？",
+      "published_or_archive_date": "2022-08-29",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 126
+    },
+    {
+      "post_id": 8818,
+      "url": "https://fx-clover.com/?p=8818",
+      "title": "FX勝てる手法も相場次第",
+      "published_or_archive_date": "2022-09-06",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 127
+    },
+    {
+      "post_id": 8844,
+      "url": "https://fx-clover.com/?p=8844",
+      "title": "FX 原理を知ると理解も格段にUPする",
+      "published_or_archive_date": "2022-09-17",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 128
+    },
+    {
+      "post_id": 8867,
+      "url": "https://fx-clover.com/?p=8867",
+      "title": "FX 「雑」なことをしていると「結果も雑」に終わる",
+      "published_or_archive_date": "2022-10-01",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 129
+    },
+    {
+      "post_id": 8874,
+      "url": "https://fx-clover.com/?p=8874",
+      "title": "FX 分析する目はチャートのどこを見ているのか？【トレードの優先順位】",
+      "published_or_archive_date": "2022-10-08",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 130
+    },
+    {
+      "post_id": 8880,
+      "url": "https://fx-clover.com/?p=8880",
+      "title": "FX イメージでトレードできる理由",
+      "published_or_archive_date": "2022-10-09",
+      "source_archive_page": 5,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 131
+    },
+    {
+      "post_id": 8888,
+      "url": "https://fx-clover.com/?p=8888",
+      "title": "FX 準備の出来ない人間の目にチャンスは映らない",
+      "published_or_archive_date": "2022-10-16",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 132
+    },
+    {
+      "post_id": 8908,
+      "url": "https://fx-clover.com/?p=8908",
+      "title": "FX スルースキルこそ生き残りのカギ",
+      "published_or_archive_date": "2022-10-30",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 133
+    },
+    {
+      "post_id": 8940,
+      "url": "https://fx-clover.com/?p=8940",
+      "title": "FX来年の忘年会のお知らせ＆冬休みの勉強会について",
+      "published_or_archive_date": "2022-11-15",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 134
+    },
+    {
+      "post_id": 8949,
+      "url": "https://fx-clover.com/?p=8949",
+      "title": "FX期待し過ぎず信じすぎない！フラットな目を持とう",
+      "published_or_archive_date": "2022-11-20",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 135
+    },
+    {
+      "post_id": 8960,
+      "url": "https://fx-clover.com/?p=8960",
+      "title": "FX分析に悩んだら・・・・やらなくていい相場だったりするよ",
+      "published_or_archive_date": "2022-12-03",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 136
+    },
+    {
+      "post_id": 8964,
+      "url": "https://fx-clover.com/?p=8964",
+      "title": "FX迷ったときは慣れてる通貨を選ぶ・・・なよ（笑）",
+      "published_or_archive_date": "2022-12-03",
+      "source_archive_page": 4,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 137
+    },
+    {
+      "post_id": 9006,
+      "url": "https://fx-clover.com/?p=9006",
+      "title": "FX入らない選択をする場面",
+      "published_or_archive_date": "2023-01-07",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 138
+    },
+    {
+      "post_id": 9012,
+      "url": "https://fx-clover.com/?p=9012",
+      "title": "FX作業工程をスラスラ言える様になろう♪",
+      "published_or_archive_date": "2023-01-08",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 139
+    },
+    {
+      "post_id": 9019,
+      "url": "https://fx-clover.com/?p=9019",
+      "title": "FX 年が明けたら年足をチェック！",
+      "published_or_archive_date": "2023-01-15",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 140
+    },
+    {
+      "post_id": 9051,
+      "url": "https://fx-clover.com/?p=9051",
+      "title": "FX「1分で○○できると」ぶれずに勝ちが増す世界～相場を逆読みしていませんか？",
+      "published_or_archive_date": "2023-01-23",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 141
+    },
+    {
+      "post_id": 9060,
+      "url": "https://fx-clover.com/?p=9060",
+      "title": "FX 同じトレンドに見えていても…勢いや勝率の高さは違うよ",
+      "published_or_archive_date": "2023-01-28",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 142
+    },
+    {
+      "post_id": 9067,
+      "url": "https://fx-clover.com/?p=9067",
+      "title": "FX こんな目立つサインは見逃さないで！利益になるなる！",
+      "published_or_archive_date": "2023-01-28",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 143
+    },
+    {
+      "post_id": 9076,
+      "url": "https://fx-clover.com/?p=9076",
+      "title": "FXでよく負けたパターンとポコ流対処法",
+      "published_or_archive_date": "2023-02-03",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 144
+    },
+    {
+      "post_id": 9095,
+      "url": "https://fx-clover.com/?p=9095",
+      "title": "チャートは落ちる合図を明確に教えてくれている",
+      "published_or_archive_date": "2023-02-11",
+      "source_archive_page": 3,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 145
+    },
+    {
+      "post_id": 9112,
+      "url": "https://fx-clover.com/?p=9112",
+      "title": "FX 日足ボリンジャーバンドブレイク時の次のイメージは２つ",
+      "published_or_archive_date": "2023-02-26",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 146
+    },
+    {
+      "post_id": 9122,
+      "url": "https://fx-clover.com/?p=9122",
+      "title": "FX 難しい相場と簡単な相場",
+      "published_or_archive_date": "2023-03-04",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 147
+    },
+    {
+      "post_id": 9128,
+      "url": "https://fx-clover.com/?p=9128",
+      "title": "FNFパターン相場は同じことの繰り返し（フラクタル）",
+      "published_or_archive_date": "2023-03-18",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 148
+    },
+    {
+      "post_id": 9172,
+      "url": "https://fx-clover.com/?p=9172",
+      "title": "FX コマ足の使いどころ【ぴよ・ぴよだまり】",
+      "published_or_archive_date": "2023-04-15",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 149
+    },
+    {
+      "post_id": 9181,
+      "url": "https://fx-clover.com/?p=9181",
+      "title": "FX あんなにチャンスに見えててもⒺできないポンド円",
+      "published_or_archive_date": "2023-04-29",
+      "source_archive_page": 2,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 150
+    },
+    {
+      "post_id": 9197,
+      "url": "https://fx-clover.com/?p=9197",
+      "title": "FX 去年の最高値トライしたよ！最後の砦をどう読むか",
+      "published_or_archive_date": "2023-05-06",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 151
+    },
+    {
+      "post_id": 9231,
+      "url": "https://fx-clover.com/?p=9231",
+      "title": "FXチャートに張り付いて疲れない為に知るべきこと",
+      "published_or_archive_date": "2023-05-20",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 152
+    },
+    {
+      "post_id": 9253,
+      "url": "https://fx-clover.com/?p=9253",
+      "title": "日足はスラぴよぴよぴよぴよぴよぴよぴよドン♪",
+      "published_or_archive_date": "2023-05-27",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 153
+    },
+    {
+      "post_id": 9303,
+      "url": "https://fx-clover.com/?p=9303",
+      "title": "こんな相場だからこそやれる事あるよね",
+      "published_or_archive_date": "2023-06-10",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 154
+    },
+    {
+      "post_id": 9319,
+      "url": "https://fx-clover.com/?p=9319",
+      "title": "ダークポコが愚痴る勉強会",
+      "published_or_archive_date": "2023-06-17",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 155
+    },
+    {
+      "post_id": 9342,
+      "url": "https://fx-clover.com/?p=9342",
+      "title": "FX 挫折と成功",
+      "published_or_archive_date": "2023-07-01",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 156
+    },
+    {
+      "post_id": 9361,
+      "url": "https://fx-clover.com/?p=9361",
+      "title": "最後のFX苦行勉強会☆長い時間本当にありがとう☆",
+      "published_or_archive_date": "2023-07-15",
+      "source_archive_page": 1,
+      "review_status": "UNREVIEWED",
+      "priority": "P3",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "no unresolved-topic keyword in title; retain for complete corpus review"
+      ],
+      "evidence_files": [],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 157
+    },
+    {
+      "post_id": 6913,
+      "url": "https://fx-clover.com/?p=6913",
+      "title": "エントリーポイントは基礎の集合体【ポコニカル】",
+      "published_or_archive_date": "2020-06-12",
+      "source_archive_page": 18,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "entry_initial_move",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "dma25x5_official_sources.json",
+        "official_sources.json",
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 158
+    },
+    {
+      "post_id": 6940,
+      "url": "https://fx-clover.com/?p=6940",
+      "title": "ポコニカル分析１分と５分",
+      "published_or_archive_date": "2020-06-13",
+      "source_archive_page": 17,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 159
+    },
+    {
+      "post_id": 7034,
+      "url": "https://fx-clover.com/?p=7034",
+      "title": "FXどんな取引を目指すのか？【時給単価重視派】",
+      "published_or_archive_date": "2020-07-08",
+      "source_archive_page": 17,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 160
+    },
+    {
+      "post_id": 7043,
+      "url": "https://fx-clover.com/?p=7043",
+      "title": "Wフィボナッチで反発をみる",
+      "published_or_archive_date": "2020-07-19",
+      "source_archive_page": 17,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "fibonacci"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json",
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 161
+    },
+    {
+      "post_id": 7086,
+      "url": "https://fx-clover.com/?p=7086",
+      "title": "エントリーの細かなタイミング【ディナポリ3-3】",
+      "published_or_archive_date": "2020-07-30",
+      "source_archive_page": 16,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 162
+    },
+    {
+      "post_id": 7195,
+      "url": "https://fx-clover.com/?p=7195",
+      "title": "FXはパターンですり込む！よく出るから覚えよう！",
+      "published_or_archive_date": "2020-11-12",
+      "source_archive_page": 16,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 163
+    },
+    {
+      "post_id": 7389,
+      "url": "https://fx-clover.com/?p=7389",
+      "title": "FX学習の成果は【ジワジワ】現れて自信を育てる",
+      "published_or_archive_date": "2021-02-09",
+      "source_archive_page": 15,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 164
+    },
+    {
+      "post_id": 7907,
+      "url": "https://fx-clover.com/?p=7907",
+      "title": "FX 決済ポイントも他人に合わせているうちは「しっくりこない」",
+      "published_or_archive_date": "2021-10-02",
+      "source_archive_page": 11,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "stop_exit"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 165
+    },
+    {
+      "post_id": 7924,
+      "url": "https://fx-clover.com/?p=7924",
+      "title": "FX 勝ちやすくストレスの少ないトレード場面【初動について】",
+      "published_or_archive_date": "2021-10-09",
+      "source_archive_page": 11,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "entry_initial_move"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 166
+    },
+    {
+      "post_id": 8075,
+      "url": "https://fx-clover.com/?p=8075",
+      "title": "FX基礎があれば手法は要らない【ポコニカル勉強会57】",
+      "published_or_archive_date": "2021-12-05",
+      "source_archive_page": 10,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 167
+    },
+    {
+      "post_id": 8126,
+      "url": "https://fx-clover.com/?p=8126",
+      "title": "FX 波が見せる変化のサイン【ポコニカル勉強会60】",
+      "published_or_archive_date": "2021-12-26",
+      "source_archive_page": 10,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 168
+    },
+    {
+      "post_id": 8162,
+      "url": "https://fx-clover.com/?p=8162",
+      "title": "FX 上昇相場で頑張らない事がポコニカルの上手く行く秘訣",
+      "published_or_archive_date": "2022-01-09",
+      "source_archive_page": 10,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 169
+    },
+    {
+      "post_id": 8283,
+      "url": "https://fx-clover.com/?p=8283",
+      "title": "FX フォーメーションと移動平均線どちらが重要？",
+      "published_or_archive_date": "2022-02-26",
+      "source_archive_page": 9,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "right_shoulder_formation"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 170
+    },
+    {
+      "post_id": 9217,
+      "url": "https://fx-clover.com/?p=9217",
+      "title": "FX MAサンド入るべきか見送るべきかその違いは？",
+      "published_or_archive_date": "2023-05-13",
+      "source_archive_page": 1,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "room_obstacle"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 171
+    }
+  ]
+}
