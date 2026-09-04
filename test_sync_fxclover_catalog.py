@@ -43,6 +43,17 @@ class CatalogParserTests(unittest.TestCase):
         self.assertNotIn("body", posts[0])
         self.assertFalse(posts[0]["rule_promotion_allowed"])
 
+    def test_missing_date_does_not_borrow_next_post_date(self):
+        html = r'''
+        <h3><a href="https://fx-clover.com/?p=9101">No Date Here</a></h3>
+        <div>summary without a date</div>
+        <h3><a href="https://fx-clover.com/?p=9100">Next Post</a></h3>
+        <div>2024/01/02</div>
+        '''
+        posts = extract_posts(html, category_id=526, source_page=1)
+        self.assertIsNone(posts[0]["published_or_archive_date"])
+        self.assertEqual(posts[1]["published_or_archive_date"], "2024-01-02")
+
     def test_external_and_non_post_links_are_ignored(self):
         html = r'''
         <h3><a href="https://example.com/?p=1">external</a></h3>
