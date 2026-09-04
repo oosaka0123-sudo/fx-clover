@@ -31,6 +31,7 @@ HEADING_LINK_RE = re.compile(
     r"<h(?:2|3)\b[^>]*>\s*<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>.*?</h(?:2|3)>",
     re.IGNORECASE | re.DOTALL,
 )
+NEXT_HEADING_RE = re.compile(r"<h(?:2|3)\b", re.IGNORECASE)
 TAG_RE = re.compile(r"<[^>]+>")
 DATE_RE = re.compile(r"(?P<y>20\d{2})[/-](?P<m>\d{1,2})[/-](?P<d>\d{1,2})")
 
@@ -64,10 +65,13 @@ def _post_id(url: str) -> int | None:
 
 
 def _nearby_date(html: str, end_pos: int) -> str | None:
-    # The archive date is rendered immediately after each title.  Keep the
-    # search window intentionally small so a neighbouring post's date is not
-    # accidentally assigned.
-    window = TAG_RE.sub(" ", html[end_pos : end_pos + 500])
+    # Search only inside this post's archive block.  Never borrow a date from
+    # the next h2/h3 title when the current entry does not expose one.
+    tail = html[end_pos : end_pos + 800]
+    next_heading = NEXT_HEADING_RE.search(tail)
+    if next_heading:
+        tail = tail[: next_heading.start()]
+    window = TAG_RE.sub(" ", tail)
     match = DATE_RE.search(unescape(window))
     if not match:
         return None
