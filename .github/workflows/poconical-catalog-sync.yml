@@ -1,0 +1,129 @@
+name: Poconical official catalog sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+  push:
+    branches:
+      - automation/issue-13-catalog-sync
+    paths:
+      - .github/workflows/poconical-catalog-sync.yml
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: poconical-official-catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test catalog parser offline
+        run: python -m unittest -v test_sync_fxclover_catalog.py
+
+      - name: Fetch official category metadata
+        run: python sync_fxclover_catalog.py --output /tmp/poconical_post_catalog.json
+
+      - name: Validate and stage only meaningful catalog changes
+        id: catalog
+        run: |
+          python - <<'PY'
+          import json
+          import shutil
+          from pathlib import Path
+          from urllib.parse import parse_qs, urlparse
+
+          generated = Path('/tmp/poconical_post_catalog.json')
+          target = Path('knowledge/poconical_post_catalog.json')
+          data = json.loads(generated.read_text(encoding='utf-8'))
+
+          posts = data.get('posts', [])
+          if not posts:
+              raise SystemExit('catalog must not be empty')
+          if data.get('orders_enabled') is not False:
+              raise SystemExit('orders_enabled must remain false')
+          if data.get('storage_policy') != 'metadata_only_no_article_body':
+              raise SystemExit('unexpected storage policy')
+
+          seen = set()
+          for post in posts:
+              post_id = post.get('post_id')
+              url = post.get('url', '')
+              parsed = urlparse(url)
+              query_id = parse_qs(parsed.query).get('p', [None])[0]
+              if parsed.scheme != 'https' or parsed.netloc != 'fx-clover.com':
+                  raise SystemExit(f'non-official URL: {url}')
+              if str(post_id) != str(query_id):
+                  raise SystemExit(f'post id/url mismatch: {post_id} {url}')
+              if post_id in seen:
+                  raise SystemExit(f'duplicate post id: {post_id}')
+              seen.add(post_id)
+              if post.get('rule_promotion_allowed') is not False:
+                  raise SystemExit(f'rule promotion must remain false: {post_id}')
+              if 'body' in post or 'content' in post:
+                  raise SystemExit(f'article body/content must not be stored: {post_id}')
+
+          def meaningful(payload):
+              return {
+                  key: value for key, value in payload.items()
+                  if key != 'generated_at_utc'
+              }
+
+          changed = True
+          if target.exists():
+              current = json.loads(target.read_text(encoding='utf-8'))
+              changed = meaningful(current) != meaningful(data)
+
+          if changed:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copyfile(generated, target)
+              print(f'catalog changed: {len(posts)} posts')
+          else:
+              print(f'no meaningful catalog change: {len(posts)} posts')
+
+          with open(__import__('os').environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as fh:
+              fh.write(f'changed={str(changed).lower()}\n')
+              fh.write(f'post_count={len(posts)}\n')
+          PY
+
+      - name: Commit bootstrap catalog to feature branch
+        if: steps.catalog.outputs.changed == 'true' && github.event_name == 'push' && github.ref_name == 'automation/issue-13-catalog-sync'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/poconical_post_catalog.json
+          git commit -m "Bootstrap official Poconical metadata catalog"
+          git push origin HEAD:${GITHUB_REF_NAME}
+
+      - name: Create refresh PR from main runs
+        if: steps.catalog.outputs.changed == 'true' && !(github.event_name == 'push' && github.ref_name == 'automation/issue-13-catalog-sync')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="automation/poconical-catalog-${GITHUB_RUN_ID}"
+          git checkout -b "$branch"
+          git add knowledge/poconical_post_catalog.json
+          git commit -m "Refresh official Poconical metadata catalog"
+          git push origin "$branch"
+          if ! gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "Refresh official Poconical metadata catalog" \
+            --body "Automated metadata-only refresh of the official FX-Clover Poconical category. No article bodies, trading rules, WATCH/READY/TRIGGER logic, or order code are changed."; then
+            echo "::warning::Catalog branch was pushed, but automatic PR creation was unavailable."
+          fi
+
+      - name: Summary
+        run: |
+          echo "post_count=${{ steps.catalog.outputs.post_count }}"
+          echo "changed=${{ steps.catalog.outputs.changed }}"
+          echo "orders_enabled=false"
