@@ -15,7 +15,7 @@ int OnInit()
 {
    EventSetTimer(MathMax(10, TimerSeconds));
    ExportAllClosedBars();
-   return(INIT_SUCCEEDED);
+   return(INIT_SUCCEED);
 }
 
 void OnDeinit(const int reason) { EventKillTimer(); }
