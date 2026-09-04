@@ -23,6 +23,7 @@ EVIDENCE_FILES = [
     ROOT / "knowledge" / "official_sources.json",
     ROOT / "knowledge" / "dma25x5_official_sources.json",
     ROOT / "knowledge" / "right_shoulder_official_sources.json",
+    ROOT / "knowledge" / "p0_master_course_blog_review.json",
 ]
 CURRICULUM_FILE = ROOT / "knowledge" / "poconical_curriculum.json"
 
