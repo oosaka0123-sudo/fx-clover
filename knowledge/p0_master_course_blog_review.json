@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_P0_MASTER_COURSE_BLOG_REVIEW",
+  "scope": "Official FX-Clover blog text for the first seven P0 curriculum posts. Embedded video details are not inferred when the video transcript/content is unavailable.",
+  "production_rule_change": false,
+  "rule_promotion_from_title_or_topic_only": false,
+  "orders_enabled": false,
+  "sources": [
+    {
+      "post_id": 7513,
+      "url": "https://fx-clover.com/?p=7513",
+      "title": "GWで要点を覚える 【FXポコニカルマスター講座スタート】するよ！",
+      "published": "2021-04-30",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        {
+          "claim": "The author explicitly says Poconical had evolved since its start and that this course was a 2021-version consolidation.",
+          "status": "official_supported_chronology"
+        },
+        {
+          "claim": "The author recommends learning through the study-session sequence because knowing the method alone is insufficient; repeated examples are used to compare judgments, stacked evidence and recurring chart behavior.",
+          "status": "official_supported_learning_policy"
+        },
+        {
+          "claim": "The author requires prerequisite/basic material before the master course and describes Poconical as grounded in repeated basics rather than an isolated entry trick.",
+          "status": "official_supported_learning_policy"
+        },
+        {
+          "claim": "The author emphasizes building one's own validated data and discretion through repeated chart review rather than accepting second-hand rules without verification.",
+          "status": "official_supported_validation_policy"
+        }
+      ],
+      "automation_impact": "Preserve chronology and evidence stacking. Do not reduce the method to a single indicator/candle trigger. Research proxies require project validation even when their underlying concept is official.",
+      "ready_field_impact": ["upper_environment_valid", "mid_range", "lower_right_shoulder", "ma_path_clear", "has_room", "inside_dma25x5"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7525,
+      "url": "https://fx-clover.com/?p=7525",
+      "title": "FXポコニカルマスター講座① 苦行ウィークの始まりです（笑）",
+      "published": "2021-05-01",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "PENDING_FOR_FINE_GRAINED_RULES",
+      "claims": [
+        {
+          "claim": "The official course outline describes Poconical as always targeting a formation right-shoulder area.",
+          "status": "official_supported_core_concept"
+        },
+        {
+          "claim": "The official course outline explicitly identifies moving averages and Granville's law as important Poconical components.",
+          "status": "official_supported_core_context"
+        },
+        {
+          "claim": "The assigned supporting material includes W-top right-shoulder, trend-pattern, MA basics and Granville study, reinforcing that the entry concept is learned together with context.",
+          "status": "official_supported_curriculum_context"
+        }
+      ],
+      "automation_impact": "Strengthens the right-shoulder concept and MA/Granville context. The blog text does not define a swing algorithm, lower-shoulder tolerance, MA distance threshold or exact AND/OR trigger set.",
+      "ready_field_impact": ["lower_right_shoulder", "upper_environment_valid", "ma_path_clear", "inside_dma25x5"],
+      "still_unresolved": [
+        "Exact machine definition of right shoulder",
+        "Exact lower-right-shoulder tolerance",
+        "Exact MA/Granville AND/OR conditions",
+        "Exact parameter values when not independently grounded by another primary source"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7529,
+      "url": "https://fx-clover.com/?p=7529",
+      "title": "FXポコニカルマスター講座②【環境認識はゾーンにお任せ♥】",
+      "published": "2021-05-02",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "PENDING_FOR_FINE_GRAINED_RULES",
+      "claims": [
+        {
+          "claim": "The official course outline teaches environment recognition using zones together with Fibonacci retracement.",
+          "status": "official_supported_core_context"
+        },
+        {
+          "claim": "The course includes zone drawing, timeframe-specific zone coloring and zone usage as part of environment recognition.",
+          "status": "official_supported_environment_workflow"
+        },
+        {
+          "claim": "The assigned homework includes 75MA and 200MA usage, reinforcing that environment work is not isolated from MA context.",
+          "status": "official_supported_curriculum_context"
+        }
+      ],
+      "automation_impact": "Strongly supports `upper_environment_valid` as a real official concept, but the blog text does not provide a universal algorithm for zone boundaries, timeframe weighting or numeric validity thresholds.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": [
+        "Exact zone construction algorithm",
+        "Exact timeframe weighting",
+        "Universal numeric environment-valid threshold"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7535,
+      "url": "https://fx-clover.com/?p=7535",
+      "title": "FXポコニカルマスター講座③【エントリーはお告げから♥】",
+      "published": "2021-05-03",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED_FOR_TOPIC_SCOPE",
+      "video_detail_review_status": "PENDING_REQUIRED_FOR_ENTRY_DETAILS",
+      "claims": [
+        {
+          "claim": "The official course explicitly covers entry conditions and pre-entry chart cues ('お告げ') as a dedicated topic.",
+          "status": "official_supported_topic_scope"
+        },
+        {
+          "claim": "Assigned material includes Dow theory, a beginner-friendly entry area focused away from the absolute head/tail, and stop placement tied to a clear sign/escape concept.",
+          "status": "official_supported_curriculum_context"
+        }
+      ],
+      "automation_impact": "The blog page proves that specific entry-condition teaching exists but does not state the detailed machine condition. Do not infer a numeric trigger or redefine current TRIGGER logic from the topic label alone.",
+      "ready_field_impact": ["mid_range", "lower_right_shoulder", "upper_environment_valid"],
+      "still_unresolved": [
+        "Exact definition of the pre-entry cue",
+        "Exact entry-condition AND/OR set",
+        "Exact stop rule taught inside the course video"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7540,
+      "url": "https://fx-clover.com/?p=7540",
+      "title": "FXポコニカルマスター講座④【Wフォーメーションの重要性①+④ゾーン】",
+      "published": "2021-05-06",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED_FOR_TOPIC_SCOPE",
+      "video_detail_review_status": "PENDING_REQUIRED_FOR_RIGHT_SHOULDER_DETAILS",
+      "claims": [
+        {
+          "claim": "The official course explicitly treats W-formation importance, right-shoulder interpretation and line interpretation as core topics.",
+          "status": "official_supported_topic_scope"
+        },
+        {
+          "claim": "Assigned material links formation concentration, stretched-range entry patterns, MA/rate interaction and no-trade/low-value locations to this course stage.",
+          "status": "official_supported_curriculum_context"
+        }
+      ],
+      "automation_impact": "Further grounds right-shoulder/formations as core concepts. Exact swing tolerances, line rules and the meaning of 1+4 zones require video/source-level detail and remain non-production.",
+      "ready_field_impact": ["lower_right_shoulder", "mid_range", "ma_path_clear", "has_room"],
+      "still_unresolved": [
+        "Exact right-shoulder price tolerance",
+        "Exact line interpretation algorithm",
+        "Exact stretched-range boundary"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7545,
+      "url": "https://fx-clover.com/?p=7545",
+      "title": "FXポコニカルマスター講座⑤【手法の使い分けと相場で生きるという事】",
+      "published": "2021-05-06",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED_FOR_TOPIC_SCOPE",
+      "video_detail_review_status": "PENDING_FOR_METHOD_SELECTION_DETAILS",
+      "claims": [
+        {
+          "claim": "The official final course explicitly covers simple method/setup selection rather than presenting one universal entry for all market states.",
+          "status": "official_supported_method_selection_concept"
+        },
+        {
+          "claim": "The assigned material includes avoidance of marginal entries, risk/capital management, 200MA/600MA trade patterns and verification practice.",
+          "status": "official_supported_curriculum_context"
+        },
+        {
+          "claim": "The author states that completing courses 0-5 is the beginning of the real learning process, with continued output and validation required.",
+          "status": "official_supported_learning_policy"
+        }
+      ],
+      "automation_impact": "Supports context-dependent setup selection and continued validation. It does not justify a universal machine threshold for MA obstacles, room, or setup selection from the blog text alone.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": [
+        "Exact setup-selection decision tree",
+        "Exact 200MA/600MA interaction thresholds",
+        "Exact no-entry threshold"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7616,
+      "url": "https://fx-clover.com/?p=7616",
+      "title": "FXポコニカルマスター講座【補足】ちょっと細かい話",
+      "published": "2021-05-22",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "PENDING_FOR_FINE_GRAINED_ENTRY_EXIT_DETAILS",
+      "claims": [
+        {
+          "claim": "The supplement explicitly covers fine-grained entry, DiNapoli 3-3, exit details and the idea that one's own axis includes having one's own definitions.",
+          "status": "official_supported_topic_scope"
+        },
+        {
+          "claim": "The author describes 3-3 as a final discriminator among multiple pieces of evidence, while also explicitly stating that it can be omitted and is a matter of preference.",
+          "status": "official_supported_optional_component_semantics"
+        },
+        {
+          "claim": "The author describes Poconical learning as pattern recognition strengthened by repeated verification and accumulated data.",
+          "status": "official_supported_validation_policy"
+        }
+      ],
+      "automation_impact": "Important chronology/design distinction: DMA3-3 is officially used and can be a final discriminator, but this source directly argues against labeling 3-3 as a universally mandatory Poconical component. Current system use of 3-3 remains an explicit project design choice unless stronger contradictory primary evidence is found.",
+      "ready_field_impact": ["mid_range", "lower_right_shoulder", "upper_environment_valid"],
+      "still_unresolved": [
+        "Fine-grained entry condition from the supplement video",
+        "Fine-grained exit condition from the supplement video",
+        "How optional 3-3 is combined with alternative evidence in every setup"
+      ],
+      "machine_safe_new_numeric_rule": false
+    }
+  ],
+  "cross_source_conclusions": {
+    "right_shoulder_is_core": true,
+    "environment_is_core": true,
+    "ma_and_granville_are_core_context": true,
+    "fibonacci_is_part_of_environment_workflow": true,
+    "specific_entry_conditions_exist_but_blog_topic_labels_are_not_machine_rules": true,
+    "dma3x3_is_officially_used_but_universally_mandatory": false,
+    "method_selection_is_context_dependent": true,
+    "verification_and_self_data_are_explicit_author_policy": true
+  },
+  "production_policy": "No new numeric READY/TRIGGER threshold is justified by this blog-text batch. Video-level details or stronger primary text must be reviewed before any machine rule promotion."
+}
