@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.23",
+  "classification": "DESIGN_DISTRIBUTION_MANIFEST_NOT_OFFICIAL_RULE",
+  "official_entrypoints": [
+    "INSTALL_5MIN_LIVE_TASK_v1_23.bat",
+    "RUN_LIVE_CYCLE_v1_23.bat",
+    "RUN_MANUAL_REVIEW_EVALUATION_v1_14.bat",
+    "RUN_SYSTEM_HEALTH_CHECK_v1_23.bat",
+    "START_REVIEW_DESK_v1_13.bat",
+    "TEST_WINDOWS_NOTIFICATION_v1_18.bat",
+    "VERIFY_PACKAGE_v1_23.bat"
+  ],
+  "superseded_entrypoints_excluded_from_distribution": [
+    "INSTALL_15MIN_LIVE_TASK_v1_10.bat",
+    "RUN_LIVE_CYCLE_v1_10.bat",
+    "RUN_SYSTEM_HEALTH_CHECK_v1_21.bat",
+    "VERIFY_PACKAGE_v1_18_1.bat"
+  ],
+  "distribution_excludes": [
+    "tmp/", "__pycache__/", "*.pyc", "*.log", "*state*.json",
+    "FX_Clover_distribution_check_v1_18_1.json",
+    "FX_Clover_distribution_check_v1_23.json",
+    "FX_Clover_environment_diagnostic_v1_18.json",
+    "FX_Clover_health_v1_21.json", "FX_Clover_health_v1_23.json"
+  ],
+  "strategy": "POCONICAL_ONLY",
+  "execution_timeframe": "M5",
+  "orders_enabled": false
+}
