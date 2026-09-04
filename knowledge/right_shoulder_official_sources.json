@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_SEMANTIC_EVIDENCE",
+  "topic": "Poconical right-shoulder interpretation",
+  "production_rule_change": false,
+  "orders_enabled": false,
+  "official_semantics": [
+    {
+      "source_url": "https://fx-clover.com/?p=6913",
+      "claims": [
+        "Entry context begins with higher-timeframe environment and resistance; the right shoulder is not a stand-alone signal.",
+        "Wait for a W-top or head-and-shoulders right-shoulder formation area.",
+        "Reverse FR 38.2 is used as a guide for a prospective right-shoulder area, with bearish candle confirmation in the foundational example.",
+        "For the W-top example, the left shoulder is the stop anchor."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=7195",
+      "claims": [
+        "A formation can exist inside the right shoulder of a larger formation.",
+        "The right shoulder of a W-top can itself be a W-top or head-and-shoulders; the same nested idea applies to a head-and-shoulders right shoulder.",
+        "The nested structure is treated as a repeated market pattern, not an isolated visual coincidence."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=7034",
+      "claims": [
+        "An M5 example is described as a W-top right-shoulder head-and-shoulders structure.",
+        "FR interaction and rejection are used together with the nested formation before short entry."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=7043",
+      "claims": [
+        "Multiple M5 examples treat FR 38.2 interaction, support/resistance confluence and candle rejection as context for deciding that a right shoulder is forming.",
+        "The examples show that the exact visual route into the right shoulder varies; Fibonacci remains a guide rather than a universal stand-alone trigger."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=8075",
+      "claims": [
+        "Parent and mini formations can be interpreted together at the right shoulder.",
+        "The author notes that using roughly the time spent forming the left shoulder for the right shoulder gives better visual balance, while also noting that waiting can cause a missed entry.",
+        "The author allows equivalent right-shoulder readings such as W-top versus head-and-shoulders when the stop location is unchanged.",
+        "The repeated instruction is to enter at some form of formation right shoulder rather than chasing the first reversal move."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=8162",
+      "claims": [
+        "Formation shape alone is insufficient; MA, zone and higher-timeframe context remain necessary.",
+        "The same apparent formation can be a no-trade when the surrounding context is not aligned."
+      ]
+    },
+    {
+      "source_url": "https://fx-clover.com/?p=7086",
+      "claims": [
+        "The official material specifically teaches the procedure around a W-top / head-and-shoulders right shoulder.",
+        "It reiterates that higher-timeframe environment recognition is more important than the isolated entry logic."
+      ]
+    },
+    {
+      "source_url": "https://www.youtube.com/watch?v=-uxkvMrHS90",
+      "claims": [
+        "Official master course ④ lists W-formation importance and right-shoulder interpretation as core learning topics."
+      ]
+    }
+  ],
+  "safe_official_model": {
+    "nested_formation": true,
+    "environment_required": true,
+    "right_shoulder_is_area_not_single_price": true,
+    "fibonacci_is_contextual_guide": true,
+    "candle_rejection_can_be_supporting_confirmation": true,
+    "left_right_shoulder_duration_balance_is_author_guidance": true,
+    "exact_duration_tolerance_defined": false,
+    "exact_price_symmetry_tolerance_defined": false
+  },
+  "candidate_research_features_not_for_production": [
+    {
+      "feature": "shoulder_duration_ratio",
+      "idea": "Compare bars/time used by left and right shoulder.",
+      "status": "RESEARCH_ONLY",
+      "reason": "Official qualitative balance guidance exists, but no acceptable ratio/tolerance is specified."
+    },
+    {
+      "feature": "nested_formation_score",
+      "idea": "Detect W-top or head-and-shoulders inside a larger right-shoulder region.",
+      "status": "RESEARCH_ONLY",
+      "reason": "Official semantic basis exists, but swing-point and tolerance definitions remain project research choices."
+    },
+    {
+      "feature": "fr_right_shoulder_reaction",
+      "idea": "Record whether prospective right shoulder reacts around reverse FR 38.2 together with rejection/context.",
+      "status": "RESEARCH_ONLY",
+      "reason": "38.2 is explicitly described as a guide, not a universal mandatory threshold."
+    }
+  ],
+  "negative_evidence": {
+    "topic": "DMA25x5 inside",
+    "finding": "Primary official material located so far confirms MA25-5 as a Poconical component, but no machine-safe primary definition was found for the phrase 'inside DMA25x5' in terms of candle part, bar count or distance tolerance.",
+    "policy": "Do not infer the definition from third-party notes or user-community summaries. Keep manual/research-only."
+  },
+  "still_unresolved": [
+    "Exact swing-point algorithm for W-top / head-and-shoulders detection",
+    "Maximum allowed price difference between shoulders",
+    "Maximum allowed left/right shoulder duration difference",
+    "Exact requirement for lower right shoulder versus equal/high right shoulder",
+    "Exact DMA25x5-inside candle relationship and tolerance",
+    "Universal AND/OR relationship across FR, MA, zone, candle and nested-formation evidence"
+  ]
+}
