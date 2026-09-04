@@ -9,6 +9,8 @@ on:
       - automation/issue-13-catalog-sync
     paths:
       - .github/workflows/poconical-catalog-sync.yml
+      - sync_fxclover_catalog.py
+      - test_sync_fxclover_catalog.py
 
 permissions:
   contents: write
@@ -29,7 +31,7 @@ jobs:
         run: python -m unittest -v test_sync_fxclover_catalog.py
 
       - name: Fetch official category metadata
-        run: python sync_fxclover_catalog.py --output /tmp/poconical_post_catalog.json
+        run: python sync_fxclover_catalog.py --max-pages 30 --timeout 20 --sleep 0.25 --output /tmp/poconical_post_catalog.json
 
       - name: Validate and stage only meaningful catalog changes
         id: catalog
