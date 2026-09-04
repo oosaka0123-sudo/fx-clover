@@ -25,14 +25,17 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 4. `docs/FX_Clover_公式一次資料台帳.md`
 5. `docs/FX_Clover_AI学習カリキュラム.md`
 6. `docs/FX_Clover_全記事カタログ同期.md`
-7. `knowledge/official_sources.json`
-8. `knowledge/poconical_curriculum.json`
-9. `knowledge/dma25x5_official_sources.json`
-10. `knowledge/right_shoulder_official_sources.json`
-11. `sync_fxclover_catalog.py`
-12. `FX_Clover_v1_23_README.md`
-13. `release_manifest_v1_23.json`
-14. current code / Open Issues / Open PRs / Actions
+7. `docs/FX_Clover_READY項目根拠マップ.md`
+8. `knowledge/official_sources.json`
+9. `knowledge/poconical_curriculum.json`
+10. `knowledge/dma25x5_official_sources.json`
+11. `knowledge/right_shoulder_official_sources.json`
+12. `knowledge/ready_manual_field_registry.json`
+13. `sync_fxclover_catalog.py`
+14. `validate_ready_field_registry.py`
+15. `FX_Clover_v1_23_README.md`
+16. `release_manifest_v1_23.json`
+17. current code / Open Issues / Open PRs / Actions
 
 ## Official Source Knowledge Base
 
@@ -41,13 +44,17 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 - 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
 - AI学習順・公式カリキュラム: `docs/FX_Clover_AI学習カリキュラム.md`
 - 全記事メタデータ同期手順: `docs/FX_Clover_全記事カタログ同期.md`
+- READY手動6項目の根拠マップ: `docs/FX_Clover_READY項目根拠マップ.md`
 - AI / プログラム向け公式資料台帳: `knowledge/official_sources.json`
 - マスター講座・問題集の機械可読索引: `knowledge/poconical_curriculum.json`
 - DMA25×5公式根拠: `knowledge/dma25x5_official_sources.json`
 - 右肩・入れ子フォーメーション公式根拠: `knowledge/right_shoulder_official_sources.json`
+- READY手動フィールドの機械可読分類: `knowledge/ready_manual_field_registry.json`
 - 公式ポコニカルカテゴリのメタデータ同期ツール: `sync_fxclover_catalog.py`
 
 `sync_fxclover_catalog.py` は公式カテゴリの記事本文をGitHubへ複製せず、記事ID・公式URL・タイトル・日付・取得元ページだけを `knowledge/poconical_post_catalog.json` へ生成します。このJSONは同期実行後に生成される取得キューであり、生成された記事を自動的に【公式ルール】へ昇格させません。
+
+`validate_ready_field_registry.py` は、v1.23の `watch_monitor_v1_4.py` にあるREADY手動6項目と根拠レジストリが完全一致していることをCIで確認します。公式概念の根拠があっても、数値定義が未確認の項目は引き続き手動入力のままです。
 
 公式で確認できた内容と、システム都合の設計仕様を分離します。たとえばM5は公式教材で実際に使用されていますが、公式教材にはM1を使う例もあるため、現行システムの「M5必須」は引き続き設計仕様として扱います。
 

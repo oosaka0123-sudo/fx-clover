@@ -36,3 +36,5 @@ jobs:
           PY
       - name: Test metadata-only FX-Clover catalog parser
         run: python -m unittest -v test_sync_fxclover_catalog.py
+      - name: Validate READY manual-field evidence registry
+        run: python validate_ready_field_registry.py
