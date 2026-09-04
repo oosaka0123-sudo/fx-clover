@@ -15,7 +15,7 @@ int OnInit()
 {
    EventSetTimer(MathMax(10, TimerSeconds));
    ExportAllClosedBars();
-   return(INIT_SUCCEED);
+   return(INIT_SUCCEEDED);
 }
 
 void OnDeinit(const int reason) { EventKillTimer(); }
@@ -71,3 +71,4 @@ void ExportAllClosedBars()
    ExportTimeframe(PERIOD_D1,  "FX_Clover_GBPJPY_D1_closed.csv",  D1Bars,  "D1");
    last_m5_closed_bar = iTime(Symbol(), PERIOD_M5, 1);
 }
+
