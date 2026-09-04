@@ -22,9 +22,20 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 1. `README.md`
 2. `AGENTS.md`
 3. `docs/FX_Clover_正式引き継ぎ圧縮完全版_v1_23.md`
-4. `FX_Clover_v1_23_README.md`
-5. `release_manifest_v1_23.json`
-6. current code / Open Issues / Open PRs / Actions
+4. `docs/FX_Clover_公式一次資料台帳.md`
+5. `knowledge/official_sources.json`
+6. `FX_Clover_v1_23_README.md`
+7. `release_manifest_v1_23.json`
+8. current code / Open Issues / Open PRs / Actions
+
+## Official Source Knowledge Base
+
+ポコニカルの公式根拠は、会話履歴やAIの記憶だけに置かず、Repository内で出典付きに管理します。
+
+- 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
+- AI / プログラム向け機械可読台帳: `knowledge/official_sources.json`
+
+公式で確認できた内容と、システム都合の設計仕様を分離します。たとえばM5は公式教材で実際に使用されていますが、公式教材にはM1を使う例もあるため、現行システムの「M5必須」は引き続き設計仕様として扱います。
 
 ## Current State
 
