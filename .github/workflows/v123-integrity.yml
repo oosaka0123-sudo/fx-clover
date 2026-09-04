@@ -1,0 +1,36 @@
+name: v1.23 integrity
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify release-critical SHA-256 files
+        run: |
+          python - <<'PY'
+          from verify_distribution_v1_23 import verify
+          result = verify(import_modules=False)
+          for row in result["critical_files"]:
+              print(row["file"], row["hash_matches"], row["sha256"])
+          if result["status"] != "PASS":
+              raise SystemExit(1)
+          PY
+      - name: Safety scan MQL4 order functions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path("FX_Clover_MTF_Exporter_v1_23.mq4").read_text(encoding="utf-8")
+          forbidden = ["OrderSend", "OrderClose", "OrderModify", "OrderDelete", "WebRequest"]
+          found = [token for token in forbidden if token in text]
+          print("forbidden_tokens_found=", found)
+          if found:
+              raise SystemExit(1)
+          PY

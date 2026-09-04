@@ -60,6 +60,7 @@ def run(m5_csv: Path, recent_limit: int = 30) -> dict:
     notification.to_csv(NOTIFICATION_PATH, index=False)
     events.to_csv(EVALUATION_PATH, index=False)
     fresh.to_csv(ALERT_PATH, index=False)
+    # Local durable CSV is the accepted delivery target. Windows display has its own retry state.
     save_sent(SENT_PATH, pending_sent)
     result = {
         "schema_version": "1.23", "status": "COMPLETED",
@@ -72,3 +73,4 @@ def run(m5_csv: Path, recent_limit: int = 30) -> dict:
     }
     STATE_PATH.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     return result
+

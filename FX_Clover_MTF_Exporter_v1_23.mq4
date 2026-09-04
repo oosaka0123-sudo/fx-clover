@@ -71,3 +71,4 @@ void ExportAllClosedBars()
    ExportTimeframe(PERIOD_D1,  "FX_Clover_GBPJPY_D1_closed.csv",  D1Bars,  "D1");
    last_m5_closed_bar = iTime(Symbol(), PERIOD_M5, 1);
 }
+

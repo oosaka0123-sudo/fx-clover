@@ -40,3 +40,4 @@ if __name__ == "__main__":
         with (ROOT / "live_cycle_errors_v1_23.log").open("a", encoding="utf-8") as log:
             log.write(traceback.format_exc() + "\n")
         raise
+
