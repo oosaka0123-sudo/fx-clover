@@ -23,19 +23,27 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 2. `AGENTS.md`
 3. `docs/FX_Clover_正式引き継ぎ圧縮完全版_v1_23.md`
 4. `docs/FX_Clover_公式一次資料台帳.md`
-5. `knowledge/official_sources.json`
-6. `FX_Clover_v1_23_README.md`
-7. `release_manifest_v1_23.json`
-8. current code / Open Issues / Open PRs / Actions
+5. `docs/FX_Clover_AI学習カリキュラム.md`
+6. `knowledge/official_sources.json`
+7. `knowledge/poconical_curriculum.json`
+8. `knowledge/dma25x5_official_sources.json`
+9. `FX_Clover_v1_23_README.md`
+10. `release_manifest_v1_23.json`
+11. current code / Open Issues / Open PRs / Actions
 
 ## Official Source Knowledge Base
 
 ポコニカルの公式根拠は、会話履歴やAIの記憶だけに置かず、Repository内で出典付きに管理します。
 
 - 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
-- AI / プログラム向け機械可読台帳: `knowledge/official_sources.json`
+- AI学習順・公式カリキュラム: `docs/FX_Clover_AI学習カリキュラム.md`
+- AI / プログラム向け公式資料台帳: `knowledge/official_sources.json`
+- マスター講座・問題集の機械可読索引: `knowledge/poconical_curriculum.json`
+- DMA25×5公式根拠: `knowledge/dma25x5_official_sources.json`
 
 公式で確認できた内容と、システム都合の設計仕様を分離します。たとえばM5は公式教材で実際に使用されていますが、公式教材にはM1を使う例もあるため、現行システムの「M5必須」は引き続き設計仕様として扱います。
+
+DMA25×5 / MA25-5は公式資料からポコニカルのコア要素として確認できます。ただし「DMA25×5の内側」の厳密な機械判定条件は未確認のため、推測で本番TRIGGER条件へ固定しません。
 
 ## Current State
 
