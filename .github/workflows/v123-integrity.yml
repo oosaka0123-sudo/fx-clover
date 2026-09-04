@@ -34,3 +34,5 @@ jobs:
           if found:
               raise SystemExit(1)
           PY
+      - name: Test metadata-only FX-Clover catalog parser
+        run: python -m unittest -v test_sync_fxclover_catalog.py
