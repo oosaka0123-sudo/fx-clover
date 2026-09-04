@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_P0_DMA_MA_TIMEFRAME_REVIEW",
+  "scope": "Official FX-Clover blog text for posts 8268, 7691, 6979, 7022, 7891 and 8090, plus official YouTube description metadata where explicitly noted. No unavailable video detail is inferred.",
+  "production_rule_change": false,
+  "rule_promotion_from_title_only": false,
+  "orders_enabled": false,
+  "sources": [
+    {
+      "post_id": 8268,
+      "url": "https://fx-clover.com/?p=8268",
+      "title": "FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】",
+      "published": "2022-02-15",
+      "evidence_level": "PRIMARY_OFFICIAL_BLOG_TOPIC_SCOPE_AND_OFFICIAL_VIDEO_DESCRIPTION_REVIEWED",
+      "official_video": "https://www.youtube.com/watch?v=_O9TimfVXZE",
+      "claims": [
+        {
+          "claim": "The official blog/video description explicitly teaches shifted DMA as a tool for Poconical entry and exit, including comparing the MA before and after displacement and explaining the author's DiNapoli-DMA interpretation.",
+          "status": "official_supported_topic_scope"
+        },
+        {
+          "claim": "The author explicitly attributes Poconical numerical settings and concepts to Joe DiNapoli influence and recommends returning to primary/original material rather than relying on second-hand summaries.",
+          "status": "official_supported_source_policy"
+        }
+      ],
+      "automation_impact": "Strongly supports DMA as an entry/exit context component, but the reviewed blog/video description does not expose the fine-grained candle/distance/bar-count machine rule. Keep exact DMA entry/exit mechanics unresolved unless video content or another primary text states them explicitly.",
+      "ready_field_impact": ["inside_dma25x5", "mid_range"],
+      "still_unresolved": [
+        "Exact machine meaning of inside DMA25x5",
+        "Exact DMA entry trigger from the 2022 video",
+        "Exact DMA exit rule from the 2022 video"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7691,
+      "url": "https://fx-clover.com/?p=7691",
+      "title": "FX MAは偉大上位が下位を支配する【ポコニカル勉強会㉜】",
+      "published": "2021-06-12",
+      "evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "claims": [
+        {
+          "claim": "The author says scenario construction should actively use moving averages and that meaningful MA overlap is part of what she watches.",
+          "status": "official_supported_environment_context"
+        },
+        {
+          "claim": "The author explicitly applies 200MA/600MA on higher timeframes and, in the H1 example, treats the 200-to-600 region as a possible upper/lower range framework.",
+          "status": "official_supported_as_pattern_context"
+        },
+        {
+          "claim": "The 200/600 concept is described as fractal so the same way of thinking can be applied on different scales/timeframes.",
+          "status": "official_supported_fractal_semantics"
+        }
+      ],
+      "automation_impact": "Supports higher-timeframe MA context and multi-timeframe/fractal interpretation. It does not establish a universal 200/600 distance threshold or make the 200/600 pattern mandatory in every Poconical setup.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": [
+        "Exact 200/600 pattern machine classifier",
+        "Exact MA overlap tolerance",
+        "Exact timeframe-selection rule for applying the fractal pattern"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 6979,
+      "url": "https://fx-clover.com/?p=6979",
+      "title": "ライン抜けても時間足を変えれば効いてるよ【ポコニカル】",
+      "published": "2020-06-18",
+      "evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "claims": [
+        {
+          "claim": "The worked examples explicitly perform H1 environment recognition before M5 execution and later inspect the same structure on M15.",
+          "status": "official_supported_multi_timeframe_workflow"
+        },
+        {
+          "claim": "A structure that looks like a distorted head-and-shoulders on M5 is described as a level-topped head-and-shoulders on M15, demonstrating that formation interpretation changes with timeframe while the context can remain usable.",
+          "status": "official_supported_multi_timeframe_semantics"
+        },
+        {
+          "claim": "Examples combine support/resistance, right-shoulder Fibonacci reaction, MA context and candle confirmation; one example waits for a bearish candle after rejecting entry on a doji-like candle.",
+          "status": "official_supported_as_examples"
+        },
+        {
+          "claim": "The author explicitly says learning to see MA triangular consolidation is important/needed for Poconical in this 2020 material.",
+          "status": "official_supported_historical_strong_wording"
+        },
+        {
+          "claim": "Example exits use FE levels and nearby lows, with exit aggressiveness adjusted after an earlier stop-out rather than presented as one universal fixed target.",
+          "status": "official_supported_exit_discretion_examples"
+        }
+      ],
+      "automation_impact": "Further rejects single-timeframe formation-only automation. Multi-timeframe context is official, but exact cross-timeframe equivalence, FR thresholds and exit allocation remain example/discretion based.",
+      "ready_field_impact": ["upper_environment_valid", "lower_right_shoulder", "mid_range", "ma_path_clear"],
+      "still_unresolved": [
+        "Machine equivalence between M5 and M15 formations",
+        "Universal FR38.2 requirement",
+        "Universal FE allocation or exit target"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7022,
+      "url": "https://fx-clover.com/?p=7022",
+      "title": "トレンドライン3-3でポコニカル",
+      "published": "2020-07-07",
+      "evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "claims": [
+        {
+          "claim": "The examples start from higher-timeframe environment, then use M5 execution with Fibonacci, MA, zones/lines, right-shoulder formation and explicit stop/target anchors.",
+          "status": "official_supported_confluence_workflow"
+        },
+        {
+          "claim": "For the trendline example, the author combines two trendline third-point concepts, reverse FR38.2, overlapping lines, MA triangular consolidation and a head-and-shoulders right-shoulder entry; the stop is the left shoulder.",
+          "status": "official_supported_as_example"
+        },
+        {
+          "claim": "The author explicitly defines the immediate 'room' concept in the example as the distance to a lower line and checks whether the planned exit point can fit inside that open space before entry.",
+          "status": "official_supported_room_semantics"
+        },
+        {
+          "claim": "If an MA obstacle lies before a nominal FE target, the example exits before that MA rather than mechanically holding for the farther FE level.",
+          "status": "official_supported_obstacle_ma_exit_semantics"
+        },
+        {
+          "claim": "The author says the illustrated lower-timeframe/range context is not a particularly good point and recommends using this type on a larger timeframe, again making environment quality part of the decision.",
+          "status": "official_supported_context_quality_semantics"
+        }
+      ],
+      "automation_impact": "This materially strengthens `has_room` and `ma_path_clear`: room means open price space toward the trade objective, and the intended target should fit before the next relevant obstacle. The source still supplies no universal pip/ATR minimum and no machine algorithm for choosing the relevant line/MA obstacle.",
+      "ready_field_impact": ["has_room", "ma_path_clear", "upper_environment_valid", "lower_right_shoulder"],
+      "still_unresolved": [
+        "Which line/MA is the canonical nearest obstacle in every setup",
+        "Minimum acceptable room in pips/ATR/percent",
+        "Exact third-point trendline detection tolerance"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7891,
+      "url": "https://fx-clover.com/?p=7891",
+      "title": "FX高勝率な200600MAパターン！チェックポイント追加【ポコニカル勉強会㊼】",
+      "published": "2021-09-26",
+      "evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "claims": [
+        {
+          "claim": "The article explicitly says upper-timeframe circumstances should be connected to lower-timeframe environment to narrow the entry point.",
+          "status": "official_supported_multi_timeframe_workflow"
+        },
+        {
+          "claim": "The 200/600 discussion emphasizes MA ordering/Granville, stable market conditions and the timing at which the pattern develops as judgment inputs.",
+          "status": "official_supported_pattern_context"
+        },
+        {
+          "claim": "The author proposes ranking trade opportunities using a multi-factor score, listing zones, neck/line structures, Fibonacci, Granville, time of day, 3-3 presence/absence, MA support/resistance, stretched-range context and other factors.",
+          "status": "official_supported_research_scoring_concept"
+        },
+        {
+          "claim": "The article deliberately leaves each score and total threshold as placeholders and tells the reader to derive importance from their own historical data.",
+          "status": "official_supported_user_calibration_policy"
+        }
+      ],
+      "automation_impact": "This is strong primary support for a future calibrated evidence-scoring layer, but it explicitly does NOT provide canonical weights or a universal minimum score. Any scoring model must remain research/user-data calibrated until validated; do not invent weights from the article.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room", "mid_range", "lower_right_shoulder"],
+      "still_unresolved": [
+        "Official numeric weight for each factor",
+        "Official total score threshold",
+        "Exact 200/600 pattern classifier"
+      ],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 8090,
+      "url": "https://fx-clover.com/?p=8090",
+      "title": "FX 1時間のMAとレートの位置関係でロジックを選ぶ【ポコニカル勉強会58】",
+      "published": "2021-12-13",
+      "evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "claims": [
+        {
+          "claim": "The author explicitly says the relationship between H1 moving averages and price determines which logic/setup to use.",
+          "status": "official_supported_setup_selection_semantics"
+        },
+        {
+          "claim": "MA sandwich / dirty MA ordering is described as a no-touch or low-value context until direction appears, while examples also note when all MAs are above price and therefore not obstructing the short path.",
+          "status": "official_supported_ma_obstacle_semantics"
+        },
+        {
+          "claim": "If the expected 200/600 pattern does not appear, the article says that pattern cannot be traded; another recognized pattern may be considered, and simply skipping is explicitly acceptable.",
+          "status": "official_supported_setup_selection_and_skip_policy"
+        },
+        {
+          "claim": "An example combines FR, 200MA, zone and a prior W-top neck as a resistance cluster, then changes the expected target/logic based on the MA-price context.",
+          "status": "official_supported_confluence_example"
+        },
+        {
+          "claim": "In one short example the author says the trade should be exited no later than a confirmed upward break of DMA3-3; this is an example-specific exit cap, not stated as a universal rule for every Poconical trade.",
+          "status": "official_supported_exit_option_example"
+        }
+      ],
+      "automation_impact": "Strongly supports `ma_path_clear` and environment-dependent logic selection. It also supports explicit SKIP when the expected pattern is absent. Exact MA-sand distance, obstacle tolerance and setup decision tree remain non-numeric/discretionary.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": [
+        "Exact MA-sand classifier/tolerance",
+        "Exact logic-selection decision tree",
+        "Universal status of DMA3-3 exit versus example-specific use"
+      ],
+      "machine_safe_new_numeric_rule": false
+    }
+  ],
+  "supplemental_official_video_metadata": [
+    {
+      "url": "https://www.youtube.com/watch?v=vXF21vwxers",
+      "published": "2022-06-17",
+      "title": "FXずらした移動平均線活用術DMA3×3【まとめ】",
+      "review_scope": "official video description only",
+      "claims": [
+        "DMA3-3 is described as supporting/wrapping a trend",
+        "DMA3-3 is described as helping indicate entry timing",
+        "DMA3-3 is described as signaling a corrective phase and return to trend"
+      ],
+      "automation_impact": "Reinforces the semantic role of DMA3-3 but does not override the separate 2021 official supplement stating that 3-3 can be omitted/preference-based. Keep mandatory-vs-optional chronology explicit."
+    }
+  ],
+  "cross_source_conclusions": {
+    "has_room_semantics_strengthened": "Check open price space to the next relevant line/obstacle and whether the intended target fits inside that space.",
+    "ma_path_clear_semantics_strengthened": "MA support/resistance and MA-sand/dirty ordering can obstruct or downgrade a setup; exits may be taken before an MA obstacle.",
+    "multi_timeframe_interpretation_is_core": true,
+    "h1_ma_price_relationship_can_select_setup": true,
+    "skip_is_officially_acceptable_when_expected_pattern_absent": true,
+    "multi_factor_scoring_is_officially_suggested_but_weights_are_user_calibrated": true,
+    "dma3x3_semantic_role_is_officially_supported": true,
+    "dma3x3_universally_mandatory": false
+  },
+  "production_policy": "No new universal numeric READY/TRIGGER threshold is justified. The strongest new production-facing semantic clarification is for `has_room` and `ma_path_clear`, but both still require manual/research classification until obstacle selection and minimum-room tolerance are explicitly validated."
+}
