@@ -59,6 +59,8 @@ def evaluate_manual_queue(queue: pd.DataFrame) -> pd.DataFrame:
     stop_ok = pd.to_numeric(out["stop_anchor_price"], errors="coerce").notna()
     out["state"] = np.where(ready, "READY", "WATCH")
     out["notification_event"] = np.where(ready & stop_ok, "READY_FOR_TRIGGER_REVIEW", "WATCH_REVIEW_REQUIRED")
+    # A trigger is intentionally not produced here: current-bar confirmation
+    # must be re-evaluated against fresh data after READY review.
     return out
 
 
