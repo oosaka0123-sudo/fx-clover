@@ -25,19 +25,23 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 4. `docs/FX_Clover_公式一次資料台帳.md`
 5. `docs/FX_Clover_AI学習カリキュラム.md`
 6. `docs/FX_Clover_全記事カタログ同期.md`
-7. `docs/FX_Clover_READY項目根拠マップ.md`
-8. `knowledge/official_sources.json`
-9. `knowledge/poconical_curriculum.json`
-10. `knowledge/dma25x5_official_sources.json`
-11. `knowledge/right_shoulder_official_sources.json`
-12. `knowledge/ready_manual_field_registry.json`
-13. `knowledge/poconical_post_catalog.json`
-14. `sync_fxclover_catalog.py`
-15. `validate_poconical_catalog.py`
-16. `validate_ready_field_registry.py`
-17. `FX_Clover_v1_23_README.md`
-18. `release_manifest_v1_23.json`
-19. current code / Open Issues / Open PRs / Actions
+7. `docs/FX_Clover_AIレビュー優先キュー.md`
+8. `docs/FX_Clover_READY項目根拠マップ.md`
+9. `knowledge/official_sources.json`
+10. `knowledge/poconical_curriculum.json`
+11. `knowledge/dma25x5_official_sources.json`
+12. `knowledge/right_shoulder_official_sources.json`
+13. `knowledge/ready_manual_field_registry.json`
+14. `knowledge/poconical_post_catalog.json`
+15. `knowledge/poconical_review_queue.json`
+16. `sync_fxclover_catalog.py`
+17. `build_poconical_review_queue.py`
+18. `validate_poconical_catalog.py`
+19. `validate_poconical_review_queue.py`
+20. `validate_ready_field_registry.py`
+21. `FX_Clover_v1_23_README.md`
+22. `release_manifest_v1_23.json`
+23. current code / Open Issues / Open PRs / Actions
 
 ## Official Source Knowledge Base
 
@@ -46,6 +50,7 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 - 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
 - AI学習順・公式カリキュラム: `docs/FX_Clover_AI学習カリキュラム.md`
 - 全記事メタデータ同期手順: `docs/FX_Clover_全記事カタログ同期.md`
+- 171記事のAIレビュー順: `docs/FX_Clover_AIレビュー優先キュー.md`
 - READY手動6項目の根拠マップ: `docs/FX_Clover_READY項目根拠マップ.md`
 - AI / プログラム向け公式資料台帳: `knowledge/official_sources.json`
 - マスター講座・問題集の機械可読索引: `knowledge/poconical_curriculum.json`
@@ -53,14 +58,17 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 - 右肩・入れ子フォーメーション公式根拠: `knowledge/right_shoulder_official_sources.json`
 - READY手動フィールドの機械可読分類: `knowledge/ready_manual_field_registry.json`
 - 公式ポコニカルカテゴリ全記事カタログ: `knowledge/poconical_post_catalog.json`
-- 公式カテゴリ同期ツール: `sync_fxclover_catalog.py`
-- 全記事カタログValidator: `validate_poconical_catalog.py`
+- 優先レビューキュー: `knowledge/poconical_review_queue.json`
 
 2026-09-04の実同期では、ポコニカルトレード公式カテゴリから **18ページ / 171記事** のメタデータを取得済みです。カタログは記事本文をGitHubへ複製せず、記事ID・公式URL・タイトル・日付・取得元ページだけを保持します。最古の収録記事は基礎記事 `https://fx-clover.com/?p=6913`（2020-06-12）です。
 
 `.github/workflows/poconical-catalog-sync.yml` は毎週の定期同期と手動同期を提供し、実質的な記事メタデータ差分がある時だけautomation branch / PRへ更新を出します。`generated_at_utc` だけの変化では更新PRを作りません。
 
-カタログへ入った記事はすべて `OFFICIAL_BLOG_CATALOG_ENTRY_UNREVIEWED` / `rule_promotion_allowed: false` から開始します。記事が存在することと、その内容を本番READY/TRIGGER条件へ使えることは別です。一次資料レビュー・年代差確認・ルール分類を通過するまで自動昇格させません。
+171記事は `build_poconical_review_queue.py` で漏れなくレビュー順へ変換します。初回生成時は、根拠抽出済み14件、公式カリキュラム掲載だが詳細抽出未完7件、未レビュー150件。優先度は P0=21 / P1=39 / P2=21 / P3=76 / DONE=14 です。
+
+レビュー優先順位は **研究上の読む順番** であり、売買ルールの重要度・確度ではありません。記事タイトルやカリキュラム一致だけで公式ルールへ昇格させません。`knowledge/poconical_review_queue.json` の全項目は `rule_promotion_allowed: false` を維持します。
+
+`validate_poconical_review_queue.py` は、公式171記事カタログとレビューキューが完全一致し、欠落・重複・外部記事・本文保存・ルール自動昇格がないことをCIで確認します。CIではキューを再生成し、コミット済みJSONとの一致も検証します。
 
 `validate_ready_field_registry.py` は、v1.23の `watch_monitor_v1_4.py` にあるREADY手動6項目と根拠レジストリが完全一致していることをCIで確認します。公式概念の根拠があっても、数値定義が未確認の項目は引き続き手動入力のままです。
 
@@ -77,6 +85,7 @@ DMA25×5 / MA25-5は公式資料からポコニカルのコア要素として確
 - 配布検証：PASS
 - 公式ポコニカルカテゴリ全記事カタログ：18ページ / 171記事を取得・検証済み
 - 全記事カタログ自動更新Workflow：実動確認済み
+- 171記事のAIレビュー優先キュー：全件カバー・検証済み
 - 注文実行コード：なし
 - 次の実機工程：Surface上でv1.23 MTFエクスポーターをMetaEditorコンパイルし、D1/H4/H1/M15/M5の5CSV取得を確認して5分タスクへ切替
 
