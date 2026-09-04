@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "classification": "V1_23_READY_MANUAL_FIELD_EVIDENCE_REGISTRY",
+  "runtime_source": "watch_monitor_v1_4.py",
+  "runtime_list_name": "MANUAL_COLUMNS",
+  "runtime_behavior": "All listed fields must be explicitly TRUE before READY in v1.23.",
+  "governance_policy": "A field may represent an official concept without having an official machine threshold. Field labels must not be interpreted as proof that a numeric or geometric definition is official.",
+  "orders_enabled": false,
+  "fields": {
+    "mid_range": {
+      "display_name_ja": "中段レンジ",
+      "classification": "OFFICIAL_CONCEPT_SUPPORTED_MANUAL_MACHINE_BOUNDARY_UNRESOLVED",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "Poconical targets the initial move of a middle-range formation after the corrective phase rather than the initial reversal move.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=7907",
+        "https://fx-clover.com/?p=7924"
+      ],
+      "unresolved": [
+        "machine-detectable start bar",
+        "machine-detectable end bar",
+        "minimum/maximum bar count",
+        "range-width threshold",
+        "universal MA-distance threshold"
+      ]
+    },
+    "lower_right_shoulder": {
+      "display_name_ja": "右肩が低い",
+      "classification": "LEGACY_DESIGN_REVIEW_LABEL_OFFICIAL_RIGHT_SHOULDER_CONCEPT_NUMERIC_TOLERANCE_UNRESOLVED",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "Official material strongly supports entering around a W-top/head-and-shoulders right-shoulder area and nested formations. The v1.23 field name 'lower_right_shoulder' is a project review label, not proof of an official universal lower-shoulder numeric threshold.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=6913",
+        "https://fx-clover.com/?p=7195",
+        "https://fx-clover.com/?p=7034",
+        "https://fx-clover.com/?p=7043",
+        "https://fx-clover.com/?p=8075",
+        "https://fx-clover.com/?p=8162"
+      ],
+      "unresolved": [
+        "exact shoulder-price comparison rule",
+        "maximum price difference between shoulders",
+        "maximum left/right shoulder duration difference",
+        "universal requirement that the right shoulder must be strictly lower"
+      ]
+    },
+    "inside_dma25x5": {
+      "display_name_ja": "DMA25x5内側",
+      "classification": "OFFICIAL_CORE_COMPONENT_RELATIONSHIP_LABEL_MACHINE_DEFINITION_UNRESOLVED",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "MA25-5/DMA25x5 is an official Poconical component. No primary machine-safe definition has been found for the v1.23 review phrase 'inside DMA25x5'.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=6913",
+        "https://fx-clover.com/?p=9611"
+      ],
+      "unresolved": [
+        "whether inside means candle body, wick, close, open, or all rates",
+        "distance tolerance",
+        "required bar count",
+        "universal AND/OR relationship with formation/Fibonacci evidence"
+      ]
+    },
+    "ma_path_clear": {
+      "display_name_ja": "障害MAなし",
+      "classification": "OFFICIAL_OBSTACLE_MA_CONCEPT_MANUAL_CLEARANCE_THRESHOLD_UNRESOLVED",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "Official material treats MA-sand / obstructing MA context as relevant to whether an entry has attractive room. The exact clearance threshold is not officialized as a machine number.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=8283",
+        "https://fx-clover.com/?p=9217",
+        "https://fx-clover.com/?p=9734"
+      ],
+      "unresolved": [
+        "which MA set is universally blocking in every setup",
+        "minimum price-to-MA distance",
+        "ATR/pips normalization threshold"
+      ]
+    },
+    "has_room": {
+      "display_name_ja": "下方向の伸びしろ",
+      "classification": "OFFICIAL_ROOM_TO_TARGET_CONCEPT_MANUAL_NUMERIC_THRESHOLD_UNRESOLVED",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "Official material explicitly values room in the trade direction in addition to MA angle/context. No universal pips/ATR threshold is currently grounded.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=9217",
+        "https://fx-clover.com/?p=9734"
+      ],
+      "unresolved": [
+        "minimum pips of room",
+        "minimum ATR multiple",
+        "target/obstacle selection priority"
+      ]
+    },
+    "upper_environment_valid": {
+      "display_name_ja": "上位環境有効",
+      "classification": "OFFICIAL_ENVIRONMENT_REQUIREMENT_MANUAL_FINAL_VALIDATION_WITH_RESEARCH_PROXY_PRESENT",
+      "input_mode_v1_23": "MANUAL_REQUIRED",
+      "production_auto_allowed": false,
+      "official_concept_supported": true,
+      "safe_interpretation": "Higher-timeframe environment recognition is an official prerequisite. The existing H1 WATCH automation is a research proxy and must not be treated as the official environment rule itself.",
+      "official_evidence": [
+        "https://fx-clover.com/?p=6913",
+        "https://fx-clover.com/?p=6940",
+        "https://fx-clover.com/?p=7086",
+        "https://fx-clover.com/?p=7529"
+      ],
+      "unresolved": [
+        "universal exact AND/OR condition set across D1/H4/H1",
+        "official validity duration",
+        "official automatic invalidation rule",
+        "mapping from the current H1 research proxy to complete official environment recognition"
+      ]
+    }
+  }
+}
