@@ -344,9 +344,9 @@ def manual_review_template(symbol: str, candidate_times: Iterable) -> pd.DataFra
         "fe_target_2": "",
         "fe_target_3": "",
         "fe_fraction_1": "",
-      "fe_fraction_2": "",
-      "fe_fraction_3": "",
-      "review_status": "UNREVIEWED",
+        "fe_fraction_2": "",
+        "fe_fraction_3": "",
+        "review_status": "UNREVIEWED",
         "notes": "",
     })
 
