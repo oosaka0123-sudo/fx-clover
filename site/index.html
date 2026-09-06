@@ -81,6 +81,7 @@
         <i>→</i>
         <article class="accent"><span>04</span><h3>TRIGGER</h3><p>通知候補。注文ではない。</p></article>
       </div>
+      <p class="note">※ 公開ページでは通知までの流れを簡略表示しています。内部設計ではTRIGGER後も実注文ではなく、シミュレーション状態を扱います。</p>
       <div class="classification-grid">
         <article><b class="badge official">公式ルール</b><p>ポコ本人の公式ブログ・公式YouTubeで確認できた内容。</p></article>
         <article><b class="badge design">設計仕様</b><p>監視システム化のためにプロジェクト側で定義した内容。</p></article>
@@ -93,7 +94,7 @@
       <div class="section-head"><p>03 / EVIDENCE</p><h2>「動いた」ではなく、証拠で残す</h2></div>
       <div class="evidence-grid">
         <article><div class="icon">✓</div><h3>v1.22 Continuous Run</h3><p>MT4データ更新・監視・ローカル通知を約4時間連続で確認。</p><strong>PASS</strong></article>
-        <article><div class="icon">✓</div><h3>v1.23 Automated Tests</h3><p>unittest 70件 + engine checks 7件の基準検証。</p><strong>77 PASS</strong></article>
+        <article><div class="icon">✓</div><h3>v1.23 Automated Tests</h3><p>unittest 70件がPASS。あわせてengine check scriptも正常完了。</p><strong>PASS</strong></article>
         <article><div class="icon">✓</div><h3>Distribution Integrity</h3><p>release-critical SHA-256と安全スキャンをGitHub Actionsで検証。</p><strong>PASS</strong></article>
         <article><div class="icon pending">…</div><h3>Windows / MT4</h3><p>SurfaceでのMQL4コンパイルと5種類時間足CSV取得は実機Evidence待ち。</p><strong class="pending-text">PENDING</strong></article>
       </div>
