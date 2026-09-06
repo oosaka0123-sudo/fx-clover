@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FX-Clover / ポコニカル監視・研究・通知システムの公開ステータスダッシュボード。自動売買は行いません。">
+  <meta name="theme-color" content="#07110d">
+  <title>FX-Clover | Public Dashboard</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="FX-Clover ホーム">
+      <span class="brand-mark">FX</span>
+      <span><strong>FX-Clover</strong><small>PUBLIC DASHBOARD</small></span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#status">STATUS</a>
+      <a href="#flow">FLOW</a>
+      <a href="#evidence">EVIDENCE</a>
+      <a href="#safety">SAFETY</a>
+      <a href="#sources">SOURCES</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">POCONICAL MONITORING / RESEARCH / NOTIFICATION</p>
+          <h1>相場を読む仕組みを、<br><span>検証可能なシステム</span>へ。</h1>
+          <p class="lead">FX-Cloverポコ本人の公式資料を根拠に、ポコニカルを監視・研究・通知へ変換するプロジェクト。現在はGBPJPYを対象に、5種類の時間足を監視します。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#status">現在の状態を見る</a>
+            <a class="button ghost" href="https://github.com/oosaka0123-sudo/fx-clover" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
+          </div>
+          <div class="safety-line"><span class="pulse" aria-hidden="true"></span><strong>NO AUTO TRADING</strong> — 注文実行コードなし / orders_enabled: false</div>
+        </div>
+        <div class="terminal" aria-label="FX-Clover システム概要">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>fx-clover / v1.23</b></div>
+          <pre><code><span class="muted">strategy</span>     POCONICAL_ONLY
+<span class="muted">symbol</span>       GBPJPY
+<span class="muted">timeframes</span>   D1 H4 H1 M15 <strong>M5</strong>
+<span class="muted">cycle</span>        5 min
+<span class="muted">orders</span>       <em>DISABLED</em>
+<span class="muted">mode</span>         MONITOR + REVIEW + NOTIFY
+
+<span class="ok">●</span> evidence-first
+<span class="ok">●</span> closed candles only
+<span class="ok">●</span> no order execution</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="status">
+      <div class="section-head"><p>01 / CURRENT STATUS</p><h2>いま、どこまでできているか</h2></div>
+      <div class="stats" id="stats" aria-live="polite">
+        <article class="stat"><small>BASELINE</small><strong data-key="baseline">v1.23</strong><span>Current system baseline</span></article>
+        <article class="stat"><small>OFFICIAL CATALOG</small><strong data-key="catalogArticles">171</strong><span>公式カテゴリ記事</span></article>
+        <article class="stat"><small>EVIDENCE REVIEWED</small><strong data-key="evidenceReviewed">21</strong><span>ブログ根拠抽出済み</span></article>
+        <article class="stat"><small>ORDER EXECUTION</small><strong class="safe">OFF</strong><span>実注文機能なし</span></article>
+      </div>
+      <div class="status-panel">
+        <div><span>Monitoring target</span><strong>GBPJPY</strong></div>
+        <div><span>Multi timeframe</span><strong>D1 / H4 / H1 / M15 / M5</strong></div>
+        <div><span>Execution timeframe</span><strong>M5</strong></div>
+        <div><span>Local monitor interval</span><strong>5 MIN</strong></div>
+      </div>
+      <p class="note">※ このGitHub Pagesは公開用の読み取り専用ダッシュボードです。MT4 / Pythonの監視処理そのものはWindows実機側で動作し、Pages上では実行しません。</p>
+    </section>
+
+    <section class="section" id="flow">
+      <div class="section-head"><p>02 / STATE FLOW</p><h2>通知までの流れ</h2></div>
+      <div class="flow">
+        <article><span>01</span><h3>NO_TRADE</h3><p>条件未成立。待機。</p></article>
+        <i>→</i>
+        <article><span>02</span><h3>WATCH</h3><p>候補環境を監視。</p></article>
+        <i>→</i>
+        <article><span>03</span><h3>READY</h3><p>手動確認を含め準備。</p></article>
+        <i>→</i>
+        <article class="accent"><span>04</span><h3>TRIGGER</h3><p>通知候補。注文ではない。</p></article>
+      </div>
+      <div class="classification-grid">
+        <article><b class="badge official">公式ルール</b><p>ポコ本人の公式ブログ・公式YouTubeで確認できた内容。</p></article>
+        <article><b class="badge design">設計仕様</b><p>監視システム化のためにプロジェクト側で定義した内容。</p></article>
+        <article><b class="badge research">研究仕様</b><p>検証目的で隔離し、本番公式ルールへ自動昇格させない条件。</p></article>
+        <article><b class="badge manual">手動入力</b><p>公式数値基準が未確認で、人間の裁量確認を残している項目。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="evidence">
+      <div class="section-head"><p>03 / EVIDENCE</p><h2>「動いた」ではなく、証拠で残す</h2></div>
+      <div class="evidence-grid">
+        <article><div class="icon">✓</div><h3>v1.22 Continuous Run</h3><p>MT4データ更新・監視・ローカル通知を約4時間連続で確認。</p><strong>PASS</strong></article>
+        <article><div class="icon">✓</div><h3>v1.23 Automated Tests</h3><p>unittest 70件 + engine checks 7件の基準検証。</p><strong>77 PASS</strong></article>
+        <article><div class="icon">✓</div><h3>Distribution Integrity</h3><p>release-critical SHA-256と安全スキャンをGitHub Actionsで検証。</p><strong>PASS</strong></article>
+        <article><div class="icon pending">…</div><h3>Windows / MT4</h3><p>SurfaceでのMQL4コンパイルと5種類時間足CSV取得は実機Evidence待ち。</p><strong class="pending-text">PENDING</strong></article>
+      </div>
+    </section>
+
+    <section class="section" id="safety">
+      <div class="section-head"><p>04 / SAFETY BOUNDARY</p><h2>自動売買にはしない</h2></div>
+      <div class="safety-box">
+        <div><p class="eyebrow">HARD RULE</p><h3>TRIGGER = 通知候補</h3><p>売買注文・決済・変更を行うイベントではありません。実口座の注文関数を追加せず、<code>orders_enabled: false</code> を維持します。</p></div>
+        <ul>
+          <li>OrderSend / OrderClose / OrderModify / OrderDelete を実装しない</li>
+          <li>未来足を候補選択・判定へ使用しない</li>
+          <li>研究成績を公式勝率やライブ性能として表示しない</li>
+          <li>公式未確認の数値条件を推測で固定しない</li>
+          <li>秘密情報・口座情報・Webhookを公開しない</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="section-head"><p>05 / PRIMARY SOURCES</p><h2>根拠は公式資料へ戻れる形で</h2></div>
+      <div class="source-list">
+        <a href="https://fx-clover.com/?p=7496" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=7496</strong><i>↗</i></a>
+        <a href="https://fx-clover.com/?p=8616" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=8616</strong><i>↗</i></a>
+        <a href="https://fx-clover.com/?p=7924" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=7924</strong><i>↗</i></a>
+        <a href="https://github.com/oosaka0123-sudo/fx-clover" target="_blank" rel="noopener noreferrer"><span>SOURCE OF TRUTH</span><strong>GitHub Repository</strong><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div><strong>FX-Clover</strong><span>Evidence-first monitoring project</span></div><p>これは投資助言・自動売買サービスではありません。公開ページはプロジェクトの技術・検証状況を示すものです。</p><small id="updated">STATUS DATA LOADING…</small></footer>
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>
