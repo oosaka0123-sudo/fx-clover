@@ -1,0 +1,54 @@
+name: Public dashboard checks
+
+on:
+  pull_request:
+    paths:
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+      - '.github/workflows/site-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+      - '.github/workflows/site-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate public status and safety boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('site')
+          required = [root/'index.html', root/'assets/style.css', root/'assets/app.js', root/'status.json']
+          missing = [str(p) for p in required if not p.is_file()]
+          if missing:
+              raise SystemExit(f'Missing site files: {missing}')
+
+          status = json.loads((root/'status.json').read_text(encoding='utf-8'))
+          if status.get('ordersEnabled') is not False:
+              raise SystemExit('Public status must keep ordersEnabled=false')
+
+          combined = '\n'.join(p.read_text(encoding='utf-8', errors='ignore') for p in root.rglob('*') if p.is_file())
+          forbidden = ['OrderSend(', 'OrderClose(', 'OrderModify(', 'OrderDelete(', 'FX_CLOVER_WEBHOOK_URL=', 'api_key=', 'password=']
+          hits = [token for token in forbidden if token.lower() in combined.lower()]
+          if hits:
+              raise SystemExit(f'Forbidden public-site token(s): {hits}')
+
+          html = (root/'index.html').read_text(encoding='utf-8')
+          required_text = ['NO AUTO TRADING', 'orders_enabled: false', 'GitHub Pages']
+          absent = [text for text in required_text if text not in html]
+          if absent:
+              raise SystemExit(f'Missing public safety copy: {absent}')
+
+          print('Public dashboard validation: PASS')
+          PY
