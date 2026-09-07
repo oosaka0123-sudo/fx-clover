@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FX-Clover / ポコニカル監視ロジックの公開仕様。公式ルール・設計仕様・研究仕様・手動入力を分離して掲載。">
+  <meta name="theme-color" content="#07110d">
+  <title>FX-Clover | 売買ロジック仕様</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="FX-Clover ホーム">
+      <span class="brand-mark">FX</span>
+      <span><strong>FX-Clover</strong><small>LOGIC SPEC</small></span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <a href="./index.html#status">STATUS</a>
+      <a href="#core">LOGIC</a>
+      <a href="#trigger">TRIGGER</a>
+      <a href="#exit">EXIT</a>
+      <a href="#classification">CLASS</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">POCONICAL LOGIC / PUBLIC SPECIFICATION</p>
+          <h1>ポコニカルの売買ロジックを、<br><span>判定順に可視化</span>。</h1>
+          <p class="lead">GBPJPYのショート候補を、上位足環境 → 推進 → 戻し → 右肩 → DMAトリガーの順に監視します。TRIGGERは通知候補であり、実注文ではありません。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#core">ロジックを見る</a>
+            <a class="button ghost" href="./index.html">ダッシュボードへ戻る</a>
+          </div>
+          <div class="safety-line"><span class="pulse" aria-hidden="true"></span><strong>NO AUTO TRADING</strong> — orders_enabled: false</div>
+        </div>
+        <div class="terminal" aria-label="ロジック概要">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>poconical / logic</b></div>
+          <pre><code><span class="muted">symbol</span>       GBPJPY
+<span class="muted">direction</span>    SHORT ONLY
+<span class="muted">context</span>      D1 H4 H1 M15
+<span class="muted">execution</span>    M5 <em>[DESIGN]</em>
+
+ENVIRONMENT
+  → THRUST
+  → FIRST PULLBACK
+  → RIGHT SHOULDER
+  → DMA TRIGGER
+  → NOTIFY</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="core">
+      <div class="section-head"><p>01 / CORE LOGIC</p><h2>狙うのは「下降トレンド中の最初の戻り」</h2></div>
+      <div class="classification-grid">
+        <article><b class="badge official">公式ルール</b><h3>上位足下降</h3><p>上位足と下位足が下方向へ揃う環境を優先します。</p></article>
+        <article><b class="badge official">公式ルール</b><h3>推進後の戻し</h3><p>推進波のあと、最初の戻り売り候補を監視します。</p></article>
+        <article><b class="badge official">公式ルール</b><h3>右肩</h3><p>トップそのものではなく、Wトップ / H&amp;Sの右肩を狙います。</p></article>
+        <article><b class="badge design">設計仕様</b><h3>M5実行</h3><p>D1/H4/H1/M15/M5を取得し、M5を実行足として使います。</p></article>
+      </div>
+      <div class="flow">
+        <article><span>01</span><h3>NO_TRADE</h3><p>条件未成立。</p></article><i>→</i>
+        <article><span>02</span><h3>WATCH</h3><p>戻り候補を監視。</p></article><i>→</i>
+        <article><span>03</span><h3>READY</h3><p>右肩・MA・余地を確認。</p></article><i>→</i>
+        <article class="accent"><span>04</span><h3>TRIGGER</h3><p>通知候補。</p></article>
+      </div>
+      <p class="note">※ 内部設計ではTRIGGER後にSIMULATED_POSITIONを扱います。実口座へ注文は送りません。</p>
+    </section>
+
+    <section class="section" id="ready">
+      <div class="section-head"><p>02 / READY CHECK</p><h2>右肩ができたから、すぐ売るわけではない</h2></div>
+      <div class="evidence-grid">
+        <article><div class="icon">1</div><h3>中段レンジ</h3><p>候補位置を確認。厳密な数値境界は未確定。</p><strong>MANUAL</strong></article>
+        <article><div class="icon">2</div><h3>低い右肩</h3><p>戻り高値側の右肩形成を確認。数値閾値は未確定。</p><strong>MANUAL</strong></article>
+        <article><div class="icon">3</div><h3>DMA25×5</h3><p>公式要素として確認済み。厳密な「内側」判定は未確定。</p><strong>OFFICIAL / MANUAL</strong></article>
+        <article><div class="icon">4</div><h3>MAと下方向余地</h3><p>邪魔なMAやサポートが近すぎないかを確認。</p><strong>MANUAL</strong></article>
+      </div>
+    </section>
+
+    <section class="section" id="trigger">
+      <div class="section-head"><p>03 / ENTRY TRIGGER</p><h2>M5でDMA3×3を陰線実体が下抜けて確定</h2></div>
+      <div class="safety-box">
+        <div>
+          <p class="eyebrow">SHORT CANDIDATE</p>
+          <h3>READY → M5確定足 → 通知</h3>
+          <p>上位足下降・右肩候補・READY条件を再確認したうえで、陰線実体がDMA3×3を下抜けて確定した場合にTRIGGER通知候補とします。</p>
+        </div>
+        <ul>
+          <li>右肩形成エリアである</li>
+          <li>上位足下降環境が維持されている</li>
+          <li>READY条件を直前に再確認する</li>
+          <li>陰線実体でDMA3×3を下抜ける</li>
+          <li>未確定足ではなく、確定足のみ使う</li>
+        </ul>
+      </div>
+      <p class="note">※ DMA3×3は公式で使用確認済みですが、万能・常時必須ルールとしては固定していません。v1.23での利用はプロジェクト設計を含みます。</p>
+    </section>
+
+    <section class="section" id="exit">
+      <div class="section-head"><p>04 / STOP &amp; EXIT</p><h2>損切りと利確も、公式と設計を分離</h2></div>
+      <div class="classification-grid">
+        <article><b class="badge official">公式ルール</b><h3>Wトップ損切り</h3><p>左肩高値 + スプレッドを基準にします。</p></article>
+        <article><b class="badge official">公式ルール</b><h3>H&amp;S損切り</h3><p>中央トップ高値 + スプレッドを基準にします。</p></article>
+        <article><b class="badge official">公式ルール</b><h3>段階利確</h3><p>FE127 / 161.8 / 261系が候補。ただしアンカーと配分は未確定。</p></article>
+        <article><b class="badge design">設計仕様</b><h3>DMA EXIT</h3><p>陽線実体がDMA3×3を上抜けて確定したら残りを終了扱い。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="classification">
+      <div class="section-head"><p>05 / RULE CLASSIFICATION</p><h2>「公式」と「プロジェクト判断」を混ぜない</h2></div>
+      <div class="classification-grid">
+        <article><b class="badge official">公式ルール</b><p>FX-Cloverの公式ブログ・公式YouTubeで根拠確認済み。</p></article>
+        <article><b class="badge design">設計仕様</b><p>監視・通知システムへ落とし込むために定義したもの。</p></article>
+        <article><b class="badge research">研究仕様</b><p>検証中。公式ルールへ自動昇格させません。</p></article>
+        <article><b class="badge manual">手動入力</b><p>公式の数値条件が未確認のため、人間の確認を残す項目。</p></article>
+      </div>
+      <div class="source-list">
+        <a href="https://github.com/oosaka0123-sudo/fx-clover/blob/main/docs/FX_Clover_%E5%A3%B2%E8%B2%B7%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E4%BB%95%E6%A7%98.md" target="_blank" rel="noopener noreferrer"><span>SOURCE OF TRUTH</span><strong>売買ロジック仕様書をGitHubで確認</strong><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div><strong>FX-Clover</strong><span>Poconical logic specification</span></div><p>これは投資助言・自動売買サービスではありません。TRIGGERは通知候補であり、注文ではありません。</p></footer>
+</body>
+</html>
