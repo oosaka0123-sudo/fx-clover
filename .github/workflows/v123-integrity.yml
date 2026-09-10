@@ -13,6 +13,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Verify release-critical files disable EOL normalization
+        shell: bash
+        run: |
+          set -euo pipefail
+          critical=(
+            fx_clover_engine.py
+            trigger_review_v1_9.py
+            watch_monitor_v1_4.py
+            build_review_desk_v1_13.py
+            windows_local_notify_v1_17.py
+            live_cycle_v1_23.py
+            m5_monitor_v1_23.py
+            mt4_mtf_data_feed_v1_23.py
+            system_health_check_v1_23.py
+            FX_Clover_MTF_Exporter_v1_23.mq4
+          )
+          for file in "${critical[@]}"; do
+            value="$(git check-attr text -- "$file" | awk -F': ' '{print $3}')"
+            echo "$file text=$value"
+            test "$value" = "unset"
+          done
       - name: Verify release-critical SHA-256 files
         run: |
           python - <<'PY'

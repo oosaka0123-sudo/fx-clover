@@ -1,0 +1,12 @@
+# v1.23 release-critical files are verified by raw SHA-256.
+# Disable Git EOL normalization so core.autocrlf cannot change their bytes.
+fx_clover_engine.py -text
+trigger_review_v1_9.py -text
+watch_monitor_v1_4.py -text
+build_review_desk_v1_13.py -text
+windows_local_notify_v1_17.py -text
+live_cycle_v1_23.py -text
+m5_monitor_v1_23.py -text
+mt4_mtf_data_feed_v1_23.py -text
+system_health_check_v1_23.py -text
+FX_Clover_MTF_Exporter_v1_23.mq4 -text
