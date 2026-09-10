@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="FX-Clover / ポコニカル監視・研究・通知システムの公開ステータスダッシュボード。自動売買は行いません。">
+  <meta name="description" content="FX Entry Lab — GBPJPY Short Entry Research。右肩戻り売りロジックを監視・研究・通知する独立検証サイト。自動売買は行いません。">
   <meta name="theme-color" content="#07110d">
-  <title>FX-Clover | Public Dashboard</title>
+  <title>FX Entry Lab | GBPJPY Short Entry Research</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="FX-Clover ホーム">
+    <a class="brand" href="#top" aria-label="FX Entry Lab ホーム">
       <span class="brand-mark">FX</span>
-      <span><strong>FX-Clover</strong><small>PUBLIC DASHBOARD</small></span>
+      <span><strong>FX Entry Lab</strong><small>GBPJPY SHORT ENTRY RESEARCH</small></span>
     </a>
     <nav aria-label="メインナビゲーション">
       <a href="#status">STATUS</a>
@@ -29,19 +29,19 @@
     <section class="hero" id="top">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">POCONICAL MONITORING / RESEARCH / NOTIFICATION</p>
+          <p class="eyebrow">GBPJPY SHORT ENTRY RESEARCH</p>
           <h1>相場を読む仕組みを、<br><span>検証可能なシステム</span>へ。</h1>
-          <p class="lead">FX-Cloverポコ本人の公式資料を根拠に、ポコニカルを監視・研究・通知へ変換するプロジェクト。現在はGBPJPYを対象に、5種類の時間足を監視します。</p>
+          <p class="lead">GBPJPYのショート候補を、上位足下降 → 推進 → 最初の戻し → 右肩 → DMAトリガーの順に監視・研究・通知する独立検証プロジェクトです。5種類の時間足を扱い、TRIGGERは通知候補としてのみ扱います。</p>
           <div class="hero-actions">
             <a class="button primary" href="#status">現在の状態を見る</a>
-            <a class="button ghost" href="./trading-logic.html">売買ロジックを見る</a>
+            <a class="button ghost" href="./trading-logic.html">右肩戻り売りロジックを見る</a>
             <a class="button ghost" href="https://github.com/oosaka0123-sudo/fx-clover" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
           </div>
           <div class="safety-line"><span class="pulse" aria-hidden="true"></span><strong>NO AUTO TRADING</strong> — 注文実行コードなし / orders_enabled: false</div>
         </div>
-        <div class="terminal" aria-label="FX-Clover システム概要">
-          <div class="terminal-bar"><span></span><span></span><span></span><b>fx-clover / v1.23</b></div>
-          <pre><code><span class="muted">strategy</span>     POCONICAL_ONLY
+        <div class="terminal" aria-label="FX Entry Lab システム概要">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>fx-entry-lab / v1.23</b></div>
+          <pre><code><span class="muted">research</span>     RIGHT-SHOULDER SHORT
 <span class="muted">symbol</span>       GBPJPY
 <span class="muted">timeframes</span>   D1 H4 H1 M15 <strong>M5</strong>
 <span class="muted">cycle</span>        5 min
@@ -59,8 +59,8 @@
       <div class="section-head"><p>01 / CURRENT STATUS</p><h2>いま、どこまでできているか</h2></div>
       <div class="stats" id="stats" aria-live="polite">
         <article class="stat"><small>BASELINE</small><strong data-key="baseline">v1.23</strong><span>Current system baseline</span></article>
-        <article class="stat"><small>OFFICIAL CATALOG</small><strong data-key="catalogArticles">171</strong><span>公式カテゴリ記事</span></article>
-        <article class="stat"><small>EVIDENCE REVIEWED</small><strong data-key="evidenceReviewed">21</strong><span>ブログ根拠抽出済み</span></article>
+        <article class="stat"><small>OFFICIAL CATALOG</small><strong data-key="catalogArticles">171</strong><span>一次資料カタログ</span></article>
+        <article class="stat"><small>EVIDENCE REVIEWED</small><strong data-key="evidenceReviewed">21</strong><span>根拠抽出済み</span></article>
         <article class="stat"><small>ORDER EXECUTION</small><strong class="safe">OFF</strong><span>実注文機能なし</span></article>
       </div>
       <div class="status-panel">
@@ -85,13 +85,13 @@
       </div>
       <p class="note">※ 公開ページでは通知までの流れを簡略表示しています。内部設計ではTRIGGER後も実注文ではなく、シミュレーション状態を扱います。</p>
       <div class="classification-grid">
-        <article><b class="badge official">公式ルール</b><p>ポコ本人の公式ブログ・公式YouTubeで確認できた内容。</p></article>
+        <article><b class="badge official">公式ルール</b><p>一次資料で確認できた内容。</p></article>
         <article><b class="badge design">設計仕様</b><p>監視システム化のためにプロジェクト側で定義した内容。</p></article>
-        <article><b class="badge research">研究仕様</b><p>検証目的で隔離し、本番公式ルールへ自動昇格させない条件。</p></article>
+        <article><b class="badge research">研究仕様</b><p>検証目的で隔離し、公式ルールへ自動昇格させない条件。</p></article>
         <article><b class="badge manual">手動入力</b><p>公式数値基準が未確認で、人間の裁量確認を残している項目。</p></article>
       </div>
       <div class="source-list">
-        <a href="./trading-logic.html"><span>LOGIC SPEC</span><strong>ポコニカル売買ロジック詳細を見る</strong><i>→</i></a>
+        <a href="./trading-logic.html"><span>LOGIC SPEC</span><strong>右肩戻り売りロジック詳細を見る</strong><i>→</i></a>
       </div>
     </section>
 
@@ -120,17 +120,17 @@
     </section>
 
     <section class="section" id="sources">
-      <div class="section-head"><p>05 / PRIMARY SOURCES</p><h2>根拠は公式資料へ戻れる形で</h2></div>
+      <div class="section-head"><p>05 / PRIMARY SOURCES</p><h2>根拠は一次資料へ戻れる形で</h2></div>
       <div class="source-list">
-        <a href="https://fx-clover.com/?p=7496" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=7496</strong><i>↗</i></a>
-        <a href="https://fx-clover.com/?p=8616" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=8616</strong><i>↗</i></a>
-        <a href="https://fx-clover.com/?p=7924" target="_blank" rel="noopener noreferrer"><span>OFFICIAL ARTICLE</span><strong>FX-Clover / ?p=7924</strong><i>↗</i></a>
+        <a href="https://fx-clover.com/?p=7496" target="_blank" rel="noopener noreferrer"><span>PRIMARY SOURCE</span><strong>FX-Clover / ?p=7496</strong><i>↗</i></a>
+        <a href="https://fx-clover.com/?p=8616" target="_blank" rel="noopener noreferrer"><span>PRIMARY SOURCE</span><strong>FX-Clover / ?p=8616</strong><i>↗</i></a>
+        <a href="https://fx-clover.com/?p=7924" target="_blank" rel="noopener noreferrer"><span>PRIMARY SOURCE</span><strong>FX-Clover / ?p=7924</strong><i>↗</i></a>
         <a href="https://github.com/oosaka0123-sudo/fx-clover" target="_blank" rel="noopener noreferrer"><span>SOURCE OF TRUTH</span><strong>GitHub Repository</strong><i>↗</i></a>
       </div>
     </section>
   </main>
 
-  <footer><div><strong>FX-Clover</strong><span>Evidence-first monitoring project</span></div><p>これは投資助言・自動売買サービスではありません。公開ページはプロジェクトの技術・検証状況を示すものです。</p><small id="updated">STATUS DATA LOADING…</small></footer>
+  <footer><div><strong>FX Entry Lab</strong><span>GBPJPY Short Entry Research</span></div><p>本サイトは独立した研究・検証用の情報サイトです。特定の公式サービス、運営者、考案者との提携・公認・運営関係はありません。売買助言や自動売買を目的とするものではなく、実注文は行いません。</p><small id="updated">STATUS DATA LOADING…</small></footer>
   <script src="./assets/app.js" defer></script>
 </body>
 </html>
