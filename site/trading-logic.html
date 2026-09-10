@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="FX-Clover / ポコニカル監視ロジックの公開仕様。公式ルール・設計仕様・研究仕様・手動入力を分離して掲載。">
+  <meta name="description" content="FX Entry Labの右肩戻り売りロジック公開仕様。公式ルール・設計仕様・研究仕様・手動入力を分離して掲載。">
   <meta name="theme-color" content="#07110d">
-  <title>FX-Clover | 売買ロジック仕様</title>
+  <title>FX Entry Lab | 右肩戻り売りロジック</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
   <header class="topbar">
-    <a class="brand" href="./index.html" aria-label="FX-Clover ホーム">
+    <a class="brand" href="./index.html" aria-label="FX Entry Lab ホーム">
       <span class="brand-mark">FX</span>
-      <span><strong>FX-Clover</strong><small>LOGIC SPEC</small></span>
+      <span><strong>FX Entry Lab</strong><small>GBPJPY SHORT ENTRY RESEARCH</small></span>
     </a>
     <nav aria-label="メインナビゲーション">
       <a href="./index.html#status">STATUS</a>
@@ -28,9 +28,9 @@
     <section class="hero" id="top">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">POCONICAL LOGIC / PUBLIC SPECIFICATION</p>
-          <h1>ポコニカルの売買ロジックを、<br><span>判定順に可視化</span>。</h1>
-          <p class="lead">GBPJPYのショート候補を、上位足環境 → 推進 → 戻し → 右肩 → DMAトリガーの順に監視します。TRIGGERは通知候補であり、実注文ではありません。</p>
+          <p class="eyebrow">RIGHT-SHOULDER SHORT / PUBLIC SPECIFICATION</p>
+          <h1>右肩戻り売りロジックを、<br><span>判定順に可視化</span>。</h1>
+          <p class="lead">GBPJPYのショート候補を、上位足環境 → 推進 → 最初の戻し → 右肩 → DMAトリガーの順に監視します。TRIGGERは通知候補であり、実注文ではありません。</p>
           <div class="hero-actions">
             <a class="button primary" href="#core">ロジックを見る</a>
             <a class="button ghost" href="./index.html">ダッシュボードへ戻る</a>
@@ -38,7 +38,7 @@
           <div class="safety-line"><span class="pulse" aria-hidden="true"></span><strong>NO AUTO TRADING</strong> — orders_enabled: false</div>
         </div>
         <div class="terminal" aria-label="ロジック概要">
-          <div class="terminal-bar"><span></span><span></span><span></span><b>poconical / logic</b></div>
+          <div class="terminal-bar"><span></span><span></span><span></span><b>right-shoulder / logic</b></div>
           <pre><code><span class="muted">symbol</span>       GBPJPY
 <span class="muted">direction</span>    SHORT ONLY
 <span class="muted">context</span>      D1 H4 H1 M15
@@ -76,7 +76,7 @@ ENVIRONMENT
       <div class="evidence-grid">
         <article><div class="icon">1</div><h3>中段レンジ</h3><p>候補位置を確認。厳密な数値境界は未確定。</p><strong>MANUAL</strong></article>
         <article><div class="icon">2</div><h3>低い右肩</h3><p>戻り高値側の右肩形成を確認。数値閾値は未確定。</p><strong>MANUAL</strong></article>
-        <article><div class="icon">3</div><h3>DMA25×5</h3><p>公式要素として確認済み。厳密な「内側」判定は未確定。</p><strong>OFFICIAL / MANUAL</strong></article>
+        <article><div class="icon">3</div><h3>DMA25×5</h3><p>一次資料で使用確認済みの要素。厳密な「内側」判定は未確定。</p><strong>OFFICIAL / MANUAL</strong></article>
         <article><div class="icon">4</div><h3>MAと下方向余地</h3><p>邪魔なMAやサポートが近すぎないかを確認。</p><strong>MANUAL</strong></article>
       </div>
     </section>
@@ -97,7 +97,7 @@ ENVIRONMENT
           <li>未確定足ではなく、確定足のみ使う</li>
         </ul>
       </div>
-      <p class="note">※ DMA3×3は公式で使用確認済みですが、万能・常時必須ルールとしては固定していません。v1.23での利用はプロジェクト設計を含みます。</p>
+      <p class="note">※ DMA3×3は一次資料で使用確認済みの要素ですが、万能・常時必須ルールとしては固定していません。v1.23での利用はプロジェクト設計を含みます。</p>
     </section>
 
     <section class="section" id="exit">
@@ -113,7 +113,7 @@ ENVIRONMENT
     <section class="section" id="classification">
       <div class="section-head"><p>05 / RULE CLASSIFICATION</p><h2>「公式」と「プロジェクト判断」を混ぜない</h2></div>
       <div class="classification-grid">
-        <article><b class="badge official">公式ルール</b><p>FX-Cloverの公式ブログ・公式YouTubeで根拠確認済み。</p></article>
+        <article><b class="badge official">公式ルール</b><p>一次資料で根拠確認済みの内容。</p></article>
         <article><b class="badge design">設計仕様</b><p>監視・通知システムへ落とし込むために定義したもの。</p></article>
         <article><b class="badge research">研究仕様</b><p>検証中。公式ルールへ自動昇格させません。</p></article>
         <article><b class="badge manual">手動入力</b><p>公式の数値条件が未確認のため、人間の確認を残す項目。</p></article>
@@ -124,7 +124,7 @@ ENVIRONMENT
     </section>
   </main>
 
-  <footer><div><strong>FX-Clover</strong><span>Poconical logic specification</span></div><p>これは投資助言・自動売買サービスではありません。TRIGGERは通知候補であり、注文ではありません。</p></footer>
+  <footer><div><strong>FX Entry Lab</strong><span>GBPJPY Short Entry Research</span></div><p>本サイトは独立した研究・検証用の情報サイトです。特定の公式サービス、運営者、考案者との提携・公認・運営関係はありません。売買助言や自動売買を目的とするものではなく、実注文は行いません。</p></footer>
   <script src="./assets/app.js" defer></script>
 </body>
 </html>
