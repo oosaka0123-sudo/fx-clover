@@ -5,163 +5,26 @@
   "catalog_post_count": 171,
   "queue_post_count": 171,
   "status_counts": {
-    "EVIDENCE_REVIEWED": 21,
-    "UNREVIEWED": 150
+    "EVIDENCE_REVIEWED": 27,
+    "UNREVIEWED": 144
   },
   "priority_counts": {
-    "P0": 14,
+    "P0": 8,
     "P1": 39,
     "P2": 21,
     "P3": 76,
-    "DONE": 21
+    "DONE": 27
   },
   "evidence_files": [
     "official_sources.json",
     "dma25x5_official_sources.json",
     "right_shoulder_official_sources.json",
-    "p0_master_course_blog_review.json"
+    "p0_master_course_blog_review.json",
+    "p0_dma_ma_timeframe_blog_review.json"
   ],
   "curriculum_file": "poconical_curriculum.json",
   "orders_enabled": false,
   "items": [
-    {
-      "post_id": 8268,
-      "url": "https://fx-clover.com/?p=8268",
-      "title": "FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】",
-      "published_or_archive_date": "2022-02-15",
-      "source_archive_page": 9,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 15,
-      "matched_topics": [
-        "dma_ma",
-        "entry_initial_move",
-        "stop_exit",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:dma_ma (dma, ma, 移動平均)",
-        "title:entry_initial_move (エントリー)",
-        "title:stop_exit (決済)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 1
-    },
-    {
-      "post_id": 7691,
-      "url": "https://fx-clover.com/?p=7691",
-      "title": "FX MAは偉大上位が下位を支配する【ポコニカル勉強会㉜】",
-      "published_or_archive_date": "2021-06-12",
-      "source_archive_page": 13,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 13,
-      "matched_topics": [
-        "dma_ma",
-        "environment_timeframe",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:dma_ma (ma)",
-        "title:environment_timeframe (上位)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 2
-    },
-    {
-      "post_id": 6979,
-      "url": "https://fx-clover.com/?p=6979",
-      "title": "ライン抜けても時間足を変えれば効いてるよ【ポコニカル】",
-      "published_or_archive_date": "2020-06-18",
-      "source_archive_page": 17,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 9,
-      "matched_topics": [
-        "environment_timeframe",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:environment_timeframe (時間足)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 3
-    },
-    {
-      "post_id": 7022,
-      "url": "https://fx-clover.com/?p=7022",
-      "title": "トレンドライン3-3クロスでポコニカル",
-      "published_or_archive_date": "2020-07-07",
-      "source_archive_page": 17,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 9,
-      "matched_topics": [
-        "dma_ma",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:dma_ma (3-3)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 4
-    },
-    {
-      "post_id": 7891,
-      "url": "https://fx-clover.com/?p=7891",
-      "title": "FX高勝率な200600MAパターン！チェックポイント追加【ポコニカル勉強会㊼】",
-      "published_or_archive_date": "2021-09-26",
-      "source_archive_page": 11,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 9,
-      "matched_topics": [
-        "dma_ma",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:dma_ma (ma)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 5
-    },
-    {
-      "post_id": 8090,
-      "url": "https://fx-clover.com/?p=8090",
-      "title": "FX 1時間のMAとレートの位置関係でロジックを選ぶ【ポコニカル勉強会58】",
-      "published_or_archive_date": "2021-12-13",
-      "source_archive_page": 10,
-      "review_status": "UNREVIEWED",
-      "priority": "P0",
-      "priority_score": 9,
-      "matched_topics": [
-        "dma_ma",
-        "master_course"
-      ],
-      "priority_reasons": [
-        "title:dma_ma (ma)",
-        "title:master_course (ポコニカル)"
-      ],
-      "evidence_files": [],
-      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
-      "rule_promotion_allowed": false,
-      "review_order": 6
-    },
     {
       "post_id": 8343,
       "url": "https://fx-clover.com/?p=8343",
@@ -182,7 +45,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 7
+      "review_order": 1
     },
     {
       "post_id": 7913,
@@ -204,7 +67,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 8
+      "review_order": 2
     },
     {
       "post_id": 7936,
@@ -226,7 +89,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 9
+      "review_order": 3
     },
     {
       "post_id": 8108,
@@ -248,7 +111,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 10
+      "review_order": 4
     },
     {
       "post_id": 8520,
@@ -270,7 +133,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 11
+      "review_order": 5
     },
     {
       "post_id": 8984,
@@ -292,7 +155,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 12
+      "review_order": 6
     },
     {
       "post_id": 9033,
@@ -314,7 +177,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 13
+      "review_order": 7
     },
     {
       "post_id": 9131,
@@ -336,7 +199,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 14
+      "review_order": 8
     },
     {
       "post_id": 8832,
@@ -358,7 +221,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 15
+      "review_order": 9
     },
     {
       "post_id": 6953,
@@ -378,7 +241,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 16
+      "review_order": 10
     },
     {
       "post_id": 6959,
@@ -398,7 +261,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 17
+      "review_order": 11
     },
     {
       "post_id": 6967,
@@ -418,7 +281,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 18
+      "review_order": 12
     },
     {
       "post_id": 7070,
@@ -438,7 +301,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 19
+      "review_order": 13
     },
     {
       "post_id": 7263,
@@ -458,7 +321,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 20
+      "review_order": 14
     },
     {
       "post_id": 7305,
@@ -478,7 +341,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 21
+      "review_order": 15
     },
     {
       "post_id": 7352,
@@ -498,7 +361,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 22
+      "review_order": 16
     },
     {
       "post_id": 7463,
@@ -518,7 +381,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 23
+      "review_order": 17
     },
     {
       "post_id": 7548,
@@ -538,7 +401,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 24
+      "review_order": 18
     },
     {
       "post_id": 7565,
@@ -558,7 +421,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 25
+      "review_order": 19
     },
     {
       "post_id": 7590,
@@ -578,7 +441,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 26
+      "review_order": 20
     },
     {
       "post_id": 7607,
@@ -598,7 +461,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 27
+      "review_order": 21
     },
     {
       "post_id": 7624,
@@ -618,7 +481,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 28
+      "review_order": 22
     },
     {
       "post_id": 7642,
@@ -638,7 +501,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 29
+      "review_order": 23
     },
     {
       "post_id": 7657,
@@ -658,7 +521,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 30
+      "review_order": 24
     },
     {
       "post_id": 7668,
@@ -678,7 +541,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 31
+      "review_order": 25
     },
     {
       "post_id": 7671,
@@ -698,7 +561,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 32
+      "review_order": 26
     },
     {
       "post_id": 7694,
@@ -718,7 +581,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 33
+      "review_order": 27
     },
     {
       "post_id": 7709,
@@ -738,7 +601,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 34
+      "review_order": 28
     },
     {
       "post_id": 7720,
@@ -758,7 +621,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 35
+      "review_order": 29
     },
     {
       "post_id": 7741,
@@ -778,7 +641,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 36
+      "review_order": 30
     },
     {
       "post_id": 7762,
@@ -798,7 +661,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 37
+      "review_order": 31
     },
     {
       "post_id": 7798,
@@ -818,7 +681,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 38
+      "review_order": 32
     },
     {
       "post_id": 7945,
@@ -838,7 +701,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 39
+      "review_order": 33
     },
     {
       "post_id": 7958,
@@ -858,7 +721,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 40
+      "review_order": 34
     },
     {
       "post_id": 7974,
@@ -878,7 +741,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 41
+      "review_order": 35
     },
     {
       "post_id": 8019,
@@ -898,7 +761,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 42
+      "review_order": 36
     },
     {
       "post_id": 8032,
@@ -918,7 +781,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 43
+      "review_order": 37
     },
     {
       "post_id": 8147,
@@ -938,7 +801,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 44
+      "review_order": 38
     },
     {
       "post_id": 8487,
@@ -958,7 +821,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 45
+      "review_order": 39
     },
     {
       "post_id": 8767,
@@ -978,7 +841,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 46
+      "review_order": 40
     },
     {
       "post_id": 8772,
@@ -998,7 +861,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 47
+      "review_order": 41
     },
     {
       "post_id": 8780,
@@ -1018,7 +881,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 48
+      "review_order": 42
     },
     {
       "post_id": 8855,
@@ -1038,7 +901,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 49
+      "review_order": 43
     },
     {
       "post_id": 8990,
@@ -1058,7 +921,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 50
+      "review_order": 44
     },
     {
       "post_id": 9079,
@@ -1078,7 +941,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 51
+      "review_order": 45
     },
     {
       "post_id": 9189,
@@ -1098,7 +961,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 52
+      "review_order": 46
     },
     {
       "post_id": 9194,
@@ -1118,7 +981,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 53
+      "review_order": 47
     },
     {
       "post_id": 6993,
@@ -1138,7 +1001,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 54
+      "review_order": 48
     },
     {
       "post_id": 7287,
@@ -1158,7 +1021,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 55
+      "review_order": 49
     },
     {
       "post_id": 7496,
@@ -1178,7 +1041,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 56
+      "review_order": 50
     },
     {
       "post_id": 8181,
@@ -1198,7 +1061,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 57
+      "review_order": 51
     },
     {
       "post_id": 8240,
@@ -1218,7 +1081,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 58
+      "review_order": 52
     },
     {
       "post_id": 8252,
@@ -1238,7 +1101,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 59
+      "review_order": 53
     },
     {
       "post_id": 8257,
@@ -1258,7 +1121,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 60
+      "review_order": 54
     },
     {
       "post_id": 8352,
@@ -1278,7 +1141,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 61
+      "review_order": 55
     },
     {
       "post_id": 8366,
@@ -1298,7 +1161,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 62
+      "review_order": 56
     },
     {
       "post_id": 8591,
@@ -1318,7 +1181,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 63
+      "review_order": 57
     },
     {
       "post_id": 8594,
@@ -1338,7 +1201,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 64
+      "review_order": 58
     },
     {
       "post_id": 8616,
@@ -1358,7 +1221,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 65
+      "review_order": 59
     },
     {
       "post_id": 8714,
@@ -1378,7 +1241,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 66
+      "review_order": 60
     },
     {
       "post_id": 8739,
@@ -1398,7 +1261,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 67
+      "review_order": 61
     },
     {
       "post_id": 8752,
@@ -1418,7 +1281,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 68
+      "review_order": 62
     },
     {
       "post_id": 9163,
@@ -1438,7 +1301,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 69
+      "review_order": 63
     },
     {
       "post_id": 9325,
@@ -1458,7 +1321,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 70
+      "review_order": 64
     },
     {
       "post_id": 8898,
@@ -1478,7 +1341,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 71
+      "review_order": 65
     },
     {
       "post_id": 8920,
@@ -1498,7 +1361,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 72
+      "review_order": 66
     },
     {
       "post_id": 9151,
@@ -1518,7 +1381,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 73
+      "review_order": 67
     },
     {
       "post_id": 9286,
@@ -1538,7 +1401,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 74
+      "review_order": 68
     },
     {
       "post_id": 7005,
@@ -1556,7 +1419,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 75
+      "review_order": 69
     },
     {
       "post_id": 7122,
@@ -1574,7 +1437,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 76
+      "review_order": 70
     },
     {
       "post_id": 7231,
@@ -1592,7 +1455,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 77
+      "review_order": 71
     },
     {
       "post_id": 7255,
@@ -1610,7 +1473,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 78
+      "review_order": 72
     },
     {
       "post_id": 7322,
@@ -1628,7 +1491,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 79
+      "review_order": 73
     },
     {
       "post_id": 7329,
@@ -1646,7 +1509,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 80
+      "review_order": 74
     },
     {
       "post_id": 7410,
@@ -1664,7 +1527,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 81
+      "review_order": 75
     },
     {
       "post_id": 7420,
@@ -1682,7 +1545,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 82
+      "review_order": 76
     },
     {
       "post_id": 7438,
@@ -1700,7 +1563,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 83
+      "review_order": 77
     },
     {
       "post_id": 7446,
@@ -1718,7 +1581,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 84
+      "review_order": 78
     },
     {
       "post_id": 7592,
@@ -1736,7 +1599,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 85
+      "review_order": 79
     },
     {
       "post_id": 7596,
@@ -1754,7 +1617,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 86
+      "review_order": 80
     },
     {
       "post_id": 7601,
@@ -1772,7 +1635,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 87
+      "review_order": 81
     },
     {
       "post_id": 7700,
@@ -1790,7 +1653,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 88
+      "review_order": 82
     },
     {
       "post_id": 7748,
@@ -1808,7 +1671,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 89
+      "review_order": 83
     },
     {
       "post_id": 7785,
@@ -1826,7 +1689,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 90
+      "review_order": 84
     },
     {
       "post_id": 7825,
@@ -1844,7 +1707,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 91
+      "review_order": 85
     },
     {
       "post_id": 7835,
@@ -1862,7 +1725,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 92
+      "review_order": 86
     },
     {
       "post_id": 7874,
@@ -1880,7 +1743,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 93
+      "review_order": 87
     },
     {
       "post_id": 7990,
@@ -1898,7 +1761,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 94
+      "review_order": 88
     },
     {
       "post_id": 8045,
@@ -1916,7 +1779,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 95
+      "review_order": 89
     },
     {
       "post_id": 8199,
@@ -1934,7 +1797,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 96
+      "review_order": 90
     },
     {
       "post_id": 8226,
@@ -1952,7 +1815,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 97
+      "review_order": 91
     },
     {
       "post_id": 8297,
@@ -1970,7 +1833,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 98
+      "review_order": 92
     },
     {
       "post_id": 8316,
@@ -1988,7 +1851,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 99
+      "review_order": 93
     },
     {
       "post_id": 8371,
@@ -2006,7 +1869,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 100
+      "review_order": 94
     },
     {
       "post_id": 8391,
@@ -2024,7 +1887,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 101
+      "review_order": 95
     },
     {
       "post_id": 8406,
@@ -2042,7 +1905,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 102
+      "review_order": 96
     },
     {
       "post_id": 8424,
@@ -2060,7 +1923,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 103
+      "review_order": 97
     },
     {
       "post_id": 8440,
@@ -2078,7 +1941,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 104
+      "review_order": 98
     },
     {
       "post_id": 8457,
@@ -2096,7 +1959,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 105
+      "review_order": 99
     },
     {
       "post_id": 8501,
@@ -2114,7 +1977,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 106
+      "review_order": 100
     },
     {
       "post_id": 8536,
@@ -2132,7 +1995,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 107
+      "review_order": 101
     },
     {
       "post_id": 8543,
@@ -2150,7 +2013,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 108
+      "review_order": 102
     },
     {
       "post_id": 8569,
@@ -2168,7 +2031,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 109
+      "review_order": 103
     },
     {
       "post_id": 8621,
@@ -2186,7 +2049,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 110
+      "review_order": 104
     },
     {
       "post_id": 8640,
@@ -2204,7 +2067,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 111
+      "review_order": 105
     },
     {
       "post_id": 8661,
@@ -2222,7 +2085,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 112
+      "review_order": 106
     },
     {
       "post_id": 8665,
@@ -2240,7 +2103,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 113
+      "review_order": 107
     },
     {
       "post_id": 8688,
@@ -2258,7 +2121,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 114
+      "review_order": 108
     },
     {
       "post_id": 8701,
@@ -2276,7 +2139,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 115
+      "review_order": 109
     },
     {
       "post_id": 8722,
@@ -2294,7 +2157,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 116
+      "review_order": 110
     },
     {
       "post_id": 8746,
@@ -2312,7 +2175,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 117
+      "review_order": 111
     },
     {
       "post_id": 8791,
@@ -2330,7 +2193,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 118
+      "review_order": 112
     },
     {
       "post_id": 8805,
@@ -2348,7 +2211,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 119
+      "review_order": 113
     },
     {
       "post_id": 8818,
@@ -2366,7 +2229,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 120
+      "review_order": 114
     },
     {
       "post_id": 8844,
@@ -2384,7 +2247,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 121
+      "review_order": 115
     },
     {
       "post_id": 8867,
@@ -2402,7 +2265,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 122
+      "review_order": 116
     },
     {
       "post_id": 8874,
@@ -2420,7 +2283,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 123
+      "review_order": 117
     },
     {
       "post_id": 8880,
@@ -2438,7 +2301,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 124
+      "review_order": 118
     },
     {
       "post_id": 8888,
@@ -2456,7 +2319,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 125
+      "review_order": 119
     },
     {
       "post_id": 8908,
@@ -2474,7 +2337,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 126
+      "review_order": 120
     },
     {
       "post_id": 8940,
@@ -2492,7 +2355,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 127
+      "review_order": 121
     },
     {
       "post_id": 8949,
@@ -2510,7 +2373,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 128
+      "review_order": 122
     },
     {
       "post_id": 8960,
@@ -2528,7 +2391,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 129
+      "review_order": 123
     },
     {
       "post_id": 8964,
@@ -2546,7 +2409,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 130
+      "review_order": 124
     },
     {
       "post_id": 9006,
@@ -2564,7 +2427,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 131
+      "review_order": 125
     },
     {
       "post_id": 9012,
@@ -2582,7 +2445,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 132
+      "review_order": 126
     },
     {
       "post_id": 9019,
@@ -2600,7 +2463,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 133
+      "review_order": 127
     },
     {
       "post_id": 9051,
@@ -2618,7 +2481,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 134
+      "review_order": 128
     },
     {
       "post_id": 9060,
@@ -2636,7 +2499,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 135
+      "review_order": 129
     },
     {
       "post_id": 9067,
@@ -2654,7 +2517,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 136
+      "review_order": 130
     },
     {
       "post_id": 9076,
@@ -2672,7 +2535,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 137
+      "review_order": 131
     },
     {
       "post_id": 9095,
@@ -2690,7 +2553,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 138
+      "review_order": 132
     },
     {
       "post_id": 9112,
@@ -2708,7 +2571,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 139
+      "review_order": 133
     },
     {
       "post_id": 9122,
@@ -2726,7 +2589,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 140
+      "review_order": 134
     },
     {
       "post_id": 9128,
@@ -2744,7 +2607,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 141
+      "review_order": 135
     },
     {
       "post_id": 9172,
@@ -2762,7 +2625,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 142
+      "review_order": 136
     },
     {
       "post_id": 9181,
@@ -2780,7 +2643,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 143
+      "review_order": 137
     },
     {
       "post_id": 9197,
@@ -2798,7 +2661,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 144
+      "review_order": 138
     },
     {
       "post_id": 9231,
@@ -2816,7 +2679,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 145
+      "review_order": 139
     },
     {
       "post_id": 9253,
@@ -2834,7 +2697,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 146
+      "review_order": 140
     },
     {
       "post_id": 9303,
@@ -2852,7 +2715,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 147
+      "review_order": 141
     },
     {
       "post_id": 9319,
@@ -2870,7 +2733,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 148
+      "review_order": 142
     },
     {
       "post_id": 9342,
@@ -2888,7 +2751,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 149
+      "review_order": 143
     },
     {
       "post_id": 9361,
@@ -2906,7 +2769,7 @@
       "evidence_files": [],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 150
+      "review_order": 144
     },
     {
       "post_id": 6913,
@@ -2931,7 +2794,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 151
+      "review_order": 145
     },
     {
       "post_id": 6940,
@@ -2953,7 +2816,53 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 152
+      "review_order": 146
+    },
+    {
+      "post_id": 6979,
+      "url": "https://fx-clover.com/?p=6979",
+      "title": "ライン抜けても時間足を変えれば効いてるよ【ポコニカル】",
+      "published_or_archive_date": "2020-06-18",
+      "source_archive_page": 17,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 147
+    },
+    {
+      "post_id": 7022,
+      "url": "https://fx-clover.com/?p=7022",
+      "title": "トレンドライン3-3クロスでポコニカル",
+      "published_or_archive_date": "2020-07-07",
+      "source_archive_page": 17,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 148
     },
     {
       "post_id": 7034,
@@ -2973,7 +2882,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 153
+      "review_order": 149
     },
     {
       "post_id": 7043,
@@ -2996,7 +2905,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 154
+      "review_order": 150
     },
     {
       "post_id": 7086,
@@ -3019,7 +2928,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 155
+      "review_order": 151
     },
     {
       "post_id": 7195,
@@ -3039,7 +2948,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 156
+      "review_order": 152
     },
     {
       "post_id": 7389,
@@ -3059,7 +2968,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 157
+      "review_order": 153
     },
     {
       "post_id": 7513,
@@ -3081,7 +2990,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 158
+      "review_order": 154
     },
     {
       "post_id": 7525,
@@ -3103,7 +3012,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 159
+      "review_order": 155
     },
     {
       "post_id": 7529,
@@ -3126,7 +3035,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 160
+      "review_order": 156
     },
     {
       "post_id": 7535,
@@ -3149,7 +3058,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 161
+      "review_order": 157
     },
     {
       "post_id": 7540,
@@ -3173,7 +3082,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 162
+      "review_order": 158
     },
     {
       "post_id": 7545,
@@ -3195,7 +3104,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 163
+      "review_order": 159
     },
     {
       "post_id": 7616,
@@ -3217,7 +3126,54 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 164
+      "review_order": 160
+    },
+    {
+      "post_id": 7691,
+      "url": "https://fx-clover.com/?p=7691",
+      "title": "FX MAは偉大上位が下位を支配する【ポコニカル勉強会㉜】",
+      "published_or_archive_date": "2021-06-12",
+      "source_archive_page": 13,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "environment_timeframe",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 161
+    },
+    {
+      "post_id": 7891,
+      "url": "https://fx-clover.com/?p=7891",
+      "title": "FX高勝率な200600MAパターン！チェックポイント追加【ポコニカル勉強会㊼】",
+      "published_or_archive_date": "2021-09-26",
+      "source_archive_page": 11,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 162
     },
     {
       "post_id": 7907,
@@ -3239,7 +3195,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 165
+      "review_order": 163
     },
     {
       "post_id": 7924,
@@ -3261,7 +3217,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 166
+      "review_order": 164
     },
     {
       "post_id": 8075,
@@ -3283,7 +3239,30 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 167
+      "review_order": 165
+    },
+    {
+      "post_id": 8090,
+      "url": "https://fx-clover.com/?p=8090",
+      "title": "FX 1時間のMAとレートの位置関係でロジックを選ぶ【ポコニカル勉強会58】",
+      "published_or_archive_date": "2021-12-13",
+      "source_archive_page": 10,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 166
     },
     {
       "post_id": 8126,
@@ -3305,7 +3284,7 @@
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
-      "review_order": 168
+      "review_order": 167
     },
     {
       "post_id": 8162,
@@ -3324,6 +3303,31 @@
       ],
       "evidence_files": [
         "right_shoulder_official_sources.json"
+      ],
+      "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
+      "rule_promotion_allowed": false,
+      "review_order": 168
+    },
+    {
+      "post_id": 8268,
+      "url": "https://fx-clover.com/?p=8268",
+      "title": "FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】",
+      "published_or_archive_date": "2022-02-15",
+      "source_archive_page": 9,
+      "review_status": "EVIDENCE_REVIEWED",
+      "priority": "DONE",
+      "priority_score": 0,
+      "matched_topics": [
+        "dma_ma",
+        "entry_initial_move",
+        "stop_exit",
+        "master_course"
+      ],
+      "priority_reasons": [
+        "already represented in official evidence ledger"
+      ],
+      "evidence_files": [
+        "p0_dma_ma_timeframe_blog_review.json"
       ],
       "classification": "RESEARCH_REVIEW_QUEUE_METADATA_ONLY",
       "rule_promotion_allowed": false,
