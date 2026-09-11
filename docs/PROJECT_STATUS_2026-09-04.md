@@ -1,4 +1,4 @@
-# FX-Clover Project Status — 2026-09-04
+# FX Entry Lab Project Status — 2026-09-04
 
 ## Current GitHub baseline
 

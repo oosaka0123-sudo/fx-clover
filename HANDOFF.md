@@ -38,8 +38,9 @@ PR #33 was merged and Pages published the new public presentation successfully.
 - Site brand: `FX Entry Lab`
 - Subtitle: `GBPJPY Short Entry Research`
 - Public logic name: `右肩戻り売りロジック`
-- GitHub repository name remains `fx-clover`; do not rename it unless the user explicitly decides later.
-- Public-facing product-style `ポコニカル` branding was neutralized, while FX-Clover can remain where it is clearly source/evidence attribution.
+- Project name: `FX Entry Lab`. Derived logic name: `右肩戻り売りロジック` (`Right-Shoulder Pullback Short`).
+- The legacy GitHub repository slug `fx-clover` remains temporarily for URL / automation compatibility; it is not the project display name.
+- `ポコニカル` is retained only when preserving an official source title, quotation, historical label, or source taxonomy. It is not used as this project's product / logic name.
 - Independence / no-advice / no-auto-trading disclaimer is present and `orders_enabled:false` remains visible.
 - Existing lightweight motion was preserved.
 

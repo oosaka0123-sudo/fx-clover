@@ -1,4 +1,4 @@
-# FX-Clover 全記事カタログ同期
+# FX Entry Lab 全記事カタログ同期
 
 Origin: Issue #9
 Automation: Issue #13

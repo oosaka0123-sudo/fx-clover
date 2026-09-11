@@ -1,4 +1,4 @@
-# FX-Clover AIレビュー優先キュー
+# FX Entry Lab AIレビュー優先キュー
 
 Issue: #16
 
