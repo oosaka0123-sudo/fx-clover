@@ -8,7 +8,7 @@ This repository is the technical SSOT for the current GBPJPY short-entry monitor
 
 ## Current repository state
 
-- Repository: `oosaka0123-sudo/fx-clover`
+- Repository: `oosaka0123-sudo/fx-entry-lab`
 - Default branch: `main`
 - Runtime baseline: v1.23
 - Formal monitoring target: GBPJPY
@@ -29,9 +29,9 @@ Keep 【公式ルール】 / 【設計仕様】 / 【研究仕様】 / 【手動
 
 ## Public site — completed
 
-Public URL: `https://oosaka0123-sudo.github.io/fx-clover/`
+Public URL: `https://oosaka0123-sudo.github.io/fx-entry-lab/`
 
-Logic page: `https://oosaka0123-sudo.github.io/fx-clover/trading-logic.html`
+Logic page: `https://oosaka0123-sudo.github.io/fx-entry-lab/trading-logic.html`
 
 PR #33 was merged and Pages published the new public presentation successfully.
 
@@ -39,7 +39,7 @@ PR #33 was merged and Pages published the new public presentation successfully.
 - Subtitle: `GBPJPY Short Entry Research`
 - Public logic name: `右肩戻り売りロジック`
 - Project name: `FX Entry Lab`. Derived logic name: `右肩戻り売りロジック` (`Right-Shoulder Pullback Short`).
-- The legacy GitHub repository slug `fx-clover` remains temporarily for URL / automation compatibility; it is not the project display name.
+- The GitHub repository slug is `fx-entry-lab`, aligned with the public `FX Entry Lab` brand.
 - `ポコニカル` is retained only when preserving an official source title, quotation, historical label, or source taxonomy. It is not used as this project's product / logic name.
 - Independence / no-advice / no-auto-trading disclaimer is present and `orders_enabled:false` remains visible.
 - Existing lightweight motion was preserved.
@@ -135,4 +135,4 @@ Issue #20 P0 DMA / MA / timeframe batch has advanced by 6 official-source articl
 
 ## Recommended exact restart instruction
 
-`fx-clover の HANDOFF.md と Issue #2 の最新checkpointを読み、Surface v1.23の連続稼働最終確認から再開して。5分タスクのLastResult、health check、クリーン再起動後のエラーログ、WATCH/READY/TRIGGER件数を確認し、実注文は禁止・orders_enabled:falseを維持する。通知の画面表示だけは人間の目視確認が取れるまでPASSにしない。`
+`fx-entry-lab の HANDOFF.md と Issue #2 の最新checkpointを読み、Surface v1.23の連続稼働最終確認から再開して。5分タスクのLastResult、health check、クリーン再起動後のエラーログ、WATCH/READY/TRIGGER件数を確認し、実注文は禁止・orders_enabled:falseを維持する。通知の画面表示だけは人間の目視確認が取れるまでPASSにしない。`
