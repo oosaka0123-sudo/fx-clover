@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL_P0_DMA_MA_TIMEFRAME_BLOG_REVIEW",
+  "scope": "Official FX-Clover blog text for Issue #20 P0 posts 8268, 7691, 6979, 7022, 7891 and 8090. Embedded video details are not inferred beyond official titles/descriptions when no transcript is available.",
+  "production_rule_change": false,
+  "rule_promotion_from_title_or_topic_only": false,
+  "orders_enabled": false,
+  "sources": [
+    {
+      "post_id": 8268,
+      "url": "https://fx-clover.com/?p=8268",
+      "title": "FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】",
+      "published": "2022-02-15",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "OFFICIAL_DESCRIPTION_REVIEWED_FINE_GRAINED_RULES_PENDING",
+      "claims": [
+        "The official page explicitly presents shifted DMA as a tool used for both entry and exit decisions and asks readers to compare the MA before and after shifting.",
+        "The page and official video description establish DMA as part of Poconical chart interpretation, but the blog text does not expose a universal machine-ready entry or exit threshold."
+      ],
+      "automation_impact": "Supports DMA as genuine entry/exit context. Do not invent an exact DMA cross, candle-close, distance or inside/outside threshold beyond separately reviewed primary evidence.",
+      "ready_field_impact": ["inside_dma25x5", "ma_path_clear"],
+      "still_unresolved": ["Exact fine-grained DMA entry condition", "Exact fine-grained DMA exit condition", "Any universal numeric threshold not stated in primary text"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7691,
+      "url": "https://fx-clover.com/?p=7691",
+      "title": "FX MAは偉大上位が下位を支配する【ポコニカル勉強会㉜】",
+      "published": "2021-06-12",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        "The author explicitly treats upper-timeframe MA context as dominant over lower-timeframe interpretation and says MA should be used when building the scenario.",
+        "The post says MAs can overlap at meaningful locations and explicitly includes 200MA/600MA use on upper timeframes.",
+        "In the documented H1 example, 200MA and 600MA are treated as range-like upper/lower bounds, and the same fractal idea is described as usable across timeframes."
+      ],
+      "automation_impact": "Strengthens upper-timeframe MA context and multi-timeframe interpretation. No universal MA-distance, slope or dominance threshold is stated.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": ["Exact quantitative definition of upper-timeframe dominance", "Exact MA distance/slope threshold", "Universal 200MA/600MA boundary algorithm"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 6979,
+      "url": "https://fx-clover.com/?p=6979",
+      "title": "ライン抜けても時間足を変えれば効いてるよ【ポコニカル】",
+      "published": "2020-06-18",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        "The example explicitly separates H1 environment recognition from M5 execution.",
+        "A level that appears compromised on one timeframe can remain valid on another; the post gives an M15 example where the candle body did not exceed the referenced retracement level.",
+        "The Fibonacci numbers shown are example evidence, not stated as a universal entry rule for every setup."
+      ],
+      "automation_impact": "Supports timeframe-specific line/level interpretation. Example Fibonacci numbers must not be promoted into universal machine thresholds.",
+      "ready_field_impact": ["upper_environment_valid", "mid_range", "has_room"],
+      "still_unresolved": ["Algorithm for choosing which timeframe preserves a level", "Universal body/wick tolerance", "Universal Fibonacci threshold"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7022,
+      "url": "https://fx-clover.com/?p=7022",
+      "title": "トレンドライン3-3クロスでポコニカル",
+      "published": "2020-07-07",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        "The documented setup keeps the upper environment fixed and uses M5 as the execution timeframe in the example.",
+        "The example stacks trendline third points, retracement context, MA compression and a three-top/right-shoulder formation before the short entry.",
+        "The author adjusts the exit when an MA obstacle appears before the farther Fibonacci target and checks whether enough room exists between entry and the next obstacle.",
+        "The author says this specific pattern is preferable on a larger timeframe and discourages the shown H1 range context."
+      ],
+      "automation_impact": "Supports right-shoulder/evidence stacking, room-to-obstacle checks and MA-aware exit context. It does not define a minimum room distance or a universal 3-3 cross formula.",
+      "ready_field_impact": ["lower_right_shoulder", "ma_path_clear", "has_room", "upper_environment_valid"],
+      "still_unresolved": ["Exact minimum room to the next obstacle", "Exact trendline third-point machine definition", "Exact universal 3-3 cross condition", "Exact right-shoulder definition"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 7891,
+      "url": "https://fx-clover.com/?p=7891",
+      "title": "FX高勝率な200600MAパターン！チェックポイント追加【ポコニカル勉強会㊼】",
+      "published": "2021-09-26",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        "The post explicitly links upper-environment understanding to lower-environment entry-point narrowing.",
+        "The 200MA/600MA pattern is presented as one judgment criterion, with MA ordering, stable market conditions, thrust timing and pattern maturation highlighted.",
+        "The author presents point-scoring of confluences only as an optional idea using placeholder scores, not a fixed official numeric scoring system."
+      ],
+      "automation_impact": "Supports contextual 200/600 pattern evaluation and confluence ranking. Do not create numeric scores or a fixed entry threshold from placeholder examples.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room"],
+      "still_unresolved": ["Exact 200MA/600MA machine definition", "Exact stable-market threshold", "Exact thrust-maturity threshold", "Any official numeric point weights"],
+      "machine_safe_new_numeric_rule": false
+    },
+    {
+      "post_id": 8090,
+      "url": "https://fx-clover.com/?p=8090",
+      "title": "FX 1時間のMAとレートの位置関係でロジックを選ぶ【ポコニカル勉強会58】",
+      "published": "2021-12-13",
+      "blog_evidence_level": "PRIMARY_OFFICIAL_TEXT_REVIEWED",
+      "video_detail_review_status": "NOT_REQUIRED_FOR_THE_CLAIMS_BELOW",
+      "claims": [
+        "The author explicitly says the relationship between MA and price determines which logic/setup is used.",
+        "If the expected 200MA/600MA pattern does not form, the post explicitly allows passing on that pattern and considering another known setup instead.",
+        "H1 MA/neck context is used to constrain exits and no-trade decisions, while MA above price with no obstacle is treated as favorable in the shown short setup.",
+        "The post uses 3-3 as an exit discriminator in an example, while existing master-course evidence states that 3-3 is not universally mandatory."
+      ],
+      "automation_impact": "Supports context-dependent setup selection and MA-path/obstacle awareness. It does not justify making 200/600 or 3-3 universally mandatory or adding a numeric obstacle threshold.",
+      "ready_field_impact": ["upper_environment_valid", "ma_path_clear", "has_room", "lower_right_shoulder"],
+      "still_unresolved": ["Exact setup-selection decision tree", "Exact MA obstacle clearance threshold", "Exact H1-to-execution-timeframe mapping", "Exact 3-3 exit formula outside the example"],
+      "machine_safe_new_numeric_rule": false
+    }
+  ],
+  "cross_source_conclusions": {
+    "upper_lower_timeframe_linkage_is_official_context": true,
+    "ma_price_relationship_guides_setup_selection": true,
+    "ma_path_and_obstacle_context_is_official": true,
+    "room_to_next_obstacle_is_official_context_but_not_numeric": true,
+    "right_shoulder_and_evidence_stacking_are_reinforced": true,
+    "dma_is_officially_used_for_entry_and_exit_context": true,
+    "dma3x3_is_officially_used_but_universally_mandatory": false,
+    "pattern_selection_is_context_dependent": true,
+    "fixed_numeric_confluence_scoring_is_official": false,
+    "new_machine_safe_numeric_rule_found": false
+  },
+  "production_policy": "No v1.23 WATCH/READY/TRIGGER behavior change and no new numeric READY/TRIGGER threshold are justified by this batch. Preserve orders_enabled:false and keep unresolved fine-grained rules in research/manual interpretation."
+}

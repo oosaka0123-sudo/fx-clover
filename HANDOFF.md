@@ -119,7 +119,7 @@ A one-time follow-up check is scheduled for later on 2026-09-11 to inspect the c
 
 ## Official-source research
 
-Issue #20 remains open for the next P0 official-source batch, including article `?p=8268` and additional DMA/MA/timeframe sources. This may proceed after the runtime continuity checkpoint, but it must not silently alter production logic.
+Issue #20 P0 DMA / MA / timeframe batch has advanced by 6 official-source articles: 8268, 7691, 6979, 7022, 7891, 8090. Evidence is stored in `knowledge/p0_dma_ma_timeframe_blog_review.json`. Review queue state is EVIDENCE_REVIEWED=27 / UNREVIEWED=144 / P0=8 / DONE=27. Validators pass and `orders_enabled:false` remains unchanged. No production WATCH / READY / TRIGGER logic was changed and no new universal numeric threshold was promoted. Next P0 begins at article `?p=8343`.
 
 ## Safety / claims
 

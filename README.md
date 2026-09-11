@@ -60,6 +60,7 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 - DMA25×5公式根拠: `knowledge/dma25x5_official_sources.json`
 - 右肩・入れ子フォーメーション公式根拠: `knowledge/right_shoulder_official_sources.json`
 - P0マスター講座ブログ根拠: `knowledge/p0_master_course_blog_review.json`
+- P0 DMA / MA / 時間足ブログ根拠: `knowledge/p0_dma_ma_timeframe_blog_review.json`
 - READY手動フィールドの機械可読分類: `knowledge/ready_manual_field_registry.json`
 - 公式ポコニカルカテゴリ全記事カタログ: `knowledge/poconical_post_catalog.json`
 - 優先レビューキュー: `knowledge/poconical_review_queue.json`
@@ -70,7 +71,7 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 
 171記事は `build_poconical_review_queue.py` で漏れなくレビュー順へ変換します。初回生成時は根拠抽出済み14件、公式カリキュラム掲載だが詳細抽出未完7件、未レビュー150件でした。
 
-P0マスター講座7記事のブログ本文レビュー後は、**EVIDENCE_REVIEWED=21 / UNREVIEWED=150** へ進み、優先度は **P0=14 / P1=39 / P2=21 / P3=76 / DONE=21** です。現在の先頭P0は `8268「FX ずらした移動平均線DMA【ポコニカル活用エントリーと決済について】」` で、次に上位MA・時間足・3-3関連の記事が続きます。
+Issue #20のDMA / MA / 時間足P0 6記事まで本文レビュー後は、**EVIDENCE_REVIEWED=27 / UNREVIEWED=144** へ進み、優先度は **P0=8 / P1=39 / P2=21 / P3=76 / DONE=27** です。現在の先頭P0は `8343「FX ディナポリDMAずらした移動平均線を「ポコニカル手法」にどう活用しているか」` です。
 
 レビュー優先順位は **研究上の読む順番** であり、売買ルールの重要度・確度ではありません。記事タイトルやカリキュラム一致だけで公式ルールへ昇格させません。`knowledge/poconical_review_queue.json` の全項目は `rule_promotion_allowed: false` を維持します。
 
@@ -96,11 +97,12 @@ DMA25×5 / MA25-5は公式資料からポコニカルのコア要素として確
 - 公式ポコニカルカテゴリ全記事カタログ：18ページ / 171記事を取得・検証済み
 - 全記事カタログ自動更新Workflow：実動確認済み
 - 171記事のAIレビュー優先キュー：全件カバー・検証済み
-- 公式ブログ本文の根拠抽出済み記事：21件
+- 公式ブログ本文の根拠抽出済み記事：27件
 - P0マスター講座ブログ7件：一次資料レビュー済み
+- P0 DMA / MA / 時間足6件：一次資料レビュー済み
 - 注文実行コード：なし
-- 次のGitHub研究工程：P0先頭のDMA / MA / 時間足 / 3-3関連公式記事を本文レビュー
-- 次の実機工程：Surface上でv1.23 MTFエクスポーターをMetaEditorコンパイルし、D1/H4/H1/M15/M5の5CSV取得を確認して5分タスクへ切替
+- 次のGitHub研究工程：残りP0を `8343` から本文レビュー
+- 次の実機工程：Issue #2のWindows通知実画面表示だけ人間の目視確認待ち。実注文は禁止、`orders_enabled:false` を維持
 
 ## Important Distinction
 
