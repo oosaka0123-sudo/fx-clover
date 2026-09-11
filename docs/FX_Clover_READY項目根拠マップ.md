@@ -1,4 +1,4 @@
-# FX-Clover READY項目 根拠マップ
+# FX Entry Lab READY項目 根拠マップ
 
 Issue: #11
 

@@ -1,4 +1,4 @@
-# FX-Clover 公式一次資料台帳
+# FX Entry Lab 公式一次資料台帳
 
 Issue: #3
 

@@ -1,11 +1,11 @@
 {
   "baseline": "v1.23",
   "catalogArticles": 171,
-  "evidenceReviewed": 21,
+  "evidenceReviewed": 27,
   "symbol": "GBPJPY",
   "timeframes": ["D1", "H4", "H1", "M15", "M5"],
   "executionTimeframe": "M5",
   "monitorIntervalMinutes": 5,
   "ordersEnabled": false,
-  "updated": "2026-09-07"
+  "updated": "2026-09-12"
 }

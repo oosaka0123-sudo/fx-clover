@@ -1,6 +1,6 @@
-# FX-Clover / ポコニカル自動監視システム
+# FX Entry Lab / 右肩戻り売りロジック監視・研究システム
 
-FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポコニカルを **監視・研究・通知システム** へ変換するProjectです。
+FX Entry Labは、公式ブログ・公式YouTubeの一次資料（原文では「ポコニカル」表記を含む）を根拠として、**右肩戻り売りロジックを監視・研究・通知するProject**です。
 
 現在の基準版は **v1.23**。正式監視対象は **GBPJPY**、取得時間足は **D1 / H4 / H1 / M15 / M5**、M5を執行足として5分間隔で監視します。
 
@@ -15,7 +15,7 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 
 ## Source of Truth
 
-このRepositoryがFX-Clover固有のSSOTです。
+このRepositoryがFX Entry Lab固有のSSOTです。
 
 新しいChatGPT / Claude Code / Jules / Codex / Copilot等のセッションでは、まず `oosaka0123-sudo/ai-master` のGLOBALルールを読み、その後このRepositoryの以下を確認してください。
 
@@ -47,7 +47,7 @@ FX-Cloverポコ本人の公式ブログ・公式YouTubeを根拠として、ポ�
 
 ## Official Source Knowledge Base
 
-ポコニカルの公式根拠は、会話履歴やAIの記憶だけに置かず、Repository内で出典付きに管理します。
+右肩戻り売りロジックの根拠として参照する公式一次資料は、会話履歴やAIの記憶だけに置かず、Repository内で出典付きに管理します。原資料の名称・記事タイトルは改変しません。
 
 - 人間向け一次資料台帳: `docs/FX_Clover_公式一次資料台帳.md`
 - AI学習順・公式カリキュラム: `docs/FX_Clover_AI学習カリキュラム.md`
