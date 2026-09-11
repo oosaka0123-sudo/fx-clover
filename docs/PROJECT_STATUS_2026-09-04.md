@@ -2,7 +2,7 @@
 
 ## Current GitHub baseline
 
-- Repository: `oosaka0123-sudo/fx-clover`
+- Repository: `oosaka0123-sudo/fx-entry-lab`
 - Default branch: `main`
 - Baseline version: `v1.23`
 - Strategy: `POCONICAL_ONLY`
