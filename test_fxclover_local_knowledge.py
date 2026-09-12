@@ -17,10 +17,10 @@ SAMPLE_HTML = r'''
 <nav>MENU MUST NOT ENTER KNOWLEDGE</nav>
 <h1>Sample title</h1>
 <div class="entry-content">
-  <p>上位環境を確認して DMA を使います。</p>
-  <div><h2>右肩</h2><p>フォーメーションの右肩まで待ちます。</p></div>
+  <p>上位環境を確認して DMA を使います。時間足ごとの位置関係を先に確認します。</p>
+  <div><h2>右肩</h2><p>フォーメーションの右肩まで待ち、最初の反転だけを追いかけないようにします。</p></div>
   <script>SECRET_NOISE = 'must not be indexed';</script>
-  <p>次の障害までの伸びしろを確認します。</p>
+  <p>次の障害までの伸びしろを確認し、決済候補がその空間に収まるかも確認します。</p>
 </div>
 <section>RELATED POSTS MUST NOT ENTER KNOWLEDGE</section>
 </body></html>
