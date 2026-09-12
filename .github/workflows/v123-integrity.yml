@@ -67,5 +67,7 @@ jobs:
         run: |
           python build_poconical_review_queue.py --output /tmp/poconical_review_queue.json
           cmp knowledge/poconical_review_queue.json /tmp/poconical_review_queue.json
+      - name: Test private FX-Clover local knowledge cache
+        run: python -m unittest -v test_fxclover_local_knowledge.py
       - name: Validate READY manual-field evidence registry
         run: python validate_ready_field_registry.py
