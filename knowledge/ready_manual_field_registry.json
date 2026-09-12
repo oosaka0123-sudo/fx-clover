@@ -32,14 +32,15 @@
       "input_mode_v1_23": "MANUAL_REQUIRED",
       "production_auto_allowed": false,
       "official_concept_supported": true,
-      "safe_interpretation": "Official material strongly supports entering around a W-top/head-and-shoulders right-shoulder area and nested formations. The v1.23 field name 'lower_right_shoulder' is a project review label, not proof of an official universal lower-shoulder numeric threshold.",
+      "safe_interpretation": "Official material strongly supports entering around a W-top/head-and-shoulders right-shoulder area and nested formations. Later reviewed material also stacks trendline, retracement, MA and multi-top evidence around a right-shoulder short context. The v1.23 field name 'lower_right_shoulder' is a project review label, not proof of an official universal lower-shoulder numeric threshold.",
       "official_evidence": [
         "https://fx-clover.com/?p=6913",
         "https://fx-clover.com/?p=7195",
         "https://fx-clover.com/?p=7034",
         "https://fx-clover.com/?p=7043",
         "https://fx-clover.com/?p=8075",
-        "https://fx-clover.com/?p=8162"
+        "https://fx-clover.com/?p=8162",
+        "https://fx-clover.com/?p=7022"
       ],
       "unresolved": [
         "exact shoulder-price comparison rule",
@@ -72,11 +73,15 @@
       "input_mode_v1_23": "MANUAL_REQUIRED",
       "production_auto_allowed": false,
       "official_concept_supported": true,
-      "safe_interpretation": "Official material treats MA-sand / obstructing MA context as relevant to whether an entry has attractive room. The exact clearance threshold is not officialized as a machine number.",
+      "safe_interpretation": "Official material treats MA-sand, upper-timeframe MA context and obstructing MAs as relevant to setup selection, room and exit decisions. In a reviewed example, an MA obstacle appearing before a farther Fibonacci target causes the exit expectation to be shortened. The exact clearance threshold is not officialized as a machine number.",
       "official_evidence": [
         "https://fx-clover.com/?p=8283",
         "https://fx-clover.com/?p=9217",
-        "https://fx-clover.com/?p=9734"
+        "https://fx-clover.com/?p=9734",
+        "https://fx-clover.com/?p=7691",
+        "https://fx-clover.com/?p=7022",
+        "https://fx-clover.com/?p=7891",
+        "https://fx-clover.com/?p=8090"
       ],
       "unresolved": [
         "which MA set is universally blocking in every setup",
@@ -90,10 +95,13 @@
       "input_mode_v1_23": "MANUAL_REQUIRED",
       "production_auto_allowed": false,
       "official_concept_supported": true,
-      "safe_interpretation": "Official material explicitly values room in the trade direction in addition to MA angle/context. No universal pips/ATR threshold is currently grounded.",
+      "safe_interpretation": "Official material explicitly values room in the trade direction. Reviewed primary material checks whether the intended exit can fit inside the space before the next obstacle and adjusts expectations when an MA blocks the farther target. No universal pips/ATR threshold is currently grounded.",
       "official_evidence": [
         "https://fx-clover.com/?p=9217",
-        "https://fx-clover.com/?p=9734"
+        "https://fx-clover.com/?p=9734",
+        "https://fx-clover.com/?p=7022",
+        "https://fx-clover.com/?p=7891",
+        "https://fx-clover.com/?p=8090"
       ],
       "unresolved": [
         "minimum pips of room",
@@ -107,12 +115,17 @@
       "input_mode_v1_23": "MANUAL_REQUIRED",
       "production_auto_allowed": false,
       "official_concept_supported": true,
-      "safe_interpretation": "Higher-timeframe environment recognition is an official prerequisite. The existing H1 WATCH automation is a research proxy and must not be treated as the official environment rule itself.",
+      "safe_interpretation": "Higher-timeframe environment recognition is an official prerequisite. Reviewed primary material reinforces H1/upper-timeframe MA and level context, then narrows execution on lower timeframes. The existing H1 WATCH automation is a research proxy and must not be treated as the complete official environment rule itself.",
       "official_evidence": [
         "https://fx-clover.com/?p=6913",
         "https://fx-clover.com/?p=6940",
         "https://fx-clover.com/?p=7086",
-        "https://fx-clover.com/?p=7529"
+        "https://fx-clover.com/?p=7529",
+        "https://fx-clover.com/?p=7691",
+        "https://fx-clover.com/?p=6979",
+        "https://fx-clover.com/?p=7022",
+        "https://fx-clover.com/?p=7891",
+        "https://fx-clover.com/?p=8090"
       ],
       "unresolved": [
         "universal exact AND/OR condition set across D1/H4/H1",
